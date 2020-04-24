@@ -11003,7 +11003,7 @@ Performance Attributes
 </class>
 </classes>
 <parts>
-<part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="BATTERY" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="C5" library="oresat-rcl" deviceset="C-EU" device="0805-C-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
@@ -11080,8 +11080,8 @@ Performance Attributes
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="CAM_UP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="CAM_DOWN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="D1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="SML-D12U1WT86">
 <attribute name="DIS" value="Digikey"/>
@@ -11137,7 +11137,7 @@ Performance Attributes
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="R--NHQ103B375T10--Thermistor 10K" deviceset="NHQ103B375T10" device="" value="10K"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="JP11" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="INPUTS" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 <part name="R13" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="1k"/>
 <part name="R14" library="oresat-rcl" deviceset="R-US_" device="0603-A-NOSILK" value="1k"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
@@ -11146,7 +11146,7 @@ Performance Attributes
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
-<part name="JP12" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="ATV" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="U--LM2678SX-12-NOPB--TI 12V SPS" deviceset="LM2678SD-12/NOPB" device=""/>
@@ -11268,8 +11268,8 @@ and Arm-Out are shorted</text>
 -The diode has 4A rating</text>
 </plain>
 <instances>
-<instance part="JP10" gate="A" x="297.815" y="30.48" smashed="yes">
-<attribute name="NAME" x="296.545" y="41.275" size="1.778" layer="95"/>
+<instance part="BATTERY" gate="A" x="297.815" y="30.48" smashed="yes">
+<attribute name="NAME" x="292.1" y="39.37" size="1.778" layer="95"/>
 <attribute name="VALUE" x="291.465" y="22.86" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="CE" x="288.29" y="110.49" smashed="yes">
@@ -11542,7 +11542,7 @@ and Arm-Out are shorted</text>
 <instance part="GND12" gate="1" x="186.055" y="83.82" smashed="yes">
 <attribute name="VALUE" x="183.515" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="JP11" gate="A" x="19.05" y="124.46" smashed="yes" rot="R180">
+<instance part="INPUTS" gate="A" x="19.05" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.4" y="113.665" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="25.4" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -11573,8 +11573,8 @@ and Arm-Out are shorted</text>
 <instance part="GND15" gate="1" x="282.575" y="13.97" smashed="yes">
 <attribute name="VALUE" x="280.035" y="11.43" size="1.778" layer="96"/>
 </instance>
-<instance part="JP12" gate="A" x="415.925" y="163.195" smashed="yes">
-<attribute name="NAME" x="409.575" y="168.91" size="1.778" layer="95"/>
+<instance part="ATV" gate="A" x="415.925" y="163.195" smashed="yes">
+<attribute name="NAME" x="411.48" y="171.45" size="1.778" layer="95"/>
 <attribute name="VALUE" x="409.575" y="158.115" size="1.778" layer="96"/>
 </instance>
 <instance part="P+2" gate="1" x="374.65" y="177.165" smashed="yes">
@@ -11781,10 +11781,10 @@ and Arm-Out are shorted</text>
 <wire x1="198.755" y1="167.64" x2="198.755" y2="159.385" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="A" pin="3"/>
+<pinref part="BATTERY" gate="A" pin="3"/>
 <wire x1="295.275" y1="30.48" x2="282.575" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="282.575" y1="30.48" x2="282.575" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="JP10" gate="A" pin="4"/>
+<pinref part="BATTERY" gate="A" pin="4"/>
 <wire x1="282.575" y1="15.875" x2="282.575" y2="16.51" width="0.1524" layer="91"/>
 <wire x1="282.575" y1="16.51" x2="282.575" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="282.575" y1="27.94" x2="295.275" y2="27.94" width="0.1524" layer="91"/>
@@ -11792,7 +11792,7 @@ and Arm-Out are shorted</text>
 <junction x="282.575" y="16.51"/>
 </segment>
 <segment>
-<pinref part="JP12" gate="A" pin="2"/>
+<pinref part="ATV" gate="A" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="413.385" y1="165.735" x2="374.65" y2="165.735" width="0.1524" layer="91"/>
 <wire x1="374.65" y1="165.735" x2="374.65" y2="160.655" width="0.1524" layer="91"/>
@@ -11996,7 +11996,7 @@ and Arm-Out are shorted</text>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<pinref part="JP12" gate="A" pin="1"/>
+<pinref part="ATV" gate="A" pin="1"/>
 <wire x1="374.65" y1="174.625" x2="374.65" y2="168.275" width="0.1524" layer="91"/>
 <wire x1="374.65" y1="168.275" x2="413.385" y2="168.275" width="0.1524" layer="91"/>
 </segment>
@@ -12030,7 +12030,7 @@ and Arm-Out are shorted</text>
 <junction x="97.79" y="124.46"/>
 <label x="88.9" y="121.92" size="1.778" layer="95"/>
 <wire x1="21.59" y1="124.46" x2="97.79" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="A" pin="4"/>
+<pinref part="INPUTS" gate="A" pin="4"/>
 <label x="34.925" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12178,9 +12178,9 @@ and Arm-Out are shorted</text>
 <junction x="186.055" y="101.6"/>
 <wire x1="186.055" y1="101.6" x2="213.995" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="213.995" y1="101.6" x2="213.995" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="JP10" gate="A" pin="2"/>
+<pinref part="BATTERY" gate="A" pin="2"/>
 <wire x1="295.275" y1="33.02" x2="282.575" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="JP10" gate="A" pin="1"/>
+<pinref part="BATTERY" gate="A" pin="1"/>
 <wire x1="295.275" y1="35.56" x2="282.575" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="282.575" y1="35.56" x2="282.575" y2="33.02" width="0.1524" layer="91"/>
 <label x="216.535" y="83.82" size="1.778" layer="95"/>
@@ -12197,14 +12197,14 @@ and Arm-Out are shorted</text>
 </net>
 <net name="DROGUE" class="0">
 <segment>
-<pinref part="JP11" gate="A" pin="3"/>
+<pinref part="INPUTS" gate="A" pin="3"/>
 <wire x1="21.59" y1="121.92" x2="34.925" y2="121.92" width="0.1524" layer="91"/>
 <label x="34.925" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="T_GND" class="0">
 <segment>
-<pinref part="JP11" gate="A" pin="1"/>
+<pinref part="INPUTS" gate="A" pin="1"/>
 <wire x1="21.59" y1="116.84" x2="34.925" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="34.925" y1="116.84" x2="34.925" y2="113.665" width="0.1524" layer="91"/>
 <label x="34.925" y="113.665" size="1.778" layer="95" xref="yes"/>
@@ -12212,7 +12212,7 @@ and Arm-Out are shorted</text>
 </net>
 <net name="CHUTE" class="0">
 <segment>
-<pinref part="JP11" gate="A" pin="2"/>
+<pinref part="INPUTS" gate="A" pin="2"/>
 <wire x1="21.59" y1="119.38" x2="34.925" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="34.925" y1="119.38" x2="34.925" y2="117.475" width="0.1524" layer="91"/>
 <label x="34.925" y="117.475" size="1.778" layer="95" xref="yes"/>
@@ -12220,7 +12220,7 @@ and Arm-Out are shorted</text>
 </net>
 <net name="ARM-OUT" class="0">
 <segment>
-<pinref part="JP11" gate="A" pin="5"/>
+<pinref part="INPUTS" gate="A" pin="5"/>
 <wire x1="21.59" y1="127" x2="63.5" y2="127" width="0.1524" layer="91"/>
 <label x="35.56" y="127.635" size="1.778" layer="95"/>
 <pinref part="R15" gate="R" pin="1"/>
@@ -12275,7 +12275,7 @@ and Arm-Out are shorted</text>
 <segment>
 <pinref part="R14" gate="R" pin="2"/>
 <wire x1="184.15" y1="182.245" x2="142.24" y2="182.245" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="A" pin="6"/>
+<pinref part="INPUTS" gate="A" pin="6"/>
 <wire x1="142.24" y1="182.245" x2="141.605" y2="182.245" width="0.1524" layer="91"/>
 <wire x1="21.59" y1="129.54" x2="60.325" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="60.325" y1="129.54" x2="60.325" y2="182.245" width="0.1524" layer="91"/>
@@ -12308,7 +12308,7 @@ and Arm-Out are shorted</text>
 </net>
 <net name="VIDEO_OUT" class="0">
 <segment>
-<pinref part="JP12" gate="A" pin="3"/>
+<pinref part="ATV" gate="A" pin="3"/>
 <wire x1="413.385" y1="163.195" x2="403.225" y2="163.195" width="0.1524" layer="91"/>
 <label x="403.225" y="163.195" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12378,11 +12378,11 @@ and Arm-Out are shorted</text>
 <attribute name="NAME" x="80.01" y="31.115" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="93.345" y="31.115" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP8" gate="A" x="85.725" y="126.365" smashed="yes" rot="R90">
+<instance part="CAM_UP" gate="A" x="85.725" y="126.365" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.01" y="120.015" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="93.345" y="120.015" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP9" gate="A" x="85.725" y="139.065" smashed="yes" rot="R90">
+<instance part="CAM_DOWN" gate="A" x="85.725" y="139.065" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.01" y="132.715" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="93.345" y="132.715" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -12547,10 +12547,10 @@ and Arm-Out are shorted</text>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="85.725" y1="98.425" x2="85.725" y2="111.125" width="0.1524" layer="91"/>
 <junction x="85.725" y="98.425"/>
-<pinref part="JP8" gate="A" pin="2"/>
+<pinref part="CAM_UP" gate="A" pin="2"/>
 <wire x1="85.725" y1="111.125" x2="85.725" y2="118.11" width="0.1524" layer="91"/>
 <junction x="85.725" y="111.125"/>
-<pinref part="JP9" gate="A" pin="2"/>
+<pinref part="CAM_DOWN" gate="A" pin="2"/>
 <wire x1="85.725" y1="118.11" x2="85.725" y2="123.825" width="0.1524" layer="91"/>
 <wire x1="85.725" y1="123.825" x2="85.725" y2="136.525" width="0.1524" layer="91"/>
 <junction x="85.725" y="123.825"/>
@@ -12599,7 +12599,7 @@ and Arm-Out are shorted</text>
 </net>
 <net name="CAM_DOWN" class="0">
 <segment>
-<pinref part="JP9" gate="A" pin="3"/>
+<pinref part="CAM_DOWN" gate="A" pin="3"/>
 <wire x1="88.265" y1="136.525" x2="88.265" y2="130.175" width="0.1524" layer="91"/>
 <wire x1="88.265" y1="130.175" x2="125.73" y2="130.175" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="NO"/>
@@ -12610,7 +12610,7 @@ and Arm-Out are shorted</text>
 </net>
 <net name="CAM_UP" class="0">
 <segment>
-<pinref part="JP8" gate="A" pin="3"/>
+<pinref part="CAM_UP" gate="A" pin="3"/>
 <wire x1="88.265" y1="123.825" x2="120.015" y2="123.825" width="0.1524" layer="91"/>
 <wire x1="120.015" y1="123.825" x2="120.015" y2="109.855" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="NC"/>
@@ -12677,8 +12677,8 @@ and Arm-Out are shorted</text>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="JP9" gate="A" pin="1"/>
-<pinref part="JP8" gate="A" pin="1"/>
+<pinref part="CAM_DOWN" gate="A" pin="1"/>
+<pinref part="CAM_UP" gate="A" pin="1"/>
 <wire x1="83.185" y1="136.525" x2="83.185" y2="130.175" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="83.185" y1="130.175" x2="83.185" y2="123.825" width="0.1524" layer="91"/>
