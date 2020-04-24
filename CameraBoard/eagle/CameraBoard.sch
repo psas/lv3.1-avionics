@@ -10993,6 +10993,85 @@ Performance Attributes
 </deviceset>
 </devicesets>
 </library>
+<library name="D--S2MA-FDICT-ND--Schottky Diode 1.5A">
+<description>&lt;h1&gt;S2MA-13-F Schottky Diode &lt;/h1&gt;
+
+&lt;body&gt;
+A Schottky Diode with current 1.5A
+
+
+&lt;ul&gt;
+&lt;li&gt; &lt;b&gt; MAN: &lt;/b&gt;
+Diodes Incorporated
+
+&lt;li&gt; &lt;b&gt; MPN: &lt;/b&gt;
+S2MA-13-F
+
+&lt;li&gt; &lt;b&gt; DIS: &lt;/b&gt; 
+
+&lt;a href="https://www.digikey.com/product-detail/en/diodes-incorporated/S2MA-13-F/S2MA-FDICT-ND/815948" target="_blank"&gt;Digi-Key&lt;/a&gt;
+
+&lt;li&gt; &lt;a href="https://www.diodes.com/assets/Datasheets/ds16004.pdf" target="_blank"&gt;Datasheet&lt;/a&gt;
+
+&lt;/ul&gt;
+Specific Attributes of this diode
+
+&lt;ul&gt;
+&lt;li&gt; &lt;b&gt;DC Reverse (Vr):&lt;/b&gt;
+1000V
+&lt;li&gt; &lt;b&gt;Current-Average Rectified:&lt;/b&gt;
+1.5A
+&lt;li&gt; &lt;b&gt;Package:&lt;/b&gt;
+DO-214AC, SMA
+&lt;/ul&gt;
+
+&lt;/body&gt;</description>
+<packages>
+<package name="S2MA-13-F">
+<smd name="ANODE" x="-2" y="0" dx="2.5" dy="1.7" layer="1"/>
+<smd name="CATHODE" x="2" y="0" dx="2.5" dy="1.7" layer="1"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.1524" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.1524" layer="21"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1524" layer="21"/>
+<text x="-2" y="3.54" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-2" y="-4" size="1.27" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SCHOTTKYDIODE">
+<text x="-2.28831875" y="4.446940625" size="1.779809375" layer="95">&gt;NAME</text>
+<text x="-2.286790625" y="-5.970190625" size="1.778609375" layer="96">&gt;VALUE</text>
+<pin name="+" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<pin name="-" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="S2MA-13-F" prefix="D">
+<gates>
+<gate name="G$1" symbol="SCHOTTKYDIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S2MA-13-F">
+<connects>
+<connect gate="G$1" pin="+" pad="ANODE"/>
+<connect gate="G$1" pin="-" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11097,7 +11176,7 @@ Performance Attributes
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="U--MP26124GR-Z--4S LiPo Charger " deviceset="MP26124GR-Z" device=""/>
-<part name="D2" library="D--MBRS340T3G--Schottky Diode" deviceset="D_MBRS340T3G" device=""/>
+<part name="D2" library="D--S2MA-FDICT-ND--Schottky Diode 1.5A" deviceset="S2MA-13-F" device=""/>
 <part name="C1" library="oresat-rcl" deviceset="C-EU" device="0603-A-NOSILK" value="4.7u"/>
 <part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-A-NOSILK" value="0.1u"/>
 <part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-A-NOSILK" value="10u"/>
@@ -11133,7 +11212,7 @@ Performance Attributes
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="L2" library="L--1239AS-H-100M=P2--10uH Inductor" deviceset="1239AS-H-100M=P2" device=""/>
-<part name="D5" library="D--MBRS340T3G--Schottky Diode" deviceset="D_MBRS340T3G" device=""/>
+<part name="D5" library="D--S2MA-FDICT-ND--Schottky Diode 1.5A" deviceset="S2MA-13-F" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="R--NHQ103B375T10--Thermistor 10K" deviceset="NHQ103B375T10" device="" value="10K"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -11430,7 +11509,7 @@ and Arm-Out are shorted</text>
 <attribute name="NAME" x="127.635" y="106.299" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.46" y="78.105" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D2" gate="A" x="102.87" y="124.46" smashed="yes">
+<instance part="D2" gate="G$1" x="102.87" y="124.46" smashed="yes">
 <attribute name="NAME" x="101.85168125" y="118.746940625" size="1.779809375" layer="95"/>
 </instance>
 <instance part="C1" gate="CE" x="136.525" y="121.92" smashed="yes">
@@ -11529,7 +11608,7 @@ and Arm-Out are shorted</text>
 <instance part="L2" gate="G$1" x="161.29" y="101.6" smashed="yes">
 <attribute name="NAME" x="160.02" y="104.14" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="D5" gate="A" x="153.67" y="97.79" smashed="yes" rot="R90">
+<instance part="D5" gate="G$1" x="153.67" y="97.79" smashed="yes" rot="R90">
 <attribute name="NAME" x="160.40331875" y="97.788059375" size="1.779809375" layer="95" rot="R180"/>
 </instance>
 <instance part="GND11" gate="1" x="153.67" y="91.44" smashed="yes">
@@ -11773,7 +11852,7 @@ and Arm-Out are shorted</text>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="D5" gate="A" pin="+"/>
+<pinref part="D5" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -12011,7 +12090,7 @@ and Arm-Out are shorted</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="D2" gate="A" pin="-"/>
+<pinref part="D2" gate="G$1" pin="-"/>
 <pinref part="U1" gate="G$1" pin="VIN"/>
 <wire x1="106.68" y1="124.46" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="124.46" x2="124.46" y2="106.045" width="0.1524" layer="91"/>
@@ -12022,7 +12101,7 @@ and Arm-Out are shorted</text>
 </net>
 <net name="VUMB" class="0">
 <segment>
-<pinref part="D2" gate="A" pin="+"/>
+<pinref part="D2" gate="G$1" pin="+"/>
 <wire x1="99.06" y1="124.46" x2="97.79" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="109.22" y1="95.885" x2="97.79" y2="95.885" width="0.1524" layer="91"/>
@@ -12136,7 +12215,7 @@ and Arm-Out are shorted</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="D5" gate="A" pin="-"/>
+<pinref part="D5" gate="G$1" pin="-"/>
 <pinref part="L2" gate="G$1" pin="P$1"/>
 <pinref part="U1" gate="G$1" pin="SW"/>
 <wire x1="139.7" y1="100.965" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
