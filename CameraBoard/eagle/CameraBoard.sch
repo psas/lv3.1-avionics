@@ -11502,8 +11502,8 @@ and Arm-Out are shorted</text>
 <attribute name="NAME" x="392.2014" y="73.025" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="397.002" y="73.025" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="393.7" y="69.85" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="396.24" y="67.31" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND1" gate="1" x="393.7" y="67.31" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="396.24" y="64.77" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U1" gate="G$1" x="124.46" y="88.265" smashed="yes">
 <attribute name="NAME" x="127.635" y="106.299" size="1.778" layer="95"/>
@@ -11920,6 +11920,11 @@ and Arm-Out are shorted</text>
 <pinref part="GND31" gate="1" pin="GND"/>
 <pinref part="C21" gate="CE" pin="2"/>
 <wire x1="396.875" y1="200.66" x2="396.875" y2="203.835" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="R5" gate="R" pin="1"/>
+<wire x1="393.7" y1="69.85" x2="393.7" y2="71.755" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TPS-EN" class="0">

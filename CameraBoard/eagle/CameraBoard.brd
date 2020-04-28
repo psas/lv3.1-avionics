@@ -200,9 +200,11 @@
 <wire x1="9.75" y1="-1.5" x2="-7.75" y2="-1.5" width="0.001" layer="49"/>
 <wire x1="-7.75" y1="-1.5" x2="-7.75" y2="-28.25" width="0.001" layer="49"/>
 <text x="-6.5" y="-24.75" size="1.4224" layer="49" font="vector">5V SPS</text>
-<text x="-44.75" y="-41.5" size="3.81" layer="49" font="vector" align="top-left">TO DO:
+<text x="-49" y="-41.5" size="3.81" layer="49" font="vector" align="top-left">TO DO:
 -Massive L3
--is the polygon on the bypass caps for 12V SPS okay?</text>
+-is the polygon on the bypass caps for 
+12V SPS okay?
+-how to make nice GND stitching?</text>
 <wire x1="-38.5" y1="0.5" x2="-13" y2="0.5" width="0.001" layer="49"/>
 <wire x1="-13" y1="0.5" x2="-13" y2="-26.75" width="0.001" layer="49"/>
 <wire x1="-13" y1="-26.75" x2="-38.5" y2="-26.75" width="0.001" layer="49"/>
@@ -3269,6 +3271,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="-50.75" y="-40"/>
 </polygon>
 <via x="-44.75" y="11" extent="1-16" drill="0.35"/>
+<contactref element="R5" pad="1"/>
 </signal>
 <signal name="TPS-EN">
 <contactref element="R1" pad="1"/>
@@ -3965,6 +3968,270 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="24.55" y1="-4.4" x2="24.55" y2="-5.05" width="0.2" layer="1"/>
 <wire x1="24.55" y1="-5.05" x2="25.25" y2="-5.75" width="0.2" layer="1"/>
 <wire x1="25.25" y1="-5.75" x2="25.25" y2="-6.35" width="0.2" layer="1"/>
+</signal>
+<signal name="GND1">
+<via x="-17.5" y="10.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND2">
+<via x="2.5" y="8.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND3">
+<via x="12.25" y="10.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND4">
+<via x="6.75" y="1.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND5">
+<via x="-8" y="4" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND6">
+<via x="-19.5" y="6.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND7">
+<via x="-24.5" y="-1.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND8">
+<via x="-20" y="1.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND9">
+<via x="-14.75" y="-1.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND10">
+<via x="-35.5" y="-19.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND12">
+<via x="-17.5" y="-18.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND13">
+<via x="-17.5" y="-20.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND14">
+<via x="-17.5" y="-22.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND15">
+<via x="-17.5" y="-24.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND16">
+<via x="-24.75" y="-24.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND17">
+<via x="-24.75" y="-21.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND18">
+<via x="-24.75" y="-18.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND11">
+<via x="-14.75" y="-7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND19">
+<via x="3.75" y="-3.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND20">
+<via x="3.75" y="-5.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND21">
+<via x="3.75" y="-7.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND22">
+<via x="3.75" y="-15.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND23">
+<via x="3.75" y="-17" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND24">
+<via x="3.75" y="-19" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND25">
+<via x="-5" y="-18" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND26">
+<via x="-1.5" y="-21.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND27">
+<via x="-6.5" y="-9.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND28">
+<via x="-3.75" y="-5.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND29">
+<via x="12.5" y="-4.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND30">
+<via x="12.5" y="-9.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND31">
+<via x="12.5" y="4" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND32">
+<via x="12.5" y="-0.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND34">
+<via x="-35" y="18.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND35">
+<via x="-35" y="21.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND36">
+<via x="-29.75" y="14.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND37">
+<via x="-17.5" y="9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND38">
+<via x="-13.25" y="24.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND39">
+<via x="-33.75" y="23.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND40">
+<via x="-30" y="26.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND41">
+<via x="-27.5" y="23.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND42">
+<via x="-31" y="21.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND43">
+<via x="-25.25" y="26.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND44">
+<via x="-13" y="18.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND45">
+<via x="-20" y="15.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND46">
+<via x="-26.75" y="6.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND47">
+<via x="-33.25" y="7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND48">
+<via x="-35.25" y="11" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND49">
+<via x="-41" y="11" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND50">
+<via x="-44.5" y="7.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND51">
+<via x="-44.75" y="15" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND33">
+<via x="36.5" y="17" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND52">
+<via x="36.25" y="10.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND53">
+<via x="36.5" y="6.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND54">
+<via x="28.25" y="-1" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND55">
+<via x="27" y="0" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND56">
+<via x="25.75" y="-1" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND57">
+<via x="33.75" y="-8.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND58">
+<via x="27" y="-4.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND59">
+<via x="20" y="-3.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND60">
+<via x="18.5" y="-7.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND61">
+<via x="37" y="0" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND62">
+<via x="34.5" y="-5.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND63">
+<via x="37" y="-21.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND64">
+<via x="37" y="-19.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND65">
+<via x="37" y="-17.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND66">
+<via x="33.75" y="-19.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND67">
+<via x="23" y="-17" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND68">
+<via x="25.75" y="-20" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND69">
+<via x="23" y="-18.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND70">
+<via x="8.25" y="-21.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND71">
+<via x="10.5" y="-23.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND72">
+<via x="12.25" y="17.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND73">
+<via x="5.75" y="20.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND74">
+<via x="-8.25" y="15.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND75">
+<via x="-8.25" y="26.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND76">
+<via x="27.25" y="20.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND77">
+<via x="27.5" y="10.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND78">
+<via x="15.25" y="-18" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND79">
+<via x="19.25" y="-22.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND80">
+<via x="27.75" y="-26" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND81">
+<via x="15.75" y="-27.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND82">
+<via x="-15.25" y="-20.25" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND83">
+<via x="-8.75" y="-29" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND84">
+<via x="-10" y="-20.75" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND85">
+<via x="-10" y="-10.5" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND86">
+<via x="-9.25" y="-3" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND87">
+<via x="-11.75" y="2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND88">
+<via x="-32.25" y="1.5" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
