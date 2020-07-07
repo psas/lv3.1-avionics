@@ -11302,7 +11302,7 @@ VUMB - 19V</text>
 <text x="397.51" y="102.87" size="1.778" layer="97">0805</text>
 <text x="375.92" y="102.87" size="1.778" layer="97">0805</text>
 <text x="289.56" y="102.87" size="1.778" layer="97">0805</text>
-<text x="370.205" y="64.135" size="1.778" layer="97">LED to indicate power is on</text>
+<text x="370.84" y="59.69" size="1.778" layer="97">LED to indicate power is on</text>
 <text x="5.715" y="116.205" size="1.778" layer="97">ARM+
 ARM-
 VUMB
