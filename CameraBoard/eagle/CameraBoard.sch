@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13068,6 +13068,26 @@ All capacitors are 10% 0603 packages unless otherwise specified</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,318.77,115.57,U2,VIN,+12V,,,"/>
+<approved hash="104,1,344.17,115.57,U2,VOUT,+5V,,,"/>
+<approved hash="104,1,334.01,80.01,U2,PGND,GND,,,"/>
+<approved hash="113,1,295.554,29.7231,JP11,,,,,"/>
+<approved hash="113,2,84.2594,111.362,JP1,,,,,"/>
+<approved hash="113,2,84.2594,98.6621,JP2,,,,,"/>
+<approved hash="113,2,84.2594,85.9621,JP3,,,,,"/>
+<approved hash="113,2,84.2594,73.2621,JP4,,,,,"/>
+<approved hash="113,2,84.2594,60.5621,JP5,,,,,"/>
+<approved hash="113,2,84.2594,47.8621,JP6,,,,,"/>
+<approved hash="113,2,84.2594,35.1621,JP7,,,,,"/>
+<approved hash="113,2,84.2594,124.062,JP13,,,,,"/>
+<approved hash="113,2,84.2594,136.762,JP12,,,,,"/>
+<approved hash="113,1,21.3529,121.724,JP9,,,,,"/>
+<approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
+<approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
+<approved hash="113,1,413.664,168.471,JP10,,,,,"/>
+<approved hash="113,1,75.8021,38.2956,JP8,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
