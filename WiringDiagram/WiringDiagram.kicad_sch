@@ -1948,6 +1948,16 @@
 		)
 		(uuid "99c3c59e-1fbf-4c79-b698-206d7a350418")
 	)
+	(text "Custom pigtail"
+		(exclude_from_sim no)
+		(at 242.57 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a97c4c5c-e9db-456d-9838-3553275268d7")
+	)
 	(text "AMATEUR TV BROADCAST\n5.8 GHZ"
 		(exclude_from_sim no)
 		(at 259.08 133.35 0)
@@ -2022,7 +2032,7 @@
 	)
 	(text "All terminated in\nSmallest Ferules"
 		(exclude_from_sim no)
-		(at 180.34 114.3 0)
+		(at 214.63 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
