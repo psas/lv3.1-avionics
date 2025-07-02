@@ -1825,6 +1825,18 @@
 		)
 		(uuid "0671ff6d-35ec-426b-8b95-811b8e2b63fc")
 	)
+	(text "AVIONICS\nMODULE"
+		(exclude_from_sim no)
+		(at 111.76 72.39 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "072de94c-3e2c-4bd3-a5e2-556a31364dc5")
+	)
 	(text "ERS v4 #???"
 		(exclude_from_sim no)
 		(at 63.5 116.84 0)
@@ -1846,6 +1858,30 @@
 			)
 		)
 		(uuid "223c0586-7993-496c-b0d8-889eebadbc37")
+	)
+	(text "ALLOW 25 CM / 10 IN\nPAST BULKHEADS ON BOTH SIDES\n"
+		(exclude_from_sim no)
+		(at 53.34 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "23fa07c9-5aff-4017-944c-5521cd8b2e92")
+	)
+	(text "UMBILICAL\nPASSTHROUGH\nRING"
+		(exclude_from_sim no)
+		(at 111.76 60.96 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "2c04a860-4427-4b7c-92ee-4ecb7e55a062")
 	)
 	(text "2mm x 3"
 		(exclude_from_sim no)
@@ -1908,6 +1944,30 @@
 		)
 		(uuid "4729eaf5-d69a-468a-9bcb-c14ccd50c659")
 	)
+	(text "ALLOW 25 CM / 10 IN\nPAST BULKHEADS ON BOTH SIDES\n"
+		(exclude_from_sim no)
+		(at 231.14 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "51c956a7-99f8-41fb-922e-98a2c8922712")
+	)
+	(text "ALLOW 25 CM / 10 IN\nPAST BULKHEADS ON BOTH SIDES\n"
+		(exclude_from_sim no)
+		(at 52.07 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "53080ea5-4c60-43b4-903c-32d9cc16eb5b")
+	)
 	(text "Wires doubled"
 		(exclude_from_sim no)
 		(at 203.2 83.82 0)
@@ -1927,6 +1987,18 @@
 			)
 		)
 		(uuid "62be013a-b66a-4a0a-a52e-9a927c6ef86e")
+	)
+	(text "ALLOW 25 CM / 10 IN\nPAST BULKHEADS ON BOTH SIDES\n"
+		(exclude_from_sim no)
+		(at 231.14 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6e16b5a7-c84f-4fcc-8a41-d63d5645c50f")
 	)
 	(text "430 MHz"
 		(exclude_from_sim no)
@@ -3205,8 +3277,8 @@
 			(xy 16.51 67.31) (xy 280.67 67.31)
 		)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.508)
+			(type solid)
 		)
 		(uuid "b7f8c831-e566-4b1f-91d3-1010446c5254")
 	)
