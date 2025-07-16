@@ -1991,9 +1991,9 @@
 		)
 		(uuid eceb30d1-702a-492a-a94a-182ff49946de)
 	)
-	(text "TO CAMERA FACING DOWN?"
+	(text "TO FRONT CAMERA \nFACING DOWN"
 		(exclude_from_sim no)
-		(at 454.66 289.56 0)
+		(at 450.85 289.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2161,6 +2161,17 @@
 		)
 		(uuid "39d9c7ea-afec-48db-8adf-2aab3d49fbf9")
 	)
+	(text "GND connection\nfor VUMB :("
+		(exclude_from_sim no)
+		(at 388.62 300.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e17cf01-92e2-44e7-92b6-9f34e3bffcd6")
+	)
 	(text "Telemetrum v4.0"
 		(exclude_from_sim no)
 		(at 438.15 477.52 0)
@@ -2225,9 +2236,9 @@
 		)
 		(uuid "56da2218-715c-4043-ae5e-ae71af82a706")
 	)
-	(text "TO CAMERA FACING UP?"
+	(text "TO FRONT CAMERA \nFACING UP"
 		(exclude_from_sim no)
-		(at 453.39 314.96 0)
+		(at 452.12 314.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
