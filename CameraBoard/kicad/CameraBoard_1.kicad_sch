@@ -2319,6 +2319,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "CameraBoard-eagle-import:MP26124GR-Z"
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -10300,7 +10303,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "150k"
 			(at 243.967 127 0)
 			(effects
 				(font
@@ -11612,21 +11615,19 @@
 		(dnp no)
 		(uuid "7e66d6e5-95cc-4cf4-8902-62e8ed5fc655")
 		(property "Reference" "Q1"
-			(at 250.825 113.665 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SI7465DP-T1-E3"
-			(at 250.825 113.665 0)
+			(at 267.97 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CameraBoard:SI7465DP-T1-E3CT-ND"
@@ -15330,7 +15331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP26124/document_id/3740"
 			(at 166.37 207.645 0)
 			(effects
 				(font

@@ -6554,7 +6554,7 @@
 				(justify right top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP26124/document_id/3740"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7836,7 +7836,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "150k"
 			(at -1.4 1.75 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24385,6 +24385,16 @@
 		(uuid "0238a8c9-a76b-4d5a-8023-e1177eace4c4")
 	)
 	(gr_line
+		(start 176.75 62.525)
+		(end 179.075 71.225)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "089f6bdf-8784-4973-9118-b06f63dc47aa")
+	)
+	(gr_line
 		(start 156.5011 116.7536)
 		(end 162.7511 116.7536)
 		(stroke
@@ -25546,6 +25556,18 @@
 			(font
 				(size 0.5334 0.5334)
 				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "WARNING! THIS IS FLIPPED FROM OTHER \n3PIN CONNECTORS ON THIS SIDE!!"
+		(at 161.575 61.575 0)
+		(layer "F.SilkS")
+		(uuid "d40bdb5a-63d2-4962-9595-eecf7847e631")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
