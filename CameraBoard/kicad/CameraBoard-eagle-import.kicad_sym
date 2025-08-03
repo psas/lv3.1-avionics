@@ -17635,7 +17635,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:H11F1SR2M"
-			(at 0 0 0)
+			(at 0 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17696,18 +17696,6 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 2.54) (xy -5.08 -2.54) (xy -15.24 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
 					(xy -10.16 -2.54) (xy -15.24 -2.54)
 				)
 				(stroke
@@ -17744,14 +17732,14 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 0) (xy 5.08 0)
+					(xy -10.16 -2.54) (xy -15.24 2.54) (xy -5.08 2.54)
 				)
 				(stroke
 					(width 0.1524)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
@@ -17768,14 +17756,98 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 0) (xy 2.54 -2.54) (xy 2.54 2.54)
+					(xy -1.905 1.905) (xy 1.905 1.905)
 				)
 				(stroke
 					(width 0.1524)
 					(type solid)
 				)
 				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.905) (xy 1.905 -1.905)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 3.175) (xy 1.905 0.635) (xy 3.175 1.905) (xy 1.905 3.175)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -0.635) (xy 1.905 -3.175) (xy 3.175 -1.905) (xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 10.16 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(polyline
@@ -17792,7 +17864,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 2.54) (xy 12.7 2.54)
+					(xy 10.16 2.54) (xy 7.62 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -17805,54 +17877,6 @@
 			(polyline
 				(pts
 					(xy 10.16 -2.54) (xy 10.16 -7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 2.54) (xy 12.7 5.08)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 2.54) (xy 12.7 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -2.54) (xy 10.16 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -5.08) (xy 12.7 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -17886,7 +17910,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 12.7 270)
 				(length 5.08)
 				(name "ANOD"
@@ -17904,7 +17928,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 -12.7 90)
 				(length 5.08)
 				(name "CAT"
@@ -17922,7 +17946,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 12.7 270)
 				(length 5.08)
 				(name "IN"
@@ -17940,7 +17964,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 -12.7 90)
 				(length 5.08)
 				(name "OUT"

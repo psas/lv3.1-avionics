@@ -3085,169 +3085,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CameraBoard-eagle-import:PINHD-1X3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -6.35 5.715 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CameraBoard:1X03"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PIN HEADER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PINHD-1X3_1_0"
-				(polyline
-					(pts
-						(xy -6.35 5.08) (xy -6.35 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy -6.35 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CameraBoard-eagle-import:PINHD-1X6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5197,7 +5034,7 @@
 	)
 	(text "LiPo Charger"
 		(exclude_from_sim no)
-		(at 188.595 267.97 0)
+		(at 189.23 267.97 0)
 		(effects
 			(font
 				(size 5.08 4.318)
@@ -5219,7 +5056,7 @@
 	)
 	(text "ARM+\nARM-\nVUMB\nDROGUE\nCHUTE\nTGND"
 		(exclude_from_sim no)
-		(at 47.625 179.705 0)
+		(at 48.26 180.34 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5252,7 +5089,7 @@
 	)
 	(text "12V to 5V SPS"
 		(exclude_from_sim no)
-		(at 354.965 158.75 0)
+		(at 355.6 158.75 0)
 		(effects
 			(font
 				(size 5.08 4.318)
@@ -5260,6 +5097,18 @@
 			(justify left bottom)
 		)
 		(uuid "433bd2ff-f8b9-4abf-9307-dc8575e6a37a")
+	)
+	(text "OMG THERE'S NO UMB GND\nPIN!?!?! USE THERMISTOR'S\nINSTEAD\n"
+		(exclude_from_sim no)
+		(at 33.02 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6490b52a-a258-4813-bfc8-48494839b5eb")
 	)
 	(text "0805"
 		(exclude_from_sim no)
@@ -5274,7 +5123,7 @@
 	)
 	(text "Thermistor to be placed\non battery through the jumper"
 		(exclude_from_sim no)
-		(at 147.955 260.985 0)
+		(at 148.59 261.62 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5296,7 +5145,7 @@
 	)
 	(text "Output: 5V, 2A Max"
 		(exclude_from_sim no)
-		(at 354.965 163.83 0)
+		(at 355.6 163.83 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -5307,7 +5156,7 @@
 	)
 	(text "All resistors are 1% 0603 packages unless otherwise specified\nAll capacitors are 10% 0603 packages unless otherwise specified"
 		(exclude_from_sim no)
-		(at 116.205 289.56 0)
+		(at 116.84 289.56 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -5318,7 +5167,7 @@
 	)
 	(text "Incoming signals\nVUMB - 19V"
 		(exclude_from_sim no)
-		(at 53.975 150.495 0)
+		(at 54.61 151.13 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -5329,7 +5178,7 @@
 	)
 	(text "Usually on unless Arm-In\nand Arm-Out are shorted"
 		(exclude_from_sim no)
-		(at 260.985 110.49 0)
+		(at 261.62 110.49 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5351,7 +5200,7 @@
 	)
 	(text "Arming Switch"
 		(exclude_from_sim no)
-		(at 204.47 92.075 0)
+		(at 204.47 92.71 0)
 		(effects
 			(font
 				(size 5.08 4.318)
@@ -5362,7 +5211,7 @@
 	)
 	(text "Battery"
 		(exclude_from_sim no)
-		(at 335.28 248.285 0)
+		(at 335.28 248.92 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -5417,7 +5266,7 @@
 	)
 	(text "Keep feedback wire away from inductor flux on board"
 		(exclude_from_sim no)
-		(at 386.08 61.595 0)
+		(at 386.08 62.23 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5439,7 +5288,7 @@
 	)
 	(text "Comp selection:\n-Datasheet called for polarized\n-The diode has 4A rating"
 		(exclude_from_sim no)
-		(at 316.23 84.455 0)
+		(at 316.23 85.09 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5448,25 +5297,14 @@
 		)
 		(uuid "fbc4dcfe-33f8-4364-9a71-160007ad3dca")
 	)
-	(text "Power to ATV Transmitter"
-		(exclude_from_sim no)
-		(at 430.53 120.65 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc9e56bc-3559-403d-b44d-5779740afce6")
-	)
 	(junction
-		(at 240.665 113.665)
+		(at 241.3 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "031e2597-8fe0-4628-be4c-6a2503df65c2")
 	)
 	(junction
-		(at 129.54 194.945)
+		(at 129.54 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "063b8b48-3fc0-40f0-a5f3-f8f88795ad5c")
@@ -5484,13 +5322,13 @@
 		(uuid "0a577025-2d49-4eff-b371-b85dddeacbef")
 	)
 	(junction
-		(at 227.965 194.31)
+		(at 228.6 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0aaa7caf-d3cc-4184-8335-1f3ebf65e0d0")
 	)
 	(junction
-		(at 428.625 80.01)
+		(at 429.26 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10cc55ac-eece-45f9-9f59-11d5ca7e4042")
@@ -5502,7 +5340,7 @@
 		(uuid "1446e8c8-57c0-4baf-98d1-9dbb3b31eb6d")
 	)
 	(junction
-		(at 351.155 43.18)
+		(at 351.79 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1457ddfd-9e62-4927-bcaa-123458a9a5ff")
@@ -5520,7 +5358,7 @@
 		(uuid "15673097-4fbe-4b2e-a534-34c1c196ed2c")
 	)
 	(junction
-		(at 320.675 43.18)
+		(at 321.31 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a55af2d-e8b8-4517-8ae6-6d3569cf5faf")
@@ -5532,13 +5370,13 @@
 		(uuid "1ef8c395-16f9-4407-ad21-acaeceaab7f3")
 	)
 	(junction
-		(at 134.62 194.945)
+		(at 134.62 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24e873a6-4577-4c57-a391-5ceea88b5b51")
 	)
 	(junction
-		(at 191.135 194.31)
+		(at 191.77 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2660bd54-5330-41ae-ba00-84bf7712169d")
@@ -5550,7 +5388,7 @@
 		(uuid "2746505f-322a-47ed-a639-66cd568176e8")
 	)
 	(junction
-		(at 324.485 270.51)
+		(at 325.12 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2749b5cb-2676-44e2-b0e1-ffb52ea98a49")
@@ -5562,7 +5400,7 @@
 		(uuid "27df2e6f-afa2-4df8-a5d6-50a6f4f5cba6")
 	)
 	(junction
-		(at 438.785 80.01)
+		(at 439.42 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ed39d59-18db-4538-ad16-e8068c66b6bc")
@@ -5574,7 +5412,7 @@
 		(uuid "41cec495-9ec7-4e66-a8d1-7970eecf087c")
 	)
 	(junction
-		(at 446.405 80.01)
+		(at 447.04 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45c81018-0c14-403c-969e-5e2a8300928c")
@@ -5616,7 +5454,7 @@
 		(uuid "7ff0eb69-ac11-4792-80d5-ad8c917164bd")
 	)
 	(junction
-		(at 324.485 273.05)
+		(at 325.12 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83900743-34d7-4ca5-a868-2e49d00d8733")
@@ -5628,7 +5466,7 @@
 		(uuid "86f67b04-c27c-4d92-80fd-7b7186632d2b")
 	)
 	(junction
-		(at 415.925 80.01)
+		(at 416.56 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9026c10a-d35a-40de-954f-74a756bc3d05")
@@ -5646,19 +5484,13 @@
 		(uuid "a2f6a848-9ba4-4d7a-8708-a41a46fca5db")
 	)
 	(junction
-		(at 324.485 260.35)
+		(at 325.12 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aedcd97d-b2ef-4779-b597-0619e4fee634")
 	)
 	(junction
-		(at 324.485 279.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7779cce-c2b6-4b47-96be-782f68c0c7b4")
-	)
-	(junction
-		(at 324.485 262.89)
+		(at 325.12 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be133577-6cc0-4c1d-afbe-ea1c23f60ca0")
@@ -5676,7 +5508,7 @@
 		(uuid "d2913c11-4055-4c46-b8fe-122aa971f8b6")
 	)
 	(junction
-		(at 125.73 194.945)
+		(at 125.73 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d58eed64-0f14-4e2d-9d5a-012d3df9ae41")
@@ -5694,7 +5526,7 @@
 		(uuid "e1d21fef-b515-43c4-999c-fa6a8286da10")
 	)
 	(junction
-		(at 255.905 194.31)
+		(at 256.54 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edea3c57-2ca2-4de6-a7a0-0953c75a2899")
@@ -5713,7 +5545,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 200.025) (xy 139.7 171.45)
+			(xy 139.7 200.66) (xy 139.7 171.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -5723,7 +5555,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 257.81) (xy 117.475 248.92)
+			(xy 118.11 257.81) (xy 118.11 248.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -5733,7 +5565,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.925 95.25) (xy 415.925 91.44)
+			(xy 416.56 95.25) (xy 416.56 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -5743,7 +5575,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.155 43.18) (xy 340.36 43.18)
+			(xy 351.79 43.18) (xy 340.36 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -5753,7 +5585,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.665 113.665) (xy 245.745 113.665)
+			(xy 241.3 114.3) (xy 246.38 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -5773,7 +5605,7 @@
 	)
 	(polyline
 		(pts
-			(xy 201.295 78.105) (xy 290.83 78.105)
+			(xy 201.93 78.74) (xy 290.83 78.74)
 		)
 		(stroke
 			(width 0.508)
@@ -5783,7 +5615,7 @@
 	)
 	(wire
 		(pts
-			(xy 428.625 80.01) (xy 415.925 80.01)
+			(xy 429.26 80.01) (xy 416.56 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -5793,7 +5625,7 @@
 	)
 	(polyline
 		(pts
-			(xy 290.83 78.105) (xy 290.83 149.86)
+			(xy 290.83 78.74) (xy 290.83 149.86)
 		)
 		(stroke
 			(width 0.508)
@@ -5803,7 +5635,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.905 125.095) (xy 255.905 194.31)
+			(xy 256.54 125.73) (xy 256.54 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -5823,7 +5655,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 173.99) (xy 76.835 173.99)
+			(xy 63.5 173.99) (xy 77.47 173.99)
 		)
 		(stroke
 			(width 0.1524)
@@ -5853,7 +5685,7 @@
 	)
 	(polyline
 		(pts
-			(xy 452.755 241.3) (xy 302.895 241.3)
+			(xy 453.39 241.3) (xy 303.53 241.3)
 		)
 		(stroke
 			(width 0.508)
@@ -5863,7 +5695,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 194.945) (xy 129.54 196.85)
+			(xy 129.54 195.58) (xy 129.54 196.85)
 		)
 		(stroke
 			(width 0.1524)
@@ -5873,7 +5705,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 43.18) (xy 351.155 43.18)
+			(xy 369.57 43.18) (xy 351.79 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -5883,7 +5715,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 57.785) (xy 320.675 55.88)
+			(xy 321.31 58.42) (xy 321.31 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -5893,7 +5725,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 225.425) (xy 187.96 225.425)
+			(xy 181.61 226.06) (xy 187.96 226.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -5903,7 +5735,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 194.31) (xy 191.135 194.31)
+			(xy 181.61 194.31) (xy 191.77 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -5923,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 194.945) (xy 181.61 194.31)
+			(xy 181.61 195.58) (xy 181.61 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -5933,7 +5765,7 @@
 	)
 	(polyline
 		(pts
-			(xy 459.105 109.855) (xy 309.245 109.855)
+			(xy 459.74 110.49) (xy 309.88 110.49)
 		)
 		(stroke
 			(width 0.508)
@@ -5943,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.155 47.625) (xy 351.155 43.18)
+			(xy 351.79 48.26) (xy 351.79 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -5963,7 +5795,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.185 262.89) (xy 324.485 262.89)
+			(xy 337.82 262.89) (xy 325.12 262.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -5983,7 +5815,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.155 57.785) (xy 351.155 55.245)
+			(xy 351.79 58.42) (xy 351.79 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -5993,7 +5825,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 243.84) (xy 187.96 239.395)
+			(xy 187.96 243.84) (xy 187.96 240.03)
 		)
 		(stroke
 			(width 0.1524)
@@ -6003,7 +5835,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 120.015) (xy 105.41 120.015)
+			(xy 228.6 120.65) (xy 105.41 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -6013,7 +5845,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.925 64.77) (xy 415.925 80.01)
+			(xy 416.56 64.77) (xy 416.56 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -6033,7 +5865,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 238.76) (xy 151.13 225.425)
+			(xy 151.13 238.76) (xy 151.13 226.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -6043,17 +5875,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.295 132.715) (xy 445.135 132.715)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2f737934-6b6d-4b82-9a14-fe0b37f0a3f2")
-	)
-	(wire
-		(pts
-			(xy 415.925 64.77) (xy 384.81 64.77)
+			(xy 416.56 64.77) (xy 384.81 64.77)
 		)
 		(stroke
 			(width 0.1524)
@@ -6063,7 +5885,7 @@
 	)
 	(polyline
 		(pts
-			(xy 309.245 109.855) (xy 309.245 28.575)
+			(xy 309.88 110.49) (xy 309.88 29.21)
 		)
 		(stroke
 			(width 0.508)
@@ -6073,17 +5895,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.295 130.175) (xy 416.56 130.175)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "33cc0346-0a41-4f5c-88ba-0c31c6a61b3d")
-	)
-	(wire
-		(pts
-			(xy 198.755 220.345) (xy 198.755 231.775)
+			(xy 199.39 220.98) (xy 199.39 232.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -6133,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 238.125) (xy 133.35 248.92)
+			(xy 133.35 238.76) (xy 133.35 248.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -6143,17 +5955,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 121.285) (xy 416.56 127.635)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "394bd4c6-2aca-4db0-a958-b81a8ffce7e8")
-	)
-	(wire
-		(pts
-			(xy 146.05 207.01) (xy 146.05 205.105)
+			(xy 146.05 207.01) (xy 146.05 205.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -6163,7 +5965,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 260.35) (xy 117.475 267.97)
+			(xy 118.11 260.35) (xy 118.11 267.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -6173,7 +5975,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 194.945) (xy 134.62 194.945)
+			(xy 151.13 195.58) (xy 134.62 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -6193,7 +5995,7 @@
 	)
 	(wire
 		(pts
-			(xy 428.625 80.01) (xy 438.785 80.01)
+			(xy 429.26 80.01) (xy 439.42 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -6223,7 +6025,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 196.215) (xy 134.62 194.945)
+			(xy 134.62 196.85) (xy 134.62 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -6283,7 +6085,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.125 154.94) (xy 111.125 279.4)
+			(xy 111.76 154.94) (xy 111.76 279.4)
 		)
 		(stroke
 			(width 0.508)
@@ -6293,7 +6095,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 120.015) (xy 105.41 168.91)
+			(xy 105.41 120.65) (xy 105.41 168.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -6313,7 +6115,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 215.265) (xy 139.7 215.265)
+			(xy 151.13 215.9) (xy 139.7 215.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -6353,7 +6155,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 212.09) (xy 415.925 212.09)
+			(xy 407.67 212.09) (xy 416.56 212.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -6383,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 209.55) (xy 227.965 201.93)
+			(xy 228.6 209.55) (xy 228.6 201.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -6403,7 +6205,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 43.18) (xy 318.77 43.18)
+			(xy 321.31 43.18) (xy 318.77 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -6433,7 +6235,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 43.18) (xy 320.675 43.18)
+			(xy 331.47 43.18) (xy 321.31 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -6443,7 +6245,7 @@
 	)
 	(polyline
 		(pts
-			(xy 302.895 241.3) (xy 302.895 147.955)
+			(xy 303.53 241.3) (xy 303.53 148.59)
 		)
 		(stroke
 			(width 0.508)
@@ -6453,7 +6255,7 @@
 	)
 	(wire
 		(pts
-			(xy 438.785 80.01) (xy 446.405 80.01)
+			(xy 439.42 80.01) (xy 447.04 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -6473,7 +6275,7 @@
 	)
 	(wire
 		(pts
-			(xy 423.545 212.09) (xy 435.61 212.09)
+			(xy 424.18 212.09) (xy 435.61 212.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -6493,7 +6295,7 @@
 	)
 	(wire
 		(pts
-			(xy 395.605 72.39) (xy 397.51 72.39)
+			(xy 396.24 72.39) (xy 397.51 72.39)
 		)
 		(stroke
 			(width 0.1524)
@@ -6513,7 +6315,7 @@
 	)
 	(polyline
 		(pts
-			(xy 302.895 147.955) (xy 452.755 147.955)
+			(xy 303.53 148.59) (xy 453.39 148.59)
 		)
 		(stroke
 			(width 0.508)
@@ -6533,7 +6335,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 210.185) (xy 223.52 210.185)
+			(xy 181.61 210.82) (xy 223.52 210.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -6543,7 +6345,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.755 243.84) (xy 198.755 239.395)
+			(xy 199.39 243.84) (xy 199.39 240.03)
 		)
 		(stroke
 			(width 0.1524)
@@ -6553,7 +6355,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 80.01) (xy 415.925 80.01)
+			(xy 414.02 80.01) (xy 416.56 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -6583,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.665 118.11) (xy 240.665 113.665)
+			(xy 241.3 118.11) (xy 241.3 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -6593,7 +6395,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 171.45) (xy 178.435 171.45)
+			(xy 166.37 171.45) (xy 179.07 171.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -6603,7 +6405,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 215.265) (xy 209.55 231.775)
+			(xy 209.55 215.9) (xy 209.55 232.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -6613,7 +6415,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 210.185) (xy 223.52 194.31)
+			(xy 223.52 210.82) (xy 223.52 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -6623,7 +6425,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 179.07) (xy 76.835 179.07)
+			(xy 63.5 179.07) (xy 77.47 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -6633,7 +6435,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 194.31) (xy 227.965 138.43)
+			(xy 228.6 194.31) (xy 228.6 138.43)
 		)
 		(stroke
 			(width 0.1524)
@@ -6663,7 +6465,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.185 265.43) (xy 324.485 265.43)
+			(xy 337.82 265.43) (xy 325.12 265.43)
 		)
 		(stroke
 			(width 0.1524)
@@ -6673,7 +6475,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 205.105) (xy 151.13 205.105)
+			(xy 146.05 205.74) (xy 151.13 205.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -6683,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 243.84) (xy 209.55 239.395)
+			(xy 209.55 243.84) (xy 209.55 240.03)
 		)
 		(stroke
 			(width 0.1524)
@@ -6693,7 +6495,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 220.345) (xy 187.96 220.345)
+			(xy 181.61 220.98) (xy 187.96 220.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -6703,17 +6505,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 206.375) (xy 134.62 207.01)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "727c6434-73e9-4bf2-a8b7-fee16ab25af8")
-	)
-	(wire
-		(pts
-			(xy 435.61 226.06) (xy 435.61 224.155)
+			(xy 435.61 226.06) (xy 435.61 224.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -6723,17 +6515,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 127.635) (xy 455.295 127.635)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "739dfc74-9b1d-4171-90a1-1a3a660e2a32")
-	)
-	(wire
-		(pts
-			(xy 223.52 194.31) (xy 227.965 194.31)
+			(xy 223.52 194.31) (xy 228.6 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -6743,7 +6525,7 @@
 	)
 	(wire
 		(pts
-			(xy 428.625 95.25) (xy 428.625 91.44)
+			(xy 429.26 95.25) (xy 429.26 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -6753,7 +6535,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 200.025) (xy 191.135 194.31)
+			(xy 191.77 200.66) (xy 191.77 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -6763,7 +6545,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.125 279.4) (xy 241.3 279.4)
+			(xy 111.76 279.4) (xy 241.3 279.4)
 		)
 		(stroke
 			(width 0.508)
@@ -6773,7 +6555,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 176.53) (xy 76.835 176.53)
+			(xy 63.5 176.53) (xy 77.47 176.53)
 		)
 		(stroke
 			(width 0.1524)
@@ -6783,7 +6565,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 166.37) (xy 102.235 166.37)
+			(xy 63.5 166.37) (xy 102.87 166.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -6813,7 +6595,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.905 260.35) (xy 324.485 260.35)
+			(xy 256.54 260.35) (xy 325.12 260.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -6823,17 +6605,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.485 280.035) (xy 324.485 279.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7f7e887d-1dc7-49ef-b0a2-19c292cd0cb6")
-	)
-	(wire
-		(pts
-			(xy 117.475 267.97) (xy 133.35 267.97)
+			(xy 118.11 267.97) (xy 133.35 267.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -6853,7 +6625,7 @@
 	)
 	(wire
 		(pts
-			(xy 428.625 83.82) (xy 428.625 80.01)
+			(xy 429.26 83.82) (xy 429.26 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -6873,7 +6645,7 @@
 	)
 	(polyline
 		(pts
-			(xy 309.245 28.575) (xy 459.105 28.575)
+			(xy 309.88 29.21) (xy 459.74 29.21)
 		)
 		(stroke
 			(width 0.508)
@@ -6903,7 +6675,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.925 83.82) (xy 415.925 80.01)
+			(xy 416.56 83.82) (xy 416.56 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -6923,7 +6695,7 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 179.07) (xy 178.435 182.245)
+			(xy 179.07 179.07) (xy 179.07 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -6933,7 +6705,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 215.265) (xy 187.96 215.265)
+			(xy 181.61 215.9) (xy 187.96 215.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -6943,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 194.945) (xy 129.54 194.945)
+			(xy 134.62 195.58) (xy 129.54 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -6953,7 +6725,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.185 270.51) (xy 324.485 270.51)
+			(xy 337.82 270.51) (xy 325.12 270.51)
 		)
 		(stroke
 			(width 0.1524)
@@ -6963,7 +6735,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 200.025) (xy 181.61 200.025)
+			(xy 184.15 200.66) (xy 181.61 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -6973,7 +6745,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 225.425) (xy 187.96 231.775)
+			(xy 187.96 226.06) (xy 187.96 232.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -6983,7 +6755,7 @@
 	)
 	(wire
 		(pts
-			(xy 438.785 84.455) (xy 438.785 80.01)
+			(xy 439.42 85.09) (xy 439.42 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -6993,7 +6765,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.665 128.27) (xy 240.665 136.525)
+			(xy 241.3 128.27) (xy 241.3 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -7003,7 +6775,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 200.66) (xy 116.84 194.945)
+			(xy 116.84 200.66) (xy 116.84 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -7033,7 +6805,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 48.26) (xy 320.675 43.18)
+			(xy 321.31 48.26) (xy 321.31 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -7043,7 +6815,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 205.105) (xy 210.82 194.31)
+			(xy 210.82 205.74) (xy 210.82 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -7053,17 +6825,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 176.53) (xy 76.835 178.435)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "99e6b0fd-3af7-4c18-9719-2933f1c0a863")
-	)
-	(wire
-		(pts
-			(xy 387.985 72.39) (xy 384.81 72.39)
+			(xy 388.62 72.39) (xy 384.81 72.39)
 		)
 		(stroke
 			(width 0.1524)
@@ -7073,7 +6835,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 194.945) (xy 129.54 194.945)
+			(xy 125.73 195.58) (xy 129.54 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -7133,7 +6895,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 210.185) (xy 146.05 210.185)
+			(xy 151.13 210.82) (xy 146.05 210.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -7153,7 +6915,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 194.31) (xy 195.58 194.31)
+			(xy 191.77 194.31) (xy 195.58 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -7163,7 +6925,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 248.92) (xy 133.35 248.92)
+			(xy 118.11 248.92) (xy 133.35 248.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -7173,7 +6935,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 38.735) (xy 318.77 43.18)
+			(xy 318.77 39.37) (xy 318.77 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -7183,7 +6945,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 57.785) (xy 340.36 55.88)
+			(xy 340.36 58.42) (xy 340.36 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7213,7 +6975,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 200.025) (xy 139.7 200.025)
+			(xy 151.13 200.66) (xy 139.7 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -7223,7 +6985,7 @@
 	)
 	(wire
 		(pts
-			(xy 446.405 80.01) (xy 446.405 68.58)
+			(xy 447.04 80.01) (xy 447.04 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -7243,16 +7005,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 179.07) (xy 76.835 182.245)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b13eb9f8-07e3-490e-a0c2-babebbf7ac80")
-	)
-	(wire
-		(pts
 			(xy 63.5 171.45) (xy 139.7 171.45)
 		)
 		(stroke
@@ -7263,7 +7015,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 57.785) (xy 331.47 55.88)
+			(xy 331.47 58.42) (xy 331.47 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7273,7 +7025,7 @@
 	)
 	(polyline
 		(pts
-			(xy 452.755 147.955) (xy 452.755 241.3)
+			(xy 453.39 148.59) (xy 453.39 241.3)
 		)
 		(stroke
 			(width 0.508)
@@ -7283,7 +7035,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.485 265.43) (xy 324.485 262.89)
+			(xy 325.12 265.43) (xy 325.12 262.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -7303,7 +7055,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 194.31) (xy 255.905 194.31)
+			(xy 228.6 194.31) (xy 256.54 194.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -7313,7 +7065,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 215.265) (xy 139.7 218.44)
+			(xy 139.7 215.9) (xy 139.7 218.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -7323,7 +7075,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.485 260.35) (xy 337.185 260.35)
+			(xy 325.12 260.35) (xy 337.82 260.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -7343,7 +7095,7 @@
 	)
 	(wire
 		(pts
-			(xy 438.785 95.25) (xy 438.785 92.075)
+			(xy 439.42 95.25) (xy 439.42 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -7353,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 220.345) (xy 198.755 220.345)
+			(xy 198.12 220.98) (xy 199.39 220.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -7363,17 +7115,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 130.175) (xy 416.56 135.255)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c3672214-4673-45aa-92ed-20f265c9cb58")
-	)
-	(wire
-		(pts
-			(xy 125.73 194.945) (xy 125.73 227.965)
+			(xy 125.73 195.58) (xy 125.73 228.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -7393,7 +7135,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.905 107.315) (xy 255.905 93.345)
+			(xy 256.54 107.95) (xy 256.54 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -7433,7 +7175,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 171.45) (xy 166.37 189.865)
+			(xy 166.37 171.45) (xy 166.37 190.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -7453,7 +7195,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 212.09) (xy 435.61 213.995)
+			(xy 435.61 212.09) (xy 435.61 214.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -7473,7 +7215,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.965 128.27) (xy 227.965 120.015)
+			(xy 228.6 128.27) (xy 228.6 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -7483,7 +7225,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.905 194.31) (xy 255.905 260.35)
+			(xy 256.54 194.31) (xy 256.54 260.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -7493,7 +7235,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 215.265) (xy 209.55 215.265)
+			(xy 198.12 215.9) (xy 209.55 215.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -7513,7 +7255,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 210.185) (xy 146.05 212.09)
+			(xy 146.05 210.82) (xy 146.05 212.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -7533,7 +7275,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 267.97) (xy 133.35 271.145)
+			(xy 133.35 267.97) (xy 133.35 271.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -7543,7 +7285,7 @@
 	)
 	(polyline
 		(pts
-			(xy 241.3 154.94) (xy 111.125 154.94)
+			(xy 241.3 154.94) (xy 111.76 154.94)
 		)
 		(stroke
 			(width 0.508)
@@ -7553,7 +7295,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.485 270.51) (xy 324.485 267.97)
+			(xy 325.12 270.51) (xy 325.12 267.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -7563,7 +7305,7 @@
 	)
 	(polyline
 		(pts
-			(xy 290.83 149.86) (xy 201.295 149.86)
+			(xy 290.83 149.86) (xy 201.93 149.86)
 		)
 		(stroke
 			(width 0.508)
@@ -7573,7 +7315,7 @@
 	)
 	(polyline
 		(pts
-			(xy 459.105 28.575) (xy 459.105 109.855)
+			(xy 459.74 29.21) (xy 459.74 110.49)
 		)
 		(stroke
 			(width 0.508)
@@ -7583,7 +7325,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.185 267.97) (xy 324.485 267.97)
+			(xy 337.82 267.97) (xy 325.12 267.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -7593,7 +7335,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 220.345) (xy 144.78 220.345)
+			(xy 151.13 220.98) (xy 144.78 220.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -7603,7 +7345,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 194.945) (xy 125.73 194.945)
+			(xy 116.84 195.58) (xy 125.73 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -7613,7 +7355,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.485 262.89) (xy 324.485 260.35)
+			(xy 325.12 262.89) (xy 325.12 260.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -7633,7 +7375,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.485 273.05) (xy 324.485 270.51)
+			(xy 325.12 273.05) (xy 325.12 270.51)
 		)
 		(stroke
 			(width 0.1524)
@@ -7663,7 +7405,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 205.105) (xy 210.82 205.105)
+			(xy 181.61 205.74) (xy 210.82 205.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -7673,7 +7415,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.235 113.665) (xy 226.06 113.665)
+			(xy 102.87 114.3) (xy 226.06 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -7683,7 +7425,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 220.345) (xy 144.78 248.92)
+			(xy 144.78 220.98) (xy 144.78 248.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -7703,7 +7445,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.485 279.4) (xy 324.485 273.05)
+			(xy 325.12 279.4) (xy 325.12 273.05)
 		)
 		(stroke
 			(width 0.1524)
@@ -7723,7 +7465,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 243.84) (xy 166.37 230.505)
+			(xy 166.37 243.84) (xy 166.37 231.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -7733,7 +7475,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 238.125) (xy 133.35 238.125)
+			(xy 125.73 238.76) (xy 133.35 238.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -7743,7 +7485,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.185 273.05) (xy 324.485 273.05)
+			(xy 337.82 273.05) (xy 325.12 273.05)
 		)
 		(stroke
 			(width 0.1524)
@@ -7763,7 +7505,7 @@
 	)
 	(polyline
 		(pts
-			(xy 201.295 149.86) (xy 201.295 78.105)
+			(xy 201.93 149.86) (xy 201.93 78.74)
 		)
 		(stroke
 			(width 0.508)
@@ -7773,7 +7515,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.235 166.37) (xy 102.235 113.665)
+			(xy 102.87 166.37) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -7803,7 +7545,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 113.665) (xy 240.665 113.665)
+			(xy 236.22 114.3) (xy 241.3 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -7812,7 +7554,7 @@
 		(uuid "fedc69ee-001e-4b95-89ef-90795b957fb3")
 	)
 	(label "ARM-OUT"
-		(at 84.455 168.91 0)
+		(at 77.47 168.91 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7822,7 +7564,7 @@
 		(uuid "0ffcc186-fbda-4686-979a-61fc531ed9c7")
 	)
 	(label "BATT+"
-		(at 255.905 227.33 0)
+		(at 256.54 227.33 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7832,7 +7574,7 @@
 		(uuid "21c66cb1-51a9-4fc6-804d-750e8f5bf81d")
 	)
 	(label "BATT+"
-		(at 227.965 138.43 90)
+		(at 228.6 138.43 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7842,7 +7584,7 @@
 		(uuid "2fe2e4f6-ee2c-42ae-a33a-20b54ca6b768")
 	)
 	(label "ARM-IN"
-		(at 210.82 113.665 0)
+		(at 210.82 114.3 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7852,7 +7594,7 @@
 		(uuid "60885771-fc96-452c-a9af-4ecbffccb30d")
 	)
 	(label "ARM-OUT"
-		(at 210.82 120.015 0)
+		(at 210.82 120.65 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7862,7 +7604,7 @@
 		(uuid "6666cd76-b9c0-421d-9269-1c9e31cba6f8")
 	)
 	(label "ARM-IN"
-		(at 82.8675 166.37 0)
+		(at 77.47 166.37 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7872,7 +7614,7 @@
 		(uuid "76d7b24c-a41e-4cf3-bd7d-150aaad28ac8")
 	)
 	(label "VUMB"
-		(at 76.835 171.45 0)
+		(at 77.47 171.45 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7892,7 +7634,7 @@
 		(uuid "87f5f4f6-063d-4748-81f2-56df86affbec")
 	)
 	(label "BATT+"
-		(at 324.485 260.35 0)
+		(at 325.12 260.35 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7902,7 +7644,7 @@
 		(uuid "ca5564fc-e149-47b8-a159-1f69833b517c")
 	)
 	(label "BATT+"
-		(at 255.905 125.095 90)
+		(at 256.54 125.73 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7923,7 +7665,7 @@
 	)
 	(global_label "DROGUE"
 		(shape bidirectional)
-		(at 76.835 173.99 0)
+		(at 77.47 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7933,7 +7675,7 @@
 		)
 		(uuid "2a6a7721-14f8-4da7-8142-1acbced5c32c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.3169 173.99 0)
+			(at 88.9519 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +7687,7 @@
 	)
 	(global_label "+12V"
 		(shape bidirectional)
-		(at 415.925 80.01 0)
+		(at 416.56 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7955,7 +7697,7 @@
 		)
 		(uuid "3164c6de-b41b-4e62-b8ea-cca553ec65f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 424.9175 80.01 0)
+			(at 425.5525 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,7 +7709,7 @@
 	)
 	(global_label "T_GND"
 		(shape bidirectional)
-		(at 76.835 182.245 0)
+		(at 77.47 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7977,34 +7719,12 @@
 		)
 		(uuid "48c23527-0ecb-4d4f-9154-7522b4147137")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.5389 182.245 0)
+			(at 87.1739 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIDEO_OUT"
-		(shape bidirectional)
-		(at 445.135 132.715 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "60b5b511-5191-42d8-8f00-86d2b5181164")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 431.2823 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8033,7 +7753,7 @@
 	)
 	(global_label "CHUTE"
 		(shape bidirectional)
-		(at 76.835 178.435 0)
+		(at 77.47 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8043,7 +7763,7 @@
 		)
 		(uuid "9c468dee-0732-4d11-8a58-9ffd30ab5581")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.776 178.435 0)
+			(at 87.411 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,7 +7775,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-C-NOSILK")
-		(at 435.61 219.075 90)
+		(at 435.61 219.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8063,7 +7783,7 @@
 		(dnp no)
 		(uuid "055bdf63-b3aa-4dbf-81e5-82e26469dc3d")
 		(property "Reference" "R5"
-			(at 434.1114 222.885 0)
+			(at 434.1114 223.52 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8072,7 +7792,7 @@
 			)
 		)
 		(property "Value" "400"
-			(at 438.912 222.885 0)
+			(at 438.912 223.52 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8081,7 +7801,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 435.61 219.075 0)
+			(at 435.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,7 +7810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 435.61 219.075 0)
+			(at 435.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +7819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 435.61 219.075 0)
+			(at 435.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,7 +7828,7 @@
 			)
 		)
 		(property "DIS" "Digi-Key"
-			(at 435.61 219.075 0)
+			(at 435.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,7 +7838,7 @@
 			)
 		)
 		(property "DPN" "1276-4275-1-ND"
-			(at 435.61 219.075 0)
+			(at 435.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +7848,7 @@
 			)
 		)
 		(property "MFR" "Samsung"
-			(at 435.61 219.075 0)
+			(at 435.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +7858,7 @@
 			)
 		)
 		(property "MPN" "RC1005F6653CS"
-			(at 435.61 219.075 0)
+			(at 435.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +7953,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 227.965 133.35 270)
+		(at 228.6 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8241,7 +7961,7 @@
 		(dnp no)
 		(uuid "08770069-ac3b-4ee7-8813-a62a0c28efc4")
 		(property "Reference" "R15"
-			(at 229.4636 129.54 0)
+			(at 230.0986 129.54 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8250,7 +7970,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 224.663 129.54 0)
+			(at 225.298 129.54 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8259,7 +7979,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 227.965 133.35 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +7988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.965 133.35 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +7997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.965 133.35 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8221,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 178.435 184.785 0)
+		(at 179.07 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8509,7 +8229,7 @@
 		(dnp no)
 		(uuid "102e5d86-b0a3-40bf-a953-c068d643981c")
 		(property "Reference" "#GND3"
-			(at 178.435 184.785 0)
+			(at 179.07 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +8238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.895 187.325 0)
+			(at 176.53 187.96 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8527,7 +8247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.435 184.785 0)
+			(at 179.07 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,7 +8256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 184.785 0)
+			(at 179.07 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 178.435 184.785 0)
+			(at 179.07 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,7 +8287,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0805-B-NOSILK")
-		(at 351.155 50.165 0)
+		(at 351.79 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8575,7 +8295,7 @@
 		(dnp no)
 		(uuid "111146fb-4fce-4360-ad0d-ab742906c77a")
 		(property "Reference" "C18"
-			(at 352.171 49.53 0)
+			(at 352.806 50.165 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8584,7 +8304,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 352.171 54.356 0)
+			(at 352.806 54.991 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8593,7 +8313,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0805-B-NOSILK"
-			(at 351.155 50.165 0)
+			(at 351.79 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +8322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.155 50.165 0)
+			(at 351.79 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8331,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.155 50.165 0)
+			(at 351.79 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,7 +8488,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:+12V")
-		(at 446.405 66.04 0)
+		(at 447.04 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8776,7 +8496,7 @@
 		(dnp no)
 		(uuid "139ca2ce-972a-49c3-958c-e77684df85fe")
 		(property "Reference" "#P+4"
-			(at 446.405 66.04 0)
+			(at 447.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,7 +8505,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 448.945 62.23 90)
+			(at 449.58 62.23 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8794,7 +8514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 446.405 66.04 0)
+			(at 447.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 446.405 66.04 0)
+			(at 447.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 446.405 66.04 0)
+			(at 447.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +8848,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU1206-A")
-		(at 415.925 86.36 0)
+		(at 416.56 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9136,7 +8856,7 @@
 		(dnp no)
 		(uuid "23e634a0-48bb-471f-8c59-71090d9ed169")
 		(property "Reference" "C19"
-			(at 416.941 85.725 0)
+			(at 417.576 85.725 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9145,7 +8865,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 416.941 90.551 0)
+			(at 417.576 90.551 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9154,7 +8874,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:1206-A"
-			(at 415.925 86.36 0)
+			(at 416.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +8883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 415.925 86.36 0)
+			(at 416.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9172,7 +8892,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 415.925 86.36 0)
+			(at 416.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,7 +8987,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0603-A-NOSILK")
-		(at 178.435 173.99 0)
+		(at 179.07 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9275,7 +8995,7 @@
 		(dnp no)
 		(uuid "2b241132-d43c-4629-8ffb-27956bc1d44d")
 		(property "Reference" "C1"
-			(at 179.959 173.609 0)
+			(at 180.594 173.609 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9284,7 +9004,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 179.959 178.689 0)
+			(at 180.594 178.689 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9293,7 +9013,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 178.435 173.99 0)
+			(at 179.07 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9302,7 +9022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 173.99 0)
+			(at 179.07 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,7 +9031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 178.435 173.99 0)
+			(at 179.07 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,7 +9123,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU1206-A")
-		(at 438.785 86.995 0)
+		(at 439.42 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9411,7 +9131,7 @@
 		(dnp no)
 		(uuid "2eeaa956-d08d-4a0a-878d-06727689731b")
 		(property "Reference" "C21"
-			(at 439.801 86.36 0)
+			(at 440.436 86.995 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9420,7 +9140,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 439.801 91.186 0)
+			(at 440.436 91.821 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9429,7 +9149,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:1206-A"
-			(at 438.785 86.995 0)
+			(at 439.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 438.785 86.995 0)
+			(at 439.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +9167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 438.785 86.995 0)
+			(at 439.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9192,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 240.665 139.065 0)
+		(at 241.3 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9480,7 +9200,7 @@
 		(dnp no)
 		(uuid "339e3445-480d-4e7c-ac36-af13423b1029")
 		(property "Reference" "#GND16"
-			(at 240.665 139.065 0)
+			(at 241.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9489,7 +9209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.125 141.605 0)
+			(at 238.76 142.24 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9498,7 +9218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.665 139.065 0)
+			(at 241.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.665 139.065 0)
+			(at 241.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9236,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.665 139.065 0)
+			(at 241.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9328,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0603-A-NOSILK")
-		(at 187.96 234.315 0)
+		(at 187.96 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9616,7 +9336,7 @@
 		(dnp no)
 		(uuid "39b7ba1d-167f-4a16-82b2-080e8572ca13")
 		(property "Reference" "C12"
-			(at 189.484 233.934 0)
+			(at 189.484 234.569 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9625,7 +9345,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 189.484 239.014 0)
+			(at 189.484 239.649 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9634,7 +9354,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 187.96 234.315 0)
+			(at 187.96 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 234.315 0)
+			(at 187.96 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 234.315 0)
+			(at 187.96 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,7 +9605,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 134.62 201.295 90)
+		(at 134.62 201.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9893,7 +9613,7 @@
 		(dnp no)
 		(uuid "422c1a0d-9ecd-4bd7-a774-7e026c17b32f")
 		(property "Reference" "R7"
-			(at 133.7564 207.01 0)
+			(at 133.7564 207.645 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9902,7 +9622,7 @@
 			)
 		)
 		(property "Value" "230"
-			(at 133.477 201.93 0)
+			(at 133.477 202.565 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9911,7 +9631,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 134.62 201.295 0)
+			(at 134.62 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9920,7 +9640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 201.295 0)
+			(at 134.62 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,7 +9649,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 201.295 0)
+			(at 134.62 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10020,7 +9740,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0603-A-NOSILK")
-		(at 227.965 196.85 0)
+		(at 228.6 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10028,7 +9748,7 @@
 		(dnp no)
 		(uuid "44211a84-5a8f-4eb7-80dd-f9d6ca8beea0")
 		(property "Reference" "C3"
-			(at 229.489 196.469 0)
+			(at 230.124 196.469 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10037,7 +9757,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 229.489 201.549 0)
+			(at 230.124 201.549 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10046,7 +9766,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 227.965 196.85 0)
+			(at 228.6 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +9775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.965 196.85 0)
+			(at 228.6 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +9784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.965 196.85 0)
+			(at 228.6 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,7 +9809,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 351.155 60.325 0)
+		(at 351.79 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10097,7 +9817,7 @@
 		(dnp no)
 		(uuid "4663a54f-5423-4a28-8788-fd9a2cd6dd82")
 		(property "Reference" "#GND29"
-			(at 351.155 60.325 0)
+			(at 351.79 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +9826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 348.615 62.865 0)
+			(at 349.25 63.5 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10115,7 +9835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.155 60.325 0)
+			(at 351.79 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +9844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.155 60.325 0)
+			(at 351.79 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,7 +9853,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.155 60.325 0)
+			(at 351.79 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10007,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 240.665 123.19 90)
+		(at 241.3 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10295,7 +10015,7 @@
 		(dnp no)
 		(uuid "4e5f81c2-47e3-44c8-901b-214b7887f708")
 		(property "Reference" "R13"
-			(at 239.1664 127 0)
+			(at 239.8014 127 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10304,7 +10024,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 243.967 127 0)
+			(at 244.602 127 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10313,7 +10033,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 240.665 123.19 0)
+			(at 241.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.665 123.19 0)
+			(at 241.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.665 123.19 0)
+			(at 241.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,7 +10076,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU1206-A")
-		(at 428.625 86.36 0)
+		(at 429.26 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10364,7 +10084,7 @@
 		(dnp no)
 		(uuid "4fb0ddb8-4f73-4196-89b2-7f501e2074a0")
 		(property "Reference" "C20"
-			(at 429.641 85.725 0)
+			(at 430.276 85.725 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10373,7 +10093,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 429.641 90.551 0)
+			(at 430.276 90.551 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10382,7 +10102,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:1206-A"
-			(at 428.625 86.36 0)
+			(at 429.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10391,7 +10111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 428.625 86.36 0)
+			(at 429.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +10120,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 428.625 86.36 0)
+			(at 429.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,7 +10145,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 438.785 97.79 0)
+		(at 439.42 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10433,7 +10153,7 @@
 		(dnp no)
 		(uuid "4fd7573c-228f-4dc5-9c2a-f1981fb586ca")
 		(property "Reference" "#GND31"
-			(at 438.785 97.79 0)
+			(at 439.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10442,7 +10162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 436.245 100.33 0)
+			(at 436.88 100.33 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10451,7 +10171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 438.785 97.79 0)
+			(at 439.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +10180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 438.785 97.79 0)
+			(at 439.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +10189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 438.785 97.79 0)
+			(at 439.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10491,7 +10211,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0603-A-NOSILK")
-		(at 198.755 234.315 0)
+		(at 199.39 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10499,7 +10219,7 @@
 		(dnp no)
 		(uuid "5621f3ed-83e2-4503-b8d1-6a3550e60e2b")
 		(property "Reference" "C11"
-			(at 200.279 233.934 0)
+			(at 200.914 234.569 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10508,7 +10228,7 @@
 			)
 		)
 		(property "Value" "2.2n"
-			(at 200.279 239.014 0)
+			(at 200.914 239.649 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10517,7 +10237,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 198.755 234.315 0)
+			(at 199.39 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.755 234.315 0)
+			(at 199.39 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +10255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.755 234.315 0)
+			(at 199.39 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10280,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 133.35 273.685 0)
+		(at 133.35 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10568,7 +10288,7 @@
 		(dnp no)
 		(uuid "563cee81-278a-4e13-bb27-1c2b07c8c784")
 		(property "Reference" "#GND6"
-			(at 133.35 273.685 0)
+			(at 133.35 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 276.225 0)
+			(at 130.81 276.86 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10586,7 +10306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 273.685 0)
+			(at 133.35 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +10315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 273.685 0)
+			(at 133.35 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10604,7 +10324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 273.685 0)
+			(at 133.35 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10346,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0603-A-NOSILK")
-		(at 188.595 200.025 270)
+		(at 189.23 200.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10634,7 +10354,7 @@
 		(dnp no)
 		(uuid "572ca149-817f-406b-9548-7ce86687ecf0")
 		(property "Reference" "C2"
-			(at 185.674 197.739 90)
+			(at 186.309 198.374 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10643,7 +10363,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 188.849 202.819 90)
+			(at 189.484 203.454 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10652,7 +10372,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 188.595 200.025 0)
+			(at 189.23 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,7 +10381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 188.595 200.025 0)
+			(at 189.23 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,7 +10390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 188.595 200.025 0)
+			(at 189.23 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +10415,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 125.73 233.045 90)
+		(at 125.73 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10703,7 +10423,7 @@
 		(dnp no)
 		(uuid "5a95f6eb-478d-481b-b9e4-a28e4a0c8373")
 		(property "Reference" "R8"
-			(at 123.5964 234.315 0)
+			(at 123.5964 234.95 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10712,7 +10432,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 128.397 234.315 0)
+			(at 128.397 234.95 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10721,7 +10441,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 125.73 233.045 0)
+			(at 125.73 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10730,7 +10450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 233.045 0)
+			(at 125.73 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10739,7 +10459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 233.045 0)
+			(at 125.73 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11250,78 +10970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
-		(at 457.835 130.175 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f847383-aa6d-44c8-8bae-064de59b43af")
-		(property "Reference" "JP10"
-			(at 453.39 121.92 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "PINHD-1X3"
-			(at 451.485 135.255 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:1X03"
-			(at 457.835 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 457.835 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 457.835 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6aa848c-0694-4e49-925c-bb8da9f3f988")
-		)
-		(pin "2"
-			(uuid "2306952c-d09c-4156-b31f-212f293bad7b")
-		)
-		(pin "3"
-			(uuid "1ca60818-2a61-42e0-8aef-ff735c933390")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/abb47aaa-2a55-4b3a-9de0-573303ea035d"
-					(reference "JP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0805-C-NOSILK")
 		(at 330.2 185.42 0)
 		(unit 1)
@@ -11540,74 +11188,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:GND")
-		(at 416.56 137.795 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b02087a-8264-45ce-a7a3-0f2a153b7560")
-		(property "Reference" "#GND17"
-			(at 416.56 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 414.02 140.335 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 416.56 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 416.56 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 416.56 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bff2115c-591b-4b0c-add6-cf881178b2af")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/abb47aaa-2a55-4b3a-9de0-573303ea035d"
-					(reference "#GND17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CameraBoard-eagle-import:SI7465DP-T1-E3")
-		(at 250.825 113.665 0)
+		(at 251.46 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11615,7 +11197,7 @@
 		(dnp no)
 		(uuid "7e66d6e5-95cc-4cf4-8902-62e8ed5fc655")
 		(property "Reference" "Q1"
-			(at 260.35 115.57 0)
+			(at 260.985 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11205,7 @@
 			)
 		)
 		(property "Value" "SI7465DP-T1-E3"
-			(at 267.97 120.015 0)
+			(at 268.605 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11213,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:SI7465DP-T1-E3CT-ND"
-			(at 250.825 113.665 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11640,7 +11222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.825 113.665 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11649,7 +11231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.825 113.665 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,7 +11343,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 331.47 60.325 0)
+		(at 331.47 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11769,7 +11351,7 @@
 		(dnp no)
 		(uuid "86921c5e-286d-4df1-aec1-668c1bff2dfc")
 		(property "Reference" "#GND27"
-			(at 331.47 60.325 0)
+			(at 331.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11778,7 +11360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 328.93 62.865 0)
+			(at 328.93 63.5 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11787,7 +11369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.47 60.325 0)
+			(at 331.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11796,7 +11378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 60.325 0)
+			(at 331.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11805,7 +11387,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 60.325 0)
+			(at 331.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +11967,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0805-B-NOSILK")
-		(at 320.675 50.8 0)
+		(at 321.31 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12393,7 +11975,7 @@
 		(dnp no)
 		(uuid "9ec3e451-16e9-4600-9d2e-4a9f8562972a")
 		(property "Reference" "C15"
-			(at 321.691 50.165 0)
+			(at 322.326 50.165 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12402,7 +11984,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 321.691 54.991 0)
+			(at 322.326 54.991 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12411,7 +11993,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0805-B-NOSILK"
-			(at 320.675 50.8 0)
+			(at 321.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12420,7 +12002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.675 50.8 0)
+			(at 321.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12429,7 +12011,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.675 50.8 0)
+			(at 321.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12761,7 +12343,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:+16V")
-		(at 255.905 90.805 0)
+		(at 256.54 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12769,7 +12351,7 @@
 		(dnp no)
 		(uuid "a7c4f24f-6b9b-4403-8dfe-74ec2104b8f7")
 		(property "Reference" "#V1"
-			(at 255.905 90.805 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12778,7 +12360,7 @@
 			)
 		)
 		(property "Value" "+16V"
-			(at 253.365 87.63 0)
+			(at 254 88.265 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12787,7 +12369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.905 90.805 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +12378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.905 90.805 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +12387,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.905 90.805 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +12763,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 415.925 97.79 0)
+		(at 416.56 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13189,7 +12771,7 @@
 		(dnp no)
 		(uuid "b892ea84-0ed3-4674-930a-7a7f13c2cdc3")
 		(property "Reference" "#GND20"
-			(at 415.925 97.79 0)
+			(at 416.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,7 +12780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 413.385 100.33 0)
+			(at 414.02 100.33 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13207,7 +12789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 415.925 97.79 0)
+			(at 416.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13216,7 +12798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 415.925 97.79 0)
+			(at 416.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13225,7 +12807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 415.925 97.79 0)
+			(at 416.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,7 +12898,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 320.675 60.325 0)
+		(at 321.31 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13324,7 +12906,7 @@
 		(dnp no)
 		(uuid "bcb2b7fa-d77f-45e4-89e7-f839a486b6c6")
 		(property "Reference" "#GND23"
-			(at 320.675 60.325 0)
+			(at 321.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +12915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 318.135 62.865 0)
+			(at 318.77 63.5 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13342,7 +12924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.675 60.325 0)
+			(at 321.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13351,7 +12933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.675 60.325 0)
+			(at 321.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +12942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 320.675 60.325 0)
+			(at 321.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,7 +13030,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:PINHD-1X2")
-		(at 120.015 260.35 0)
+		(at 120.65 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13456,7 +13038,7 @@
 		(dnp no)
 		(uuid "c1adc63f-7b65-42ea-9a53-065f850db6bf")
 		(property "Reference" "JP8"
-			(at 113.665 254.635 0)
+			(at 114.3 254.635 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13465,7 +13047,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X2"
-			(at 113.665 265.43 0)
+			(at 114.3 265.43 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13474,7 +13056,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:1X02"
-			(at 120.015 260.35 0)
+			(at 120.65 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13483,7 +13065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.015 260.35 0)
+			(at 120.65 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13492,7 +13074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.015 260.35 0)
+			(at 120.65 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13583,7 +13165,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:TEST-POINT")
-		(at 446.405 80.01 0)
+		(at 447.04 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13591,7 +13173,7 @@
 		(dnp no)
 		(uuid "c8061b0e-306e-4672-a2ac-86f80885fae7")
 		(property "Reference" "TP2"
-			(at 442.595 83.82 0)
+			(at 443.23 83.82 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13600,7 +13182,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT"
-			(at 446.405 80.01 0)
+			(at 447.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,7 +13191,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
-			(at 446.405 80.01 0)
+			(at 447.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,7 +13200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 446.405 80.01 0)
+			(at 447.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,7 +13209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 446.405 80.01 0)
+			(at 447.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +13297,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0603-A-NOSILK")
-		(at 209.55 234.315 0)
+		(at 209.55 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13723,7 +13305,7 @@
 		(dnp no)
 		(uuid "c8ea2d5e-62a8-48e2-81d6-9c967bd6af9b")
 		(property "Reference" "C4"
-			(at 211.074 233.934 0)
+			(at 211.074 234.569 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13732,7 +13314,7 @@
 			)
 		)
 		(property "Value" "4.7n"
-			(at 211.074 239.014 0)
+			(at 211.074 239.649 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13741,7 +13323,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 209.55 234.315 0)
+			(at 209.55 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13750,7 +13332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 234.315 0)
+			(at 209.55 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +13341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 234.315 0)
+			(at 209.55 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13853,7 +13435,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 428.625 97.79 0)
+		(at 429.26 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13861,7 +13443,7 @@
 		(dnp no)
 		(uuid "cbf64136-8fff-43a0-9d62-8d557d8f040c")
 		(property "Reference" "#GND21"
-			(at 428.625 97.79 0)
+			(at 429.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,7 +13452,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 426.085 100.33 0)
+			(at 426.72 100.33 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13879,7 +13461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 428.625 97.79 0)
+			(at 429.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13888,7 +13470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 428.625 97.79 0)
+			(at 429.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13897,7 +13479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 428.625 97.79 0)
+			(at 429.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13919,7 +13501,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 324.485 281.94 0)
+		(at 325.12 281.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13927,7 +13509,7 @@
 		(dnp no)
 		(uuid "cd06b484-0526-408d-b198-69cc5c8310e0")
 		(property "Reference" "#GND15"
-			(at 324.485 281.94 0)
+			(at 325.12 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13936,7 +13518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 321.945 284.48 0)
+			(at 322.58 284.48 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13945,7 +13527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 324.485 281.94 0)
+			(at 325.12 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13954,7 +13536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 324.485 281.94 0)
+			(at 325.12 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13963,7 +13545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 324.485 281.94 0)
+			(at 325.12 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14117,7 +13699,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 193.04 220.345 0)
+		(at 193.04 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14125,7 +13707,7 @@
 		(dnp no)
 		(uuid "d06ea7d9-dda4-4633-b1a5-22d5cb642db0")
 		(property "Reference" "R9"
-			(at 189.23 218.8464 0)
+			(at 189.23 219.4814 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14134,7 +13716,7 @@
 			)
 		)
 		(property "Value" "42.5k"
-			(at 193.675 218.567 0)
+			(at 193.675 219.202 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14143,7 +13725,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 193.04 220.345 0)
+			(at 193.04 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14152,7 +13734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 220.345 0)
+			(at 193.04 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14161,7 +13743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 220.345 0)
+			(at 193.04 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,74 +13836,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 416.56 118.745 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d294e48b-b5b6-4fe4-a3ea-4256a50aee67")
-		(property "Reference" "#P+2"
-			(at 416.56 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 418.465 116.205 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" ""
-			(at 416.56 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 416.56 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 416.56 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3763f40-16d5-4c6d-afb6-c98774cf4bd7")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/abb47aaa-2a55-4b3a-9de0-573303ea035d"
-					(reference "#P+2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CameraBoard-eagle-import:PINHD-1X6")
-		(at 339.725 267.97 0)
+		(at 340.36 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14329,7 +13845,7 @@
 		(dnp no)
 		(uuid "d6df43ea-86d0-4719-a2c7-b26456ea606b")
 		(property "Reference" "JP11"
-			(at 334.01 259.08 0)
+			(at 334.645 259.08 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14338,7 +13854,7 @@
 			)
 		)
 		(property "Value" "PINHD-1X6"
-			(at 333.375 275.59 0)
+			(at 334.01 275.59 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14347,7 +13863,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:1X06"
-			(at 339.725 267.97 0)
+			(at 340.36 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14356,7 +13872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.725 267.97 0)
+			(at 340.36 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14365,7 +13881,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 339.725 267.97 0)
+			(at 340.36 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14581,7 +14097,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:C-EU0603-A-NOSILK")
-		(at 393.065 72.39 270)
+		(at 393.7 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14589,7 +14105,7 @@
 		(dnp no)
 		(uuid "df648691-0df3-461e-a4ea-2dae65a7afdb")
 		(property "Reference" "C14"
-			(at 390.144 70.104 90)
+			(at 390.779 70.104 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14598,7 +14114,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 390.144 76.454 90)
+			(at 390.779 76.454 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14607,7 +14123,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 393.065 72.39 0)
+			(at 393.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14616,7 +14132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 393.065 72.39 0)
+			(at 393.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14625,7 +14141,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 393.065 72.39 0)
+			(at 393.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14650,7 +14166,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 193.04 215.265 0)
+		(at 193.04 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14658,7 +14174,7 @@
 		(dnp no)
 		(uuid "e03de779-9957-4f49-b641-a2c8fe91d1c0")
 		(property "Reference" "R10"
-			(at 187.96 213.1314 0)
+			(at 187.96 213.7664 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14667,7 +14183,7 @@
 			)
 		)
 		(property "Value" "750"
-			(at 193.675 212.852 0)
+			(at 193.675 213.487 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14676,7 +14192,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 193.04 215.265 0)
+			(at 193.04 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14685,7 +14201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 215.265 0)
+			(at 193.04 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14694,7 +14210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 215.265 0)
+			(at 193.04 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14719,7 +14235,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 198.755 246.38 0)
+		(at 199.39 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14727,7 +14243,7 @@
 		(dnp no)
 		(uuid "e4e2f78b-2c94-4565-b50d-bd277e3ea095")
 		(property "Reference" "#GND9"
-			(at 198.755 246.38 0)
+			(at 199.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14736,7 +14252,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.215 248.92 0)
+			(at 196.85 248.92 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14745,7 +14261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.755 246.38 0)
+			(at 199.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14754,7 +14270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.755 246.38 0)
+			(at 199.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14763,7 +14279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.755 246.38 0)
+			(at 199.39 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14785,7 +14301,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 227.965 212.09 0)
+		(at 228.6 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14793,7 +14309,7 @@
 		(dnp no)
 		(uuid "eed48a9b-30b6-4b70-be19-491d362f4b12")
 		(property "Reference" "#GND12"
-			(at 227.965 212.09 0)
+			(at 228.6 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14802,7 +14318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 225.425 214.63 0)
+			(at 226.06 214.63 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14811,7 +14327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.965 212.09 0)
+			(at 228.6 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14820,7 +14336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.965 212.09 0)
+			(at 228.6 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14829,7 +14345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.965 212.09 0)
+			(at 228.6 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14851,7 +14367,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 340.36 60.325 0)
+		(at 340.36 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14859,7 +14375,7 @@
 		(dnp no)
 		(uuid "f33dfed2-a321-4369-a384-d4e79488be65")
 		(property "Reference" "#GND28"
-			(at 340.36 60.325 0)
+			(at 340.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14868,7 +14384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 337.82 62.865 0)
+			(at 337.82 63.5 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14877,7 +14393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 60.325 0)
+			(at 340.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14886,7 +14402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 60.325 0)
+			(at 340.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14895,7 +14411,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 60.325 0)
+			(at 340.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15092,7 +14608,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 231.14 113.665 180)
+		(at 231.14 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15100,7 +14616,7 @@
 		(dnp no)
 		(uuid "f8de58e1-54de-4ff5-94ae-24fdcb3dc036")
 		(property "Reference" "R14"
-			(at 234.95 115.1636 0)
+			(at 234.95 115.7986 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15109,7 +14625,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 234.95 110.363 0)
+			(at 234.95 110.998 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15118,7 +14634,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 231.14 113.665 0)
+			(at 231.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15127,7 +14643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 113.665 0)
+			(at 231.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15136,7 +14652,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 113.665 0)
+			(at 231.14 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15161,7 +14677,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:+16V")
-		(at 318.77 36.195 0)
+		(at 318.77 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15169,7 +14685,7 @@
 		(dnp no)
 		(uuid "fa68c34a-587e-4307-a015-a2ff2fa7efb4")
 		(property "Reference" "#V2"
-			(at 318.77 36.195 0)
+			(at 318.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,7 +14694,7 @@
 			)
 		)
 		(property "Value" "+16V"
-			(at 316.23 33.02 0)
+			(at 316.23 33.655 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15187,7 +14703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 36.195 0)
+			(at 318.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,7 +14712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 36.195 0)
+			(at 318.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15205,7 +14721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 318.77 36.195 0)
+			(at 318.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15297,7 +14813,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:MP26124GR-Z")
-		(at 166.37 207.645 0)
+		(at 166.37 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15305,7 +14821,7 @@
 		(dnp no)
 		(uuid "fe8924dd-c8d1-4cd0-8f94-7e620f4d6a7b")
 		(property "Reference" "U1"
-			(at 169.545 189.611 0)
+			(at 169.545 190.246 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15314,7 +14830,7 @@
 			)
 		)
 		(property "Value" "MP26124GR-Z"
-			(at 166.37 217.805 90)
+			(at 166.37 218.44 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15323,7 +14839,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:MP26124GR-Z"
-			(at 166.37 207.645 0)
+			(at 166.37 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15332,7 +14848,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP26124/document_id/3740"
-			(at 166.37 207.645 0)
+			(at 166.37 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15341,7 +14857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 207.645 0)
+			(at 166.37 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15411,7 +14927,7 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:LEDCHIPLED_0603")
-		(at 418.465 212.09 90)
+		(at 419.1 212.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15419,7 +14935,7 @@
 		(dnp no)
 		(uuid "ff005fba-4f30-48a8-b383-33fb6c9d1104")
 		(property "Reference" "D1"
-			(at 423.3164 207.7466 90)
+			(at 423.9514 207.7466 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15428,7 +14944,7 @@
 			)
 		)
 		(property "Value" "SML-D12U1WT86"
-			(at 430.5554 217.1192 90)
+			(at 431.1904 217.1192 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15437,7 +14953,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:CHIPLED_0603"
-			(at 418.465 212.09 0)
+			(at 419.1 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15446,7 +14962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 418.465 212.09 0)
+			(at 419.1 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,7 +14971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 418.465 212.09 0)
+			(at 419.1 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15464,7 +14980,7 @@
 			)
 		)
 		(property "DIS" "Digikey"
-			(at 418.465 212.09 0)
+			(at 419.1 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15474,7 +14990,7 @@
 			)
 		)
 		(property "DPN" "SML-D12M1WT86CT-ND"
-			(at 418.465 212.09 0)
+			(at 419.1 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15484,7 +15000,7 @@
 			)
 		)
 		(property "MAN" "Rohm Semiconductor"
-			(at 418.465 212.09 0)
+			(at 419.1 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15494,7 +15010,7 @@
 			)
 		)
 		(property "MPN" "SML-D12M1WT86"
-			(at 418.465 212.09 0)
+			(at 419.1 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
