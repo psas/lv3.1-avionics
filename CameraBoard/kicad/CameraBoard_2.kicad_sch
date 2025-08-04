@@ -3227,6 +3227,19 @@
 		)
 		(uuid "3dc5646e-30a1-4995-b7a7-8974177a070f")
 	)
+	(text "Analog Switch"
+		(exclude_from_sim no)
+		(at 129.54 179.07 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d88a853-b146-4239-8fc5-cac9ab1eb46b")
+	)
 	(text "USUALLY high because it's ~{TIMER_OUTPUT},\nand goes low for 30s when Telemetrum fires."
 		(exclude_from_sim no)
 		(at 180.34 189.23 0)
