@@ -4330,16 +4330,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 231.14) (xy 212.09 231.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7eac1b7f-5f66-4942-a6dd-a081a317e421")
-	)
-	(wire
-		(pts
 			(xy 191.77 236.22) (xy 212.09 236.22)
 		)
 		(stroke
@@ -4492,6 +4482,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 226.06) (xy 204.47 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cfd34c0-a3ce-440b-bc40-e41eb8656e77")
+	)
+	(wire
+		(pts
 			(xy 88.9 200.66) (xy 88.9 207.01)
 		)
 		(stroke
@@ -4520,16 +4520,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "9ddbd86f-429e-4d9a-a609-c983ad369feb")
-	)
-	(wire
-		(pts
-			(xy 196.85 224.79) (xy 196.85 231.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9de05f81-b798-4105-afc5-d4e2ab8f00bb")
 	)
 	(wire
 		(pts
@@ -4571,6 +4561,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "a4d668af-061f-4841-96bc-d96d6ac030b0")
+	)
+	(wire
+		(pts
+			(xy 212.09 231.14) (xy 204.47 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8edca69-34e6-464f-8ac4-263ec10f8f04")
 	)
 	(wire
 		(pts
@@ -4682,17 +4682,6 @@
 			(type solid)
 		)
 		(uuid "bcd4060a-c492-45c7-8b0d-f5b6373df5df")
-	)
-	(polyline
-		(pts
-			(xy 195.58 226.06) (xy 198.12 228.6)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "be7520d7-fe61-42ac-825b-65bf869c20f0")
 	)
 	(polyline
 		(pts
@@ -4848,17 +4837,6 @@
 		)
 		(uuid "d247cb6b-2d0e-45e5-a934-b75ca8f77946")
 	)
-	(polyline
-		(pts
-			(xy 195.58 228.6) (xy 198.12 226.06)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "d2a853f0-38f7-499e-86f7-9428699c02aa")
-	)
 	(wire
 		(pts
 			(xy 300.99 210.82) (xy 358.14 210.82)
@@ -4868,17 +4846,6 @@
 			(type solid)
 		)
 		(uuid "d4baf40d-b894-4733-945a-d351acebac93")
-	)
-	(polyline
-		(pts
-			(xy 204.47 231.14) (xy 204.47 226.06)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "d611b3e2-2af3-4d8e-bfb4-04cdb56cd12d")
 	)
 	(wire
 		(pts
@@ -8790,72 +8757,6 @@
 			(project ""
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 196.85 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d294e48b-b5b6-4fe4-a3ea-4256a50aee67")
-		(property "Reference" "#P+2"
-			(at 196.85 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 198.755 219.71 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3763f40-16d5-4c6d-afb6-c98774cf4bd7")
-		)
-		(instances
-			(project "CameraBoard"
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#P+2")
 					(unit 1)
 				)
 			)
