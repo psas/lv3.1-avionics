@@ -1,26 +1,277 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "930af3b0-6aa7-4fb0-9c76-621c82994fb9")
 	(paper "User" 469.9 318.262)
 	(lib_symbols
-		(symbol "CameraBoard-eagle-import:+12V"
-			(power)
+		(symbol "74xGxx:74AUC1G74"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#P+"
-				(at 0 0 0)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+				)
+			)
+			(property "Value" "74AUC1G74"
+				(at 10.16 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single D Flip-Flop, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single D Flip-Flop D CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SSOP* VSSOP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AUC1G74_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUC1G74_1_1"
+				(pin input clock
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -12.7 90)
+					(length 5.08)
+					(name "~{CLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 12.7 270)
+					(length 5.08)
+					(name "~{PRE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CameraBoard-eagle-import:+12V"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Value" ""
 				(at -2.54 -5.08 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -30,33 +281,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SUPPLY SYMBOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -134,21 +393,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "CameraBoard-eagle-import:+5V"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#P+"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -2.54 -5.08 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -158,33 +423,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SUPPLY SYMBOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -237,875 +510,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CameraBoard-eagle-import:BSS84"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "CameraBoard:BSS84"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BSS84_1_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy 5.08 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.175) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.175) (xy 5.08 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.715) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.715) (xy 5.08 -5.715)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -5.715)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.175) (xy 3.81 2.54) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0.635) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0.635) (xy 7.62 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.635) (xy 5.08 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.175) (xy 5.08 -5.715)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.715) (xy 5.08 -6.35)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 8.89 2.54) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -3.81) (xy 8.89 -3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0.635) (xy 7.62 -6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -6.985) (xy 5.08 -6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 6.35 270)
-					(length 5.08)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -11.43 90)
-					(length 5.08)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CameraBoard-eagle-import:BVSS123LT1G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "CameraBoard:BVSS123LT1G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BVSS123LT1G_1_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy 5.08 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.175) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.175) (xy 5.08 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.715) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.715) (xy 5.08 -5.715)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 1.27 -5.715)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.27 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0.635) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0.635) (xy 7.62 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.635) (xy 5.08 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.175) (xy 5.08 -5.715)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.715) (xy 5.08 -6.35)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 3.175) (xy 8.89 3.175) (xy 7.62 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 8.89 -1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0.635) (xy 7.62 -6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -6.985) (xy 5.08 -6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 6.35 270)
-					(length 5.08)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -11.43 90)
-					(length 5.08)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CameraBoard-eagle-import:C-EU0603-C-NOSILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.524 0.381 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -4.699 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAPACITOR, European symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C-EU0603-C-NOSILK_1_0"
-				(rectangle
-					(start -2.032 -1.016)
-					(end 2.032 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CameraBoard-eagle-import:GND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#GND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1115,33 +541,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "SUPPLY SYMBOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1186,8 +620,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at -5.08 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1197,6 +635,8 @@
 			)
 			(property "Value" ""
 				(at -5.08 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1206,33 +646,41 @@
 			)
 			(property "Footprint" "CameraBoard:H11F1SR2M"
 				(at 0 23.114 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1555,265 +1003,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CameraBoard-eagle-import:ICM7242IBAZ-SMD"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 7.874 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.08 -17.78 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CameraBoard:ICM7242IBAZ-SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ICM7242IBAZ-SMD_1_0"
-				(polyline
-					(pts
-						(xy 5.08 7.62) (xy 27.94 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -15.24) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 27.94 7.62) (xy 27.94 -15.24)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 27.94 -15.24) (xy 5.08 -15.24)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "/2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "/128"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 0 180)
-					(length 5.08)
-					(name "TB"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "RC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -5.08 180)
-					(length 5.08)
-					(name "TRIGGER"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 33.02 -7.62 180)
-					(length 5.08)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CameraBoard-eagle-import:PINHD-1X3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
 				(at -6.35 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1823,6 +1022,8 @@
 			)
 			(property "Value" ""
 				(at -6.35 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1832,33 +1033,41 @@
 			)
 			(property "Footprint" "CameraBoard:1X03"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "PIN HEADER"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1971,217 +1180,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CameraBoard-eagle-import:R-US_0603-A-NOSILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RESISTOR, American symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0603-A-NOSILK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CameraBoard-eagle-import:R-US_0603-C-NOSILK"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at -3.81 1.4986 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2191,6 +1199,8 @@
 			)
 			(property "Value" ""
 				(at -3.81 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2200,33 +1210,41 @@
 			)
 			(property "Footprint" "CameraBoard:.0603-C-NOSILK"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "RESISTOR, American symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2381,458 +1399,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CameraBoard-eagle-import:R-US_0805-A-NOSILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CameraBoard:.0805-A-NOSILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RESISTOR, American symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0805-A-NOSILK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CameraBoard-eagle-import:SN74LVC1G17DCKR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CameraBoard:SN74LVC1G17DCKR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74LVC1G17DCKR_1_0"
-				(polyline
-					(pts
-						(xy -6.35 7.62) (xy -6.35 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -7.62) (xy 8.89 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 0) (xy -6.35 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -11.43 0 0)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "INPUT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -1.27 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -1.27 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 13.97 0 180)
-					(length 5.08)
-					(name "Y"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "OUTPUT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CameraBoard-eagle-import:TEST-POINT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.778)
@@ -2842,42 +1418,52 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "CameraBoard:2MM-TEST-POINT"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2958,8 +1544,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -0.635 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2969,6 +1559,8 @@
 			)
 			(property "Value" ""
 				(at -0.635 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2978,33 +1570,41 @@
 			)
 			(property "Footprint" "CameraBoard:TS5A3159ADBVR"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3079,6 +1679,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at -3.81 -16.51 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at -11.43 -2.54 0)
 					(length 5.08)
 					(name "NC"
@@ -3089,6 +1707,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3115,24 +1751,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -3.81 -16.51 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 2.54 13.335 270)
 					(length 5.08)
 					(name "IN"
@@ -3150,20 +1768,191 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "COM"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3172,20 +1961,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "This generates a 20ms\npulse when\nTIMERPULSE is high"
-		(exclude_from_sim no)
-		(at 279.4 114.3 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "12dd7c87-0d02-4d0d-a433-ee1c533bb608")
-	)
 	(text "NOT ACTUALLY GROUND. This is the BATT+\nfrom the Telemetrum's ignition circuit"
 		(exclude_from_sim no)
-		(at 93.98 110.49 0)
+		(at 93.98 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3203,17 +1981,6 @@
 			(justify left bottom)
 		)
 		(uuid "28e349bb-1409-4222-92a7-b70081ce5080")
-	)
-	(text "This timer is in monostable mode, so  TIMER_OUTPUT is connected to the reset"
-		(exclude_from_sim no)
-		(at 302.26 215.9 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "333d6b79-2048-49e8-ac5b-deb484c12017")
 	)
 	(text "Usually outputs CAM_DOWN until \nTelemetrum trigger, when it sends\nCAM_UP for 30s."
 		(exclude_from_sim no)
@@ -3263,27 +2030,6 @@
 		)
 		(uuid "69b4aa92-f537-4379-804d-7180accb9539")
 	)
-	(text "A high signal from either drogue\nor main will tell the pulse generator\nto send the timer a pulse"
-		(exclude_from_sim no)
-		(at 210.82 71.12 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "712ae33a-87ed-486b-8fef-fb862c0ae47f")
-	)
-	(text "THIS ENTIRE CIRCUIT IS PROBABLY USELESS AND CAN BE\nREMOVED IN THE NEXT VERSION. The telemetrum\ncertainly fires for at least 20 ms!"
-		(exclude_from_sim no)
-		(at 351.79 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7dd32f21-91fc-4c43-a7af-cdf5c6a0af25")
-	)
 	(text "Cameras"
 		(exclude_from_sim no)
 		(at 83.82 190.5 0)
@@ -3294,19 +2040,6 @@
 			(justify left bottom)
 		)
 		(uuid "967b6a8b-4389-48cd-892d-a10e6c2d4e19")
-	)
-	(text "30s Timer"
-		(exclude_from_sim no)
-		(at 322.58 160.02 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a951462-2e4f-4cb3-a47e-e244ea5ce9b3")
 	)
 	(text "Wired into 12V because it was easy;\nmight be better directly to vbatt."
 		(exclude_from_sim no)
@@ -3332,31 +2065,7 @@
 		)
 		(uuid "b09ab36d-5b8d-4cf8-a532-9f5525046235")
 	)
-	(text "Pulse Generator"
-		(exclude_from_sim no)
-		(at 299.72 46.99 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccfce065-3610-49e0-840a-dda86f2768ed")
-	)
-	(text "Timer outputs high for 30seconds when recieving a trigger"
-		(exclude_from_sim no)
-		(at 311.15 228.6 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "d98bbf54-b494-46bc-980e-66857e4aba59")
-	)
-	(text "These signals are pulled to GND\nby the telemetrum, so the opto\nisolator LEDs are wired backward.\nFixed with modwires."
+	(text "These signals are pulled from the positive \nbattery terminal of the Telemetrum \nto GND by the telemetrum."
 		(exclude_from_sim no)
 		(at 68.58 46.99 0)
 		(effects
@@ -3373,34 +2082,16 @@
 		(uuid "09fee48e-f0f7-4dae-9405-83b56fbade57")
 	)
 	(junction
-		(at 129.54 115.57)
+		(at 129.54 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c3f86f4-ecfa-49e6-ac47-a233a6468525")
+		(uuid "0f371656-7ab3-4bc7-bf68-ab3f3e9fecdd")
 	)
 	(junction
-		(at 287.02 93.98)
+		(at 191.77 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "132231e9-cfa9-492f-902d-86e3b1e50667")
-	)
-	(junction
-		(at 314.96 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "168c1f76-8b8e-490e-b1a8-b4ebb7fc15f8")
-	)
-	(junction
-		(at 149.86 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f66b36d-7e20-45f9-bb17-0ada9c40aa34")
-	)
-	(junction
-		(at 337.82 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f40dc52-7ca3-4df0-a384-c03f9a70e6dd")
+		(uuid "2d5db47c-29a8-449f-b183-10dd36315dd6")
 	)
 	(junction
 		(at 91.44 236.22)
@@ -3409,22 +2100,28 @@
 		(uuid "3203aabd-6333-488e-b25d-449bbb3fc62c")
 	)
 	(junction
+		(at 167.64 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36c3524b-2418-4715-ad99-96352cdb2177")
+	)
+	(junction
 		(at 91.44 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48e9a11f-48ff-4be5-ab0e-e91f3f78a31d")
 	)
 	(junction
+		(at 242.57 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49dd6d5d-b3e9-4470-b06d-66a2862a5576")
+	)
+	(junction
 		(at 91.44 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b2cda31-7b5b-410c-860d-cfd5b951f84f")
-	)
-	(junction
-		(at 167.64 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b3275a2-5665-46e7-8694-5b4bb9c1d3aa")
 	)
 	(junction
 		(at 91.44 213.36)
@@ -3451,16 +2148,16 @@
 		(uuid "675145f0-9660-4551-8478-4f7851c5e4d5")
 	)
 	(junction
-		(at 314.96 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75407f99-61e1-4eee-aafa-bca94977150f")
-	)
-	(junction
 		(at 88.9 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dcb8d98-7269-4657-b875-1c7cbbd1f3aa")
+	)
+	(junction
+		(at 232.41 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "844738eb-e14b-4a66-b14e-577849b28a08")
 	)
 	(junction
 		(at 88.9 226.06)
@@ -3469,28 +2166,10 @@
 		(uuid "89021125-3856-4d22-bf5c-ea366a98560d")
 	)
 	(junction
-		(at 368.3 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c886fdc-9fcc-424f-9d3b-2c171cf73184")
-	)
-	(junction
 		(at 123.19 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93772e8e-42f4-4fc3-8b83-8f9cd892c9c4")
-	)
-	(junction
-		(at 196.85 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b4627ba-e127-4610-a5c7-f7c599529b68")
-	)
-	(junction
-		(at 300.99 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b4f4580-8fd0-4589-8693-444c7af715bd")
 	)
 	(junction
 		(at 88.9 266.7)
@@ -3511,40 +2190,10 @@
 		(uuid "af438cb6-0ba2-4084-a16e-23178f4f2e52")
 	)
 	(junction
-		(at 260.35 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b24a26b5-782b-4027-a0f4-74154660fc5c")
-	)
-	(junction
-		(at 143.51 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b74317ba-96fc-4d2d-b4a3-8ef98be7b607")
-	)
-	(junction
-		(at 309.88 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b82d6e37-7448-44ea-bc79-5ee76442105f")
-	)
-	(junction
 		(at 91.44 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd02ac42-5471-43da-ab25-ea99ddb5a84c")
-	)
-	(junction
-		(at 383.54 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4630c4e-602b-4e92-98c5-8561bf5c4bc1")
-	)
-	(junction
-		(at 209.55 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c624f05a-dd66-40b2-882c-2a9acd36f39e")
 	)
 	(junction
 		(at 88.9 276.86)
@@ -3571,18 +2220,6 @@
 		(uuid "da0d9809-092e-47ed-926a-66d6a5b4d7a2")
 	)
 	(junction
-		(at 363.22 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0bcd9c8-2d5d-4505-8075-82df008f643a")
-	)
-	(junction
-		(at 360.68 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e39dae59-112e-4cb2-8b06-be764c23e35f")
-	)
-	(junction
 		(at 120.65 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3593,20 +2230,12 @@
 		(uuid "256ca4d9-ccd3-4067-86bb-da10fe1eeb3a")
 	)
 	(no_connect
-		(at 318.77 190.5)
-		(uuid "3e1fb03d-8638-477a-bbae-5f630799fa7b")
-	)
-	(no_connect
 		(at 93.98 287.02)
 		(uuid "4031f7cf-ddfd-4dc7-a01c-663d8c826507")
 	)
 	(no_connect
 		(at 93.98 256.54)
 		(uuid "547c1992-92e4-419b-aba5-2b4005e18636")
-	)
-	(no_connect
-		(at 351.79 187.96)
-		(uuid "68e64083-6e45-4d9f-b8e4-54187df7cdb8")
 	)
 	(no_connect
 		(at 93.98 276.86)
@@ -3626,64 +2255,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 196.85) (xy 149.86 197.485)
+			(xy 149.86 62.23) (xy 167.64 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00a5f1c4-8f35-4af7-97aa-1606dfd63bf1")
-	)
-	(wire
-		(pts
-			(xy 133.35 200.66) (xy 133.35 199.39)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0142a5ea-e346-49bf-863b-9415ae022a85")
-	)
-	(wire
-		(pts
-			(xy 363.22 176.53) (xy 363.22 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02dfa575-b5a2-4900-91d7-6bd95ec44472")
-	)
-	(wire
-		(pts
-			(xy 363.22 176.53) (xy 368.3 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "038f8e67-fb34-47d3-ac00-313a7e36a63d")
-	)
-	(wire
-		(pts
-			(xy 332.74 90.17) (xy 332.74 91.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "05cbe8b8-2b49-4b40-95ac-ad1a3b107ca3")
-	)
-	(polyline
-		(pts
-			(xy 160.02 62.23) (xy 160.02 96.52)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "05f952de-a9d3-4eb5-b8e9-8728f960707f")
+		(uuid "05922022-f01a-466b-8a5f-e60a382351e3")
 	)
 	(wire
 		(pts
@@ -3694,17 +2272,6 @@
 			(type solid)
 		)
 		(uuid "0af6dc86-3856-4df8-a324-4304827730e6")
-	)
-	(polyline
-		(pts
-			(xy 123.19 62.23) (xy 129.54 62.23)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "0b6033f3-d23c-4c8f-ad02-35fad9b3df38")
 	)
 	(wire
 		(pts
@@ -3718,33 +2285,13 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 171.45) (xy 309.88 168.91)
+			(xy 149.86 93.98) (xy 157.48 93.98)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "0e8bab60-6ad6-4418-af05-f344489f171c")
-	)
-	(wire
-		(pts
-			(xy 176.53 105.41) (xy 176.53 87.63)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "12c272ac-cc40-4018-a65f-75712e14198e")
-	)
-	(wire
-		(pts
-			(xy 299.72 82.55) (xy 304.8 82.55)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1596e890-f4f1-4ad1-a14f-9be70f4e750e")
+		(uuid "12365fe4-944f-4582-9bff-0ff33394b4c7")
 	)
 	(wire
 		(pts
@@ -3756,46 +2303,15 @@
 		)
 		(uuid "15c8421c-0031-47f8-b398-ab9b0a16ab16")
 	)
-	(polyline
-		(pts
-			(xy 128.27 60.96) (xy 130.81 58.42)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "19547d76-933a-4637-b9e9-e0827d355e89")
-	)
 	(wire
 		(pts
-			(xy 358.14 210.82) (xy 358.14 195.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1a3efd81-d060-4ce0-be06-0d26de61d5e8")
-	)
-	(wire
-		(pts
-			(xy 149.86 105.41) (xy 149.86 107.95)
+			(xy 167.64 73.66) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "1d2adb02-f59d-466e-8d0d-144ddf5776c9")
-	)
-	(wire
-		(pts
-			(xy 149.86 87.63) (xy 149.86 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "22a6c8c1-a552-4fb3-8ed7-58da16afd9a6")
 	)
 	(wire
 		(pts
@@ -3806,70 +2322,6 @@
 			(type default)
 		)
 		(uuid "24133ee9-06f1-48f2-b013-947a3ae17f99")
-	)
-	(polyline
-		(pts
-			(xy 165.1 54.61) (xy 165.1 88.9)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "26042653-6c53-44bc-af43-3e4d2cfefa72")
-	)
-	(polyline
-		(pts
-			(xy 175.26 92.71) (xy 177.8 90.17)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "26533560-0e0f-48d6-9c6f-4fd5969aa82b")
-	)
-	(wire
-		(pts
-			(xy 290.83 99.06) (xy 287.02 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2771be1e-428c-4375-88ca-e02198dda3c8")
-	)
-	(wire
-		(pts
-			(xy 129.54 115.57) (xy 176.53 115.57)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "288db23b-4182-4ce1-9f16-f68118c581a4")
-	)
-	(polyline
-		(pts
-			(xy 175.26 90.17) (xy 177.8 92.71)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "28f131d4-288a-4ebd-bf22-0a1a728e33a7")
-	)
-	(polyline
-		(pts
-			(xy 165.1 88.9) (xy 176.53 88.9)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "2c3a6f84-92b8-4fdd-a915-267ed88102a6")
 	)
 	(wire
 		(pts
@@ -3893,53 +2345,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 93.98) (xy 287.02 93.98)
+			(xy 232.41 43.18) (xy 232.41 44.45)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "2e8bf184-a06b-4146-b7ad-aa30f9415076")
-	)
-	(wire
-		(pts
-			(xy 368.3 176.53) (xy 368.3 173.99)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "314ff809-8761-4ff7-8b37-af6423c5387c")
-	)
-	(wire
-		(pts
-			(xy 287.02 93.98) (xy 287.02 82.55)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "345f0b69-e863-4950-a14a-2ec5c9f8bd59")
-	)
-	(wire
-		(pts
-			(xy 149.86 193.04) (xy 260.35 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "373778fa-19f0-48e7-9144-99cf2f981fb3")
-	)
-	(wire
-		(pts
-			(xy 133.35 191.77) (xy 143.51 191.77)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3781471d-51da-4edd-9f3e-a1180e0ca0f8")
+		(uuid "32d7c7a0-9537-4aab-bad7-364403efd366")
 	)
 	(wire
 		(pts
@@ -3951,38 +2363,6 @@
 		)
 		(uuid "3be437f7-4c36-49e3-b410-de674440f1d0")
 	)
-	(polyline
-		(pts
-			(xy 116.84 55.88) (xy 116.84 88.9)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "3fd7e4f7-d1aa-4d6a-9d9e-ec2a269100ac")
-	)
-	(wire
-		(pts
-			(xy 314.96 113.03) (xy 314.96 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "42790305-aa10-4a87-88b2-116cf7e70691")
-	)
-	(polyline
-		(pts
-			(xy 113.03 96.52) (xy 129.54 96.52)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "475324e0-e5fe-4f15-88b8-1f6c599a9573")
-	)
 	(wire
 		(pts
 			(xy 88.9 256.54) (xy 88.9 266.7)
@@ -3992,38 +2372,6 @@
 			(type solid)
 		)
 		(uuid "476e3575-9b16-4868-921c-5d763dfe7cf8")
-	)
-	(polyline
-		(pts
-			(xy 128.27 90.17) (xy 130.81 92.71)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "47ad626c-3b86-452b-871f-060ee1b98869")
-	)
-	(polyline
-		(pts
-			(xy 175.26 60.96) (xy 177.8 58.42)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "4804fe78-d42a-440c-9256-5ce196e4cdff")
-	)
-	(wire
-		(pts
-			(xy 337.82 113.03) (xy 350.52 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4bcd3994-5514-476d-8ad8-3d1339716b89")
 	)
 	(wire
 		(pts
@@ -4037,13 +2385,13 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 173.99) (xy 299.72 171.45)
+			(xy 222.25 69.85) (xy 227.33 69.85)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "52d7859a-90c2-4d87-b200-13caec8ffc11")
+		(uuid "51f534fe-5690-4b5a-9e2a-c28f5ec602ce")
 	)
 	(wire
 		(pts
@@ -4054,57 +2402,6 @@
 			(type solid)
 		)
 		(uuid "550c820a-5d08-4dca-a478-79b9f7d8615b")
-	)
-	(polyline
-		(pts
-			(xy 113.03 62.23) (xy 113.03 96.52)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "57ea61c3-a227-4f5e-83fc-526d297331f0")
-	)
-	(wire
-		(pts
-			(xy 373.38 176.53) (xy 373.38 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "581e09c3-2f7a-4f8a-bf42-d7d8ea3b636c")
-	)
-	(wire
-		(pts
-			(xy 374.65 97.79) (xy 360.68 97.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "58e3ee78-ac46-4f4e-89c8-ef6aae1eb768")
-	)
-	(wire
-		(pts
-			(xy 309.88 187.96) (xy 309.88 171.45)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "590022c1-314b-4923-964d-00f1fad48354")
-	)
-	(wire
-		(pts
-			(xy 196.85 55.88) (xy 196.85 62.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5c20557f-3ece-41e3-903e-0c6c9408ddca")
 	)
 	(wire
 		(pts
@@ -4118,73 +2415,33 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 44.45) (xy 167.64 44.45)
+			(xy 157.48 93.98) (xy 157.48 88.9)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "5eee7b10-732f-422b-8b8c-6be975b7141c")
+		(uuid "672cc764-4dbe-4e5a-9b7b-ab9d7df1c74b")
 	)
 	(wire
 		(pts
-			(xy 318.77 195.58) (xy 316.23 195.58)
+			(xy 250.19 39.37) (xy 217.17 39.37)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "604c6931-c2d7-4a12-b48e-a144b2edef62")
+		(uuid "67d78802-15f0-43d2-8313-cc50577c2a52")
 	)
 	(wire
 		(pts
-			(xy 260.35 193.04) (xy 300.99 193.04)
+			(xy 242.57 62.23) (xy 242.57 210.82)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "60c68a8a-a020-4ee3-af02-8255b0bb7b84")
-	)
-	(wire
-		(pts
-			(xy 383.54 113.03) (xy 420.37 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6260c248-a776-4889-b8fe-31734f615794")
-	)
-	(wire
-		(pts
-			(xy 360.68 97.79) (xy 360.68 102.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6604af99-9404-4b67-8f4c-de8bdf3ddb22")
-	)
-	(wire
-		(pts
-			(xy 360.68 123.19) (xy 360.68 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "661930d6-5e09-40d6-903d-095591294cea")
-	)
-	(wire
-		(pts
-			(xy 196.85 93.98) (xy 196.85 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6992fec7-e1f5-40d8-b882-81bb108d0c19")
+		(uuid "68d58b28-593b-4a3d-ad57-18d961a9f41c")
 	)
 	(wire
 		(pts
@@ -4198,16 +2455,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 106.68) (xy 374.65 105.41)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6c408055-d37c-49b5-8ef8-ef610b474d3e")
-	)
-	(wire
-		(pts
 			(xy 88.9 246.38) (xy 88.9 256.54)
 		)
 		(stroke
@@ -4215,37 +2462,6 @@
 			(type solid)
 		)
 		(uuid "6ce398b6-6939-42cd-b9e1-a0b7d2b6c1fb")
-	)
-	(wire
-		(pts
-			(xy 143.51 191.77) (xy 143.51 194.31)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6e736c95-a169-43c0-939b-c7fe20b99276")
-	)
-	(polyline
-		(pts
-			(xy 113.03 62.23) (xy 123.19 62.23)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "70fc3146-aad2-40bc-b7b8-3abd63b73788")
-	)
-	(wire
-		(pts
-			(xy 316.23 195.58) (xy 316.23 203.2)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "717238b0-db83-4aaf-9595-f67d48f51ecd")
 	)
 	(wire
 		(pts
@@ -4259,36 +2475,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 189.23) (xy 143.51 191.77)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "79783138-4826-408e-818a-bd7a7bc3b7bf")
-	)
-	(wire
-		(pts
-			(xy 196.85 93.98) (xy 209.55 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "79f4ad6a-3c14-4068-a997-333342a4015d")
-	)
-	(wire
-		(pts
-			(xy 375.92 113.03) (xy 383.54 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7a59d070-6ff0-4635-9f92-c0b9ca1da7ed")
-	)
-	(wire
-		(pts
 			(xy 91.44 213.36) (xy 91.44 200.66)
 		)
 		(stroke
@@ -4299,34 +2485,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 54.61) (xy 149.86 62.23)
+			(xy 227.33 44.45) (xy 232.41 44.45)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "7c0f0092-a938-4ad3-a118-62d8af9b2270")
-	)
-	(wire
-		(pts
-			(xy 314.96 113.03) (xy 337.82 113.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7cba669f-8b4b-46a6-8c14-a80a2c898ef8")
-	)
-	(polyline
-		(pts
-			(xy 165.1 54.61) (xy 170.18 54.61)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "7dbff1b4-9495-45d7-be23-25b2ba3f6c00")
+		(uuid "80209d6c-e0f0-4c59-bacd-7f5f15f9b203")
 	)
 	(wire
 		(pts
@@ -4350,16 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 187.96) (xy 309.88 187.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "866385b8-06da-4483-a154-5076a3873ace")
-	)
-	(wire
-		(pts
 			(xy 123.19 208.28) (xy 135.89 208.28)
 		)
 		(stroke
@@ -4378,27 +2533,6 @@
 		)
 		(uuid "8890e4b6-ca73-43a5-b0f3-7a39a6fee95c")
 	)
-	(polyline
-		(pts
-			(xy 123.19 55.88) (xy 129.54 55.88)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "8b90dec1-4a83-4857-a01c-39d2259bcff7")
-	)
-	(wire
-		(pts
-			(xy 274.32 193.04) (xy 300.99 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be24199-8b2a-4e62-98b3-1eb3c49b1699")
-	)
 	(wire
 		(pts
 			(xy 120.65 50.8) (xy 97.79 50.8)
@@ -4408,37 +2542,6 @@
 			(type solid)
 		)
 		(uuid "8bef4286-2118-4e7a-9179-2312a7c8d330")
-	)
-	(polyline
-		(pts
-			(xy 175.26 58.42) (xy 177.8 60.96)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "8c60dc4a-1379-49fb-bf88-7186b2727bca")
-	)
-	(wire
-		(pts
-			(xy 318.77 193.04) (xy 300.99 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8c6e7b3f-2d05-4341-8d5b-739c1ed824d3")
-	)
-	(wire
-		(pts
-			(xy 314.96 90.17) (xy 314.96 92.71)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8cc34244-7eae-44a3-a161-4abd0b3abfe6")
 	)
 	(wire
 		(pts
@@ -4452,33 +2555,33 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 90.17) (xy 314.96 90.17)
+			(xy 232.41 69.85) (xy 232.41 71.12)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "95dad121-d1c6-497d-8af1-fb5385a423ce")
+		(uuid "9138dd87-0c51-48aa-a250-cac157246533")
 	)
 	(wire
 		(pts
-			(xy 373.38 190.5) (xy 363.22 190.5)
+			(xy 129.54 101.6) (xy 129.54 105.41)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "9b2f7c96-a362-4055-bcf7-6b0b62283597")
+		(uuid "92746b6d-66fb-4940-bbad-0a65964be5dd")
 	)
 	(wire
 		(pts
-			(xy 314.96 71.12) (xy 314.96 69.85)
+			(xy 167.64 62.23) (xy 217.17 62.23)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "9c00187b-1e94-4392-a758-41c9b6c3412f")
+		(uuid "9498a66c-499a-4858-92f3-9b61be01a67c")
 	)
 	(wire
 		(pts
@@ -4502,65 +2605,13 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 99.06) (xy 304.8 99.06)
+			(xy 129.54 100.33) (xy 129.54 101.6)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "9da8be00-de81-4ada-8d21-c59085df4c90")
-	)
-	(polyline
-		(pts
-			(xy 170.18 62.23) (xy 176.53 62.23)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "9ddbd86f-429e-4d9a-a609-c983ad369feb")
-	)
-	(wire
-		(pts
-			(xy 299.72 182.88) (xy 299.72 181.61)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a2e841c0-81fd-47d7-9cbf-485ab7fd77a0")
-	)
-	(wire
-		(pts
-			(xy 363.22 189.23) (xy 363.22 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a2f18e6f-a465-45d7-8245-538f52f23fa0")
-	)
-	(wire
-		(pts
-			(xy 328.93 90.17) (xy 332.74 90.17)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a418acd1-9ff0-498b-9696-e14c7098f628")
-	)
-	(polyline
-		(pts
-			(xy 128.27 58.42) (xy 130.81 60.96)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "a4d668af-061f-4841-96bc-d96d6ac030b0")
+		(uuid "a27150ad-c850-446a-9d3d-bb877d1f661f")
 	)
 	(wire
 		(pts
@@ -4582,26 +2633,25 @@
 		)
 		(uuid "ac637d18-895e-4763-aace-100a3173f54a")
 	)
-	(polyline
-		(pts
-			(xy 160.02 96.52) (xy 176.53 96.52)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "ad9e58f2-d666-44cf-95e1-ce1a1464ad88")
-	)
 	(wire
 		(pts
-			(xy 358.14 195.58) (xy 351.79 195.58)
+			(xy 167.64 62.23) (xy 167.64 63.5)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ade33fd9-d8f5-409a-b8bc-dcc7a86bd59d")
+		(uuid "b013c395-bc69-4253-9a70-e3b2707735f7")
+	)
+	(wire
+		(pts
+			(xy 242.57 62.23) (xy 250.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c47807-b1dd-4798-90a4-d672d5f61fb8")
 	)
 	(wire
 		(pts
@@ -4615,17 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 193.04) (xy 300.99 210.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b467efdd-eb4b-4598-91c4-bef48b33112a")
-	)
-	(wire
-		(pts
-			(xy 99.06 115.57) (xy 129.54 115.57)
+			(xy 99.06 101.6) (xy 129.54 101.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -4655,54 +2695,13 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 58.42) (xy 314.96 59.69)
+			(xy 242.57 52.07) (xy 242.57 62.23)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "ba822911-6b9d-4fab-a6e9-e0ad60022f62")
-	)
-	(wire
-		(pts
-			(xy 287.02 82.55) (xy 289.56 82.55)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bb8fbd3c-c2bd-4c41-9215-a688e87869a0")
-	)
-	(wire
-		(pts
-			(xy 368.3 176.53) (xy 373.38 176.53)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bcd4060a-c492-45c7-8b0d-f5b6373df5df")
-	)
-	(polyline
-		(pts
-			(xy 116.84 88.9) (xy 129.54 88.9)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "be9eaae0-818b-4f4b-a0a4-a8b36799b074")
-	)
-	(wire
-		(pts
-			(xy 420.37 113.03) (xy 420.37 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c060d52a-92ab-4c55-b21d-d3231f504b1b")
+		(uuid "bb405725-e759-4801-a29d-41e1e3d715ac")
 	)
 	(wire
 		(pts
@@ -4724,37 +2723,15 @@
 		)
 		(uuid "c1902bc6-4339-43f7-b8b4-b2c5aa3968eb")
 	)
-	(polyline
-		(pts
-			(xy 116.84 55.88) (xy 123.19 55.88)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "c2dee8be-ebd2-4269-8ac1-280a960c80d9")
-	)
-	(polyline
-		(pts
-			(xy 170.18 54.61) (xy 176.53 54.61)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "c30b8f72-7011-451d-8234-268e0d00c9e5")
-	)
 	(wire
 		(pts
-			(xy 299.72 171.45) (xy 309.88 171.45)
+			(xy 129.54 113.03) (xy 129.54 115.57)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "c67cd43f-93e0-433a-a424-3d26ec11a576")
+		(uuid "c361a103-5624-4cd8-b729-deb774cb4f8a")
 	)
 	(wire
 		(pts
@@ -4768,13 +2745,13 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 95.25) (xy 360.68 97.79)
+			(xy 242.57 210.82) (xy 191.77 210.82)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "c83550a6-c7c1-4760-a21c-7351d53dfc3a")
+		(uuid "c7fd8c73-aee6-451f-bce7-791d403d024d")
 	)
 	(wire
 		(pts
@@ -4788,27 +2765,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 190.5) (xy 363.22 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ce53b71a-3597-4645-9fb7-0f1e46a5e35d")
-	)
-	(polyline
-		(pts
-			(xy 128.27 92.71) (xy 130.81 90.17)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "cfe2a6f5-86e6-44e3-9cf5-02eeacae764a")
-	)
-	(wire
-		(pts
 			(xy 76.2 218.44) (xy 91.44 218.44)
 		)
 		(stroke
@@ -4819,53 +2775,13 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 88.9) (xy 314.96 90.17)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d13f0767-36ea-4e48-b2ef-3630178075f2")
-	)
-	(wire
-		(pts
-			(xy 149.86 93.98) (xy 196.85 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d247cb6b-2d0e-45e5-a934-b75ca8f77946")
-	)
-	(wire
-		(pts
-			(xy 300.99 210.82) (xy 358.14 210.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d4baf40d-b894-4733-945a-d351acebac93")
-	)
-	(wire
-		(pts
-			(xy 129.54 87.63) (xy 129.54 105.41)
+			(xy 129.54 87.63) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "da87bcca-14df-4652-afba-6be17486ec08")
-	)
-	(wire
-		(pts
-			(xy 196.85 87.63) (xy 196.85 93.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "db6408f3-64ce-4973-8911-66dceb926638")
 	)
 	(wire
 		(pts
@@ -4889,13 +2805,13 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 99.06) (xy 287.02 93.98)
+			(xy 217.17 39.37) (xy 217.17 52.07)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e422b0de-6796-4e3c-834a-91942ffb2730")
+		(uuid "e4954c60-4475-42a2-8eee-66f77da52368")
 	)
 	(wire
 		(pts
@@ -4909,13 +2825,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 231.14) (xy 143.51 227.33)
+			(xy 149.86 87.63) (xy 149.86 93.98)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e7c784ab-0591-4c99-8329-5a09cf963d6d")
+		(uuid "e8c169e5-da94-4fdb-b7e0-fef04d641545")
 	)
 	(wire
 		(pts
@@ -4929,54 +2845,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 44.45) (xy 176.53 62.23)
+			(xy 250.19 62.23) (xy 250.19 39.37)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "ea8fee1a-8b92-4095-8d30-750a93de8477")
-	)
-	(wire
-		(pts
-			(xy 314.96 124.46) (xy 314.96 125.73)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ea9f827e-277f-4abc-bc75-ba914d9d80bc")
-	)
-	(wire
-		(pts
-			(xy 149.86 196.85) (xy 149.86 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ead6580f-c8cf-47d4-a672-c99b4b214236")
-	)
-	(polyline
-		(pts
-			(xy 160.02 62.23) (xy 170.18 62.23)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "f371ec19-0be4-4542-ab79-fd8a5a411f60")
-	)
-	(wire
-		(pts
-			(xy 373.38 186.69) (xy 373.38 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f440b849-6604-4b12-8b8d-e79b71c4d497")
+		(uuid "eb3d16dc-1763-4646-bbb8-634adbe8033a")
 	)
 	(wire
 		(pts
@@ -4990,46 +2865,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 44.45) (xy 97.79 44.45)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f6404708-fa2f-4199-a3b5-b376bba0f61b")
-	)
-	(wire
-		(pts
-			(xy 149.86 93.98) (xy 149.86 95.25)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f8802965-2570-4b8d-9205-ef825d445817")
-	)
-	(wire
-		(pts
-			(xy 196.85 106.68) (xy 196.85 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f9f04866-6072-419f-aadf-693a4bc5b31b")
-	)
-	(wire
-		(pts
-			(xy 351.79 193.04) (xy 420.37 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fb3c3e72-845e-4388-acf3-59982c65f625")
-	)
-	(wire
-		(pts
 			(xy 91.44 266.7) (xy 91.44 276.86)
 		)
 		(stroke
@@ -5037,16 +2872,6 @@
 			(type solid)
 		)
 		(uuid "fcf84c45-18ff-4299-ad07-51428f9a3e2c")
-	)
-	(wire
-		(pts
-			(xy 314.96 110.49) (xy 314.96 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe64f532-299f-42bf-a02d-bf46105db3ca")
 	)
 	(wire
 		(pts
@@ -5058,16 +2883,6 @@
 		)
 		(uuid "fec34d71-3112-44f3-8a79-b9fc092ce866")
 	)
-	(label "TIMERPULSE"
-		(at 271.78 93.98 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "29447e03-5cf8-4689-813e-774dfaae237f")
-	)
 	(label "CAM_UP"
 		(at 105.41 213.36 0)
 		(effects
@@ -5077,26 +2892,6 @@
 			(justify left bottom)
 		)
 		(uuid "3517e894-5d96-45c7-957e-7c30460c618c")
-	)
-	(label "~{TIMER_OUTPUT}"
-		(at 274.32 193.04 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "8287e1ea-2ce0-4284-965c-7c5e0310415c")
-	)
-	(label "TIMER_TRIGG"
-		(at 351.79 193.04 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3f50eeb-0d05-4edd-a6ae-e154fd804341")
 	)
 	(label "CAM_DOWN"
 		(at 105.41 208.28 0)
@@ -5121,40 +2916,20 @@
 		(uuid "42b0ffa7-f02f-428a-a800-826941a5ab43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.3081 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CHUTE"
-		(shape bidirectional)
-		(at 97.79 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "76142853-2254-41a5-96c2-d1852435a72d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.849 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "T_GND"
 		(shape bidirectional)
-		(at 99.06 115.57 180)
+		(at 99.06 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5164,27 +2939,33 @@
 		)
 		(uuid "8f70d2b2-6f46-4184-967d-03d2e147a3b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3561 115.57 0)
+			(at 89.3561 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-C-NOSILK")
-		(at 129.54 110.49 270)
+		(at 129.54 96.52 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d12630c-e4ac-47b6-ab14-adac35689ff8")
 		(property "Reference" "R18"
-			(at 131.0386 106.68 0)
+			(at 131.0386 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5193,7 +2974,9 @@
 			)
 		)
 		(property "Value" "60.4"
-			(at 133.858 106.68 0)
+			(at 133.858 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5202,30 +2985,36 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 129.54 110.49 0)
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 110.49 0)
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 129.54 110.49 0)
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5235,78 +3024,9 @@
 			(uuid "cf62cb61-fcf1-4ddd-a65b-27c1642055f5")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 294.64 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d8dd979-8683-414d-bc4f-2390cb7b6c09")
-		(property "Reference" "R20"
-			(at 298.45 84.0486 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 298.45 79.248 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 294.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dbb96e7-a385-4965-a220-447b4f82c781")
-		)
-		(pin "2"
-			(uuid "bf769f2c-7395-4940-a63c-979d77b40958")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5316,13 +3036,17 @@
 		(lib_id "CameraBoard-eagle-import:TEST-POINT")
 		(at 123.19 208.28 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "17fe56bc-b616-4190-9d9d-976db2ae9dbb")
 		(property "Reference" "TP11"
 			(at 120.65 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5332,45 +3056,53 @@
 		)
 		(property "Value" "TEST-POINT"
 			(at 123.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
 			(at 123.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 123.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 123.19 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ecb56fdf-05e8-4f34-87a7-f8cc03800260")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "TP11")
 					(unit 1)
@@ -5380,24 +3112,31 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 316.23 205.74 0)
+		(at 129.54 118.11 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "23b9233d-df52-4695-8b4b-94f3c04d61c9")
-		(property "Reference" "#GND37"
-			(at 316.23 205.74 0)
+		(fields_autoplaced yes)
+		(uuid "1b374bd0-6aed-451a-993d-496c10cba2a9")
+		(property "Reference" "#GND039"
+			(at 129.54 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 313.69 208.28 0)
+		(property "Value" ""
+			(at 127 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5406,39 +3145,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 205.74 0)
+			(at 129.54 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 205.74 0)
+			(at 129.54 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 316.23 205.74 0)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 129.54 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "6e758c5c-6ed2-4460-ac60-56e652337f89")
+			(uuid "3992f338-58a6-409c-bd14-360984aeaa37")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND37")
+					(reference "#GND039")
 					(unit 1)
 				)
 			)
@@ -5448,13 +3193,17 @@
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 284.48 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "23d27b72-7254-4ae7-8289-edf4415893c9")
 		(property "Reference" "JP7"
 			(at 85.725 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5464,6 +3213,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5473,29 +3224,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5508,7 +3265,7 @@
 			(uuid "ea1a191e-163e-4f35-8759-6ca4f889bb7a")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP7")
 					(unit 1)
@@ -5520,13 +3277,17 @@
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 274.32 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "26d96298-ba70-49fd-915a-7e35bb4abea9")
 		(property "Reference" "JP6"
 			(at 85.725 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5536,6 +3297,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5545,29 +3308,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5580,75 +3349,9 @@
 			(uuid "e9c428ae-f5c6-4102-993c-b750572c39af")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:GND")
-		(at 360.68 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2849bb26-82d7-4b4a-9234-6bc601609f88")
-		(property "Reference" "#GND42"
-			(at 360.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 358.14 134.62 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d5fc24e-1f2f-4fd4-8f29-ca16476275f4")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND42")
 					(unit 1)
 				)
 			)
@@ -5658,13 +3361,18 @@
 		(lib_id "CameraBoard-eagle-import:TS5A3159ADBVR")
 		(at 147.32 210.82 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b41f53-420d-4c87-8d37-e02ec20d98ba")
 		(property "Reference" "U4"
 			(at 146.685 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5674,6 +3382,8 @@
 		)
 		(property "Value" "TS5A3159ADBVR"
 			(at 146.685 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5683,29 +3393,35 @@
 		)
 		(property "Footprint" "CameraBoard:TS5A3159ADBVR"
 			(at 147.32 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 147.32 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 147.32 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5727,144 +3443,9 @@
 			(uuid "7c2af8d9-e6f4-4ae3-95d5-1e2ce532b2a2")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:GND")
-		(at 133.35 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2aed8a15-5181-4ee7-b606-6047ced88a40")
-		(property "Reference" "#GND45"
-			(at 133.35 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 205.74 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a3d7d8e-8372-4a0d-bcd6-717fe49a10ef")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:C-EU0603-C-NOSILK")
-		(at 133.35 196.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e542ce5-ce8f-4374-85b7-aef494c3c400")
-		(property "Reference" "C26"
-			(at 131.826 191.135 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100n"
-			(at 134.366 199.136 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 133.35 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de9be379-c359-46ca-8e87-daf76d98b4a2")
-		)
-		(pin "2"
-			(uuid "d72f3ce6-7354-4f8b-91d3-7b4ff0679497")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5874,22 +3455,28 @@
 		(lib_id "CameraBoard-eagle-import:+12V")
 		(at 204.47 223.52 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "39696188-f179-43c1-8a1f-6be8f1440fef")
 		(property "Reference" "#P+013"
 			(at 204.47 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
 			(at 207.01 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5899,29 +3486,35 @@
 		)
 		(property "Footprint" ""
 			(at 204.47 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 204.47 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 204.47 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5937,332 +3530,20 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 196.85 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b4aadcd-0432-4bb9-943b-32e6abdb3e8b")
-		(property "Reference" "#P+9"
-			(at 196.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 198.755 50.8 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8219c9f-8dae-47dd-8f59-185d4457e00f")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#P+9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:H11F1SR2M")
-		(at 186.69 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e87b580-b970-4f41-acca-5efd63e45744")
-		(property "Reference" "U7"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "H11F1SR2M"
-			(at 179.07 66.04 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:H11F1SR2M"
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "Digi-Key"
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DPN" "H11F1SR2MCT-ND"
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAN" "ON Semiconductor"
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "H11F1SR2M"
-			(at 186.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "ANOD"
-			(uuid "08473e47-a536-488b-84c8-9ee296ad4582")
-		)
-		(pin "CATH"
-			(uuid "8c5a2cbe-3ce0-4127-9529-ef5af9190e65")
-		)
-		(pin "IN"
-			(uuid "ea0a7843-5e67-4a49-ac25-aa20b3896520")
-		)
-		(pin "OUT"
-			(uuid "5052d388-9e0c-459e-84b6-a8aed141a053")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:TEST-POINT")
-		(at 209.55 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3eb6d45e-844d-439c-91db-378bc3e00b90")
-		(property "Reference" "TP5"
-			(at 205.74 97.79 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 209.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
-			(at 209.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "444e2889-7090-4e84-a0d5-73e8a1dcb913")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:R-US_0603-C-NOSILK")
-		(at 176.53 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f8b7eb6-a205-4d5b-bad1-83c9f7b839e1")
-		(property "Reference" "R19"
-			(at 178.0286 106.68 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "60.4"
-			(at 180.848 106.68 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 176.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bd8eece-5d78-4804-b045-0dc2c530169a")
-		)
-		(pin "2"
-			(uuid "e4ad780b-dd53-4c50-aa3c-78383719452d")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 233.68 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4788dc33-d4b6-4445-acfe-46c9f60eafba")
 		(property "Reference" "JP2"
 			(at 85.725 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6272,6 +3553,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6281,29 +3564,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6316,7 +3605,7 @@
 			(uuid "a46da648-1c5c-4f29-81e5-f74e91a79c8e")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP2")
 					(unit 1)
@@ -6328,13 +3617,17 @@
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 264.16 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ef9ca4e-393f-4ea7-af31-11f766b90ccb")
 		(property "Reference" "JP5"
 			(at 85.725 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6344,6 +3637,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6353,29 +3648,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6388,7 +3689,7 @@
 			(uuid "3f27b443-e106-49cd-aae1-4fb929b5d497")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP5")
 					(unit 1)
@@ -6400,13 +3701,17 @@
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 210.82 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "55f47939-d493-48f3-b00a-4ac0c33fa9b8")
 		(property "Reference" "JP13"
 			(at 85.725 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6416,6 +3721,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6425,29 +3732,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6460,7 +3773,7 @@
 			(uuid "46b40257-7dce-4fbf-905c-074acc3994e5")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP13")
 					(unit 1)
@@ -6469,270 +3782,82 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 363.22 184.15 270)
+		(lib_id "Device:R_US")
+		(at 129.54 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "56b024d8-c837-4320-97b3-af17efd0e05a")
-		(property "Reference" "R16"
-			(at 364.7186 180.34 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "237k"
-			(at 359.918 180.34 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 363.22 184.15 0)
+		(fields_autoplaced yes)
+		(uuid "6701986d-96c2-4a44-8528-8fc41c3a3a66")
+		(property "Reference" "R17"
+			(at 132.08 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 363.22 184.15 0)
+		(property "Value" "10k"
+			(at 132.08 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 363.22 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08d46d5a-4ea0-4719-a4cb-54d54730ef69")
-		)
-		(pin "2"
-			(uuid "ec6169ba-6b61-4245-9ed5-872c67358f1b")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 368.3 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58a02a94-e685-4a23-9f14-37977bbc06a8")
-		(property "Reference" "#P+8"
-			(at 368.3 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 370.205 168.91 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 171.45 0)
+			(at 130.556 109.474 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 171.45 0)
+			(at 129.54 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 368.3 171.45 0)
+		(property "Description" "Resistor, US symbol"
+			(at 129.54 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "1bc15533-5909-44e5-adfc-a627aee6d2c5")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#P+8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 314.96 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60889dfc-adc5-4743-ba53-d260d54f0983")
-		(property "Reference" "R22"
-			(at 316.4586 115.57 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1k"
-			(at 311.658 115.57 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 314.96 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "530b45c6-29c4-448d-9412-ee4eb25871ed")
 		)
 		(pin "2"
-			(uuid "ef87bfac-7763-4329-899c-cd42aa3d0283")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 309.88 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e90cbc6-376b-4b74-891e-4f0a0c8cbfe4")
-		(property "Reference" "#P+7"
-			(at 309.88 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 311.785 163.83 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "8d979a5d-095b-4477-8b63-80630af350c2")
 		)
 		(pin "1"
-			(uuid "db0ba98c-8f80-4df0-8444-397cfd18a4cd")
+			(uuid "ab8c6a1f-573e-4e7a-9f3c-027a9abd9218")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#P+7")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6742,13 +3867,17 @@
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 214.63 233.68 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f847383-aa6d-44c8-8bae-064de59b43af")
 		(property "Reference" "JP10"
 			(at 210.82 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6758,39 +3887,47 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 208.28 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 214.63 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 214.63 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 214.63 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6812,135 +3949,78 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:TEST-POINT")
-		(at 167.64 44.45 0)
+		(lib_id "CameraBoard-eagle-import:+5V")
+		(at 222.25 67.31 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "71ca9e33-1176-44b1-b03d-45fff61559f9")
-		(property "Reference" "TP14"
-			(at 163.83 48.26 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 167.64 44.45 0)
+		(uuid "70b04ad7-b6d1-41f8-a400-9fb06e7ceef1")
+		(property "Reference" "#P+012"
+			(at 222.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
-			(at 167.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5651253b-cf71-438f-8fe4-1327a811e131")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:C-EU0603-C-NOSILK")
-		(at 299.72 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79a22f8e-2483-4ec8-8bdc-28c4edf9a0ca")
-		(property "Reference" "C24"
-			(at 300.736 175.895 0)
+		(property "Value" "+5V"
+			(at 224.155 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "100n"
-			(at 300.736 180.721 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 299.72 176.53 0)
+		(property "Footprint" ""
+			(at 222.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 176.53 0)
+			(at 222.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 299.72 176.53 0)
+			(at 222.25 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "4d4bfbfe-e71e-4250-adba-77b6e41f127b")
-		)
-		(pin "2"
-			(uuid "387f8ef9-c3bd-41fd-b30e-6fbd6945d01d")
+			(uuid "59117210-7e3d-4c31-953c-ac7d842e8539")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "C24")
+					(reference "#P+012")
 					(unit 1)
 				)
 			)
@@ -6950,22 +4030,28 @@
 		(lib_id "CameraBoard-eagle-import:GND")
 		(at 204.47 241.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b02087a-8264-45ce-a7a3-0f2a153b7560")
 		(property "Reference" "#GND17"
 			(at 204.47 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 201.93 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6975,29 +4061,35 @@
 		)
 		(property "Footprint" ""
 			(at 204.47 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 204.47 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 204.47 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7013,82 +4105,20 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 143.51 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b2a783d-e253-4606-bf2e-69883cac8dea")
-		(property "Reference" "#P+5"
-			(at 143.51 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 145.415 184.15 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f74b180e-558d-463c-9ac9-c998652e4452")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#P+5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 198.12 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c835e59-2f57-4f53-88dd-5a749d11ba3f")
 		(property "Reference" "JP12"
 			(at 85.725 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7098,6 +4128,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7107,29 +4139,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7142,78 +4180,9 @@
 			(uuid "c49c0979-42bb-4f9f-9834-e2cebc1e472f")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:R-US_0603-C-NOSILK")
-		(at 196.85 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d4036c9-5473-4ae2-be8e-9be695e9b61f")
-		(property "Reference" "R17"
-			(at 198.3486 97.79 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 201.168 97.79 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 196.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de62303b-2b89-46c2-aa0b-d5f6235eedfd")
-		)
-		(pin "2"
-			(uuid "45fe56e9-14b9-4a6c-97ac-e4c85be22e80")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7223,13 +4192,17 @@
 		(lib_id "CameraBoard-eagle-import:TEST-POINT")
 		(at 120.65 50.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "92f9f3af-e659-41f8-9b70-998ae32077a6")
 		(property "Reference" "TP13"
 			(at 116.84 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7239,45 +4212,53 @@
 		)
 		(property "Value" "TEST-POINT"
 			(at 120.65 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
 			(at 120.65 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 120.65 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 120.65 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "53ce8259-f772-43b7-b286-804415008848")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "TP13")
 					(unit 1)
@@ -7286,151 +4267,20 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:C-EU0603-C-NOSILK")
-		(at 373.38 184.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93221f63-c2a9-4bd1-88c0-e83390b89be2")
-		(property "Reference" "C22"
-			(at 372.364 184.785 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1u"
-			(at 372.364 179.959 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 373.38 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 373.38 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "114ac1b2-9aca-437c-975a-de6573a82d82")
-		)
-		(pin "2"
-			(uuid "659e6aeb-23cf-4b82-bc0c-05a81d3ba927")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:GND")
-		(at 374.65 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a28b82c-c3f9-44ab-93bc-2dd3ba392080")
-		(property "Reference" "#GND44"
-			(at 374.65 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 377.19 109.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 374.65 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 374.65 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e1c1f4f-1a91-4506-9a57-680b21d2e221")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CameraBoard-eagle-import:R-US_0603-C-NOSILK")
-		(at 149.86 100.33 270)
+		(at 167.64 68.58 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5f4ed92-f313-4998-99f6-e6fbc1818dee")
 		(property "Reference" "R28"
-			(at 151.3586 96.52 0)
+			(at 169.1386 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7439,7 +4289,9 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 154.178 96.52 0)
+			(at 171.958 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7448,30 +4300,36 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 149.86 100.33 0)
+			(at 167.64 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 100.33 0)
+			(at 167.64 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 149.86 100.33 0)
+			(at 167.64 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7481,220 +4339,9 @@
 			(uuid "13c1fdc6-5626-4a57-b6e2-d500a2c15146")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:BVSS123LT1G")
-		(at 309.88 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7210a18-72b5-450d-b2e9-a2d5d0206b2d")
-		(property "Reference" "Q2"
-			(at 309.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "BVSS123LT1G"
-			(at 309.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CameraBoard:BVSS123LT1G"
-			(at 309.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ae2bb42-6bcc-4c12-88b2-676f2fa40ce0")
-		)
-		(pin "3"
-			(uuid "2989b3e2-7b63-4aaf-9da1-0ed04b4bf74a")
-		)
-		(pin "2"
-			(uuid "11028720-d5a4-4f3f-a399-2a34d013a62c")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:BSS84")
-		(at 309.88 82.55 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a794c5af-21bb-4996-beb0-94551f8ce105")
-		(property "Reference" "Q3"
-			(at 309.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "BSS84"
-			(at 309.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CameraBoard:BSS84"
-			(at 309.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c500b29-6bf5-4411-b9bd-581d89800451")
-		)
-		(pin "3"
-			(uuid "3e01e6b0-7b7c-4ebb-9363-13c4368bf83c")
-		)
-		(pin "2"
-			(uuid "769335ff-e0a8-4a10-b3e9-6eed82876289")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:TEST-POINT")
-		(at 260.35 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a847c042-aab3-4f17-91e1-e7dbac108e5c")
-		(property "Reference" "TP9"
-			(at 256.54 196.85 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 260.35 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
-			(at 260.35 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15c064f3-c3e2-480e-9a68-7d1b8c4752cb")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7704,13 +4351,17 @@
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 254 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b516662e-9464-473f-b889-dae5b95ea6ab")
 		(property "Reference" "JP4"
 			(at 85.725 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7720,6 +4371,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7729,29 +4382,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7764,141 +4423,9 @@
 			(uuid "3a2fbe39-952a-4af1-8952-d6afa759656e")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:GND")
-		(at 143.51 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5f21c8f-7aaf-4ffa-be7b-801047a6ac93")
-		(property "Reference" "#GND32"
-			(at 143.51 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 236.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f75dd6c4-7895-4a38-87c9-1f01f44d15e0")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 314.96 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b78c74f9-30a7-4d21-9c72-bf58564bac3f")
-		(property "Reference" "#P+11"
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 316.865 53.34 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09e102fd-fa04-4b4e-94c8-e4777a9b66fa")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#P+11")
 					(unit 1)
 				)
 			)
@@ -7908,22 +4435,28 @@
 		(lib_id "CameraBoard-eagle-import:+12V")
 		(at 76.2 196.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9d70dac-286c-4b5f-86a6-d817556e1166")
 		(property "Reference" "#P+6"
 			(at 76.2 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
 			(at 78.74 193.04 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7933,36 +4466,42 @@
 		)
 		(property "Footprint" ""
 			(at 76.2 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 76.2 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 76.2 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "3d7e5dbe-c7e5-4d31-a8c5-6cdea34cdad4")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "#P+6")
 					(unit 1)
@@ -7974,13 +4513,17 @@
 		(lib_id "CameraBoard-eagle-import:TEST-POINT")
 		(at 171.45 210.82 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbe33707-aadd-4295-97c7-bbe9b57ad382")
 		(property "Reference" "TP10"
 			(at 167.64 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7990,45 +4533,53 @@
 		)
 		(property "Value" "TEST-POINT"
 			(at 171.45 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
 			(at 171.45 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 171.45 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 171.45 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "5aa83366-38b6-477d-9a59-1fc70bf7ff37")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "TP10")
 					(unit 1)
@@ -8038,24 +4589,30 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 149.86 52.07 0)
+		(at 157.48 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "be7d3297-cefd-4b50-896c-0191f209d2ed")
 		(property "Reference" "#P+10"
-			(at 149.86 52.07 0)
+			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.765 49.53 90)
+			(at 159.385 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8064,37 +4621,43 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 52.07 0)
+			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 52.07 0)
+			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 149.86 52.07 0)
+			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "1ad8e5b8-ac00-4bfa-b542-780207dac37c")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "#P+10")
 					(unit 1)
@@ -8106,13 +4669,17 @@
 		(lib_id "CameraBoard-eagle-import:TEST-POINT")
 		(at 123.19 213.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf29a9fc-73cb-4229-8c15-a3f756d6d6d8")
 		(property "Reference" "TP12"
 			(at 119.38 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -8122,45 +4689,53 @@
 		)
 		(property "Value" "TEST-POINT"
 			(at 123.19 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
 			(at 123.19 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 123.19 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 123.19 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "2f08baa5-e727-4f7e-9c2e-c23dcc519bf5")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "TP12")
 					(unit 1)
@@ -8170,24 +4745,30 @@
 	)
 	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 314.96 128.27 0)
+		(at 232.41 73.66 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "c24b0bd0-3302-446e-9079-ec4ed64c24e0")
-		(property "Reference" "#GND40"
-			(at 314.96 128.27 0)
+		(uuid "c53c0678-86f0-40f6-9384-884e9280db22")
+		(property "Reference" "#GND040"
+			(at 232.41 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 312.42 130.81 0)
+			(at 229.87 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8196,452 +4777,143 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 128.27 0)
+			(at 232.41 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 128.27 0)
+			(at 232.41 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 314.96 128.27 0)
+			(at 232.41 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0387365a-63a6-4db9-b922-72273ee4d25a")
+			(uuid "5d8c4664-7042-4d08-ae9b-6697550250f3")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND40")
+					(reference "#GND040")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:R-US_0805-A-NOSILK")
-		(at 314.96 64.77 270)
+		(lib_id "74xGxx:74AUC1G74")
+		(at 229.87 57.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "c427b11d-4b39-4a11-9dbd-e78d97395f78")
-		(property "Reference" "R23"
-			(at 316.4586 60.96 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10"
-			(at 311.658 60.96 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0805-A-NOSILK"
-			(at 314.96 64.77 0)
+		(fields_autoplaced yes)
+		(uuid "ce283618-10b3-473e-9fbb-6984e7db13a3")
+		(property "Reference" "U7"
+			(at 245.11 45.6498 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 314.96 64.77 0)
+		(property "Value" "74AUC1G74"
+			(at 245.11 48.1898 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 314.96 64.77 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 229.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "14fb5c89-a5b5-43cf-8fb7-02b4ff9c9597")
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 229.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single D Flip-Flop, Low-Voltage CMOS"
+			(at 229.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "9152b170-5f16-4726-933a-7242d2d9b4c6")
+			(uuid "48af2fd8-135c-4d71-b7a9-d3b24f733897")
 		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "R23")
-					(unit 1)
-				)
-			)
+		(pin "5"
+			(uuid "68bc2c38-a02d-4896-a79d-ad54f6bb7859")
 		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:TEST-POINT")
-		(at 383.54 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5f42314-f777-4abd-a3ae-b9e135960202")
-		(property "Reference" "TP8"
-			(at 379.73 116.84 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
+		(pin "7"
+			(uuid "894d3339-e212-4bd9-b245-974f8da47809")
 		)
-		(property "Value" "TEST-POINT"
-			(at 383.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
-			(at 383.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 383.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 383.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "0a7483af-9e5f-4798-9fb0-d6c52678c428")
 		)
 		(pin "1"
-			(uuid "3bf1c9c3-9981-4937-95e3-3eb157c61b03")
+			(uuid "4d2d33a4-eb1f-425a-bd6d-5e25ae16d2b0")
+		)
+		(pin "8"
+			(uuid "6d355157-7fc4-4fab-988f-e3c403325f0c")
+		)
+		(pin "4"
+			(uuid "c820683d-1234-481c-9ad3-f8d75d8afb17")
+		)
+		(pin "6"
+			(uuid "3b83f3cf-ddf2-41cb-8cee-5dc95aae8a92")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:SN74LVC1G17DCKR")
-		(at 361.95 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6bdeb0c-d153-464c-bc03-9b58e998980f")
-		(property "Reference" "U8"
-			(at 361.95 105.41 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "SN74LVC1G17DCKR"
-			(at 361.95 120.65 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CameraBoard:SN74LVC1G17DCKR"
-			(at 361.95 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 361.95 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "INPUT"
-			(uuid "67aa574f-90d6-4c81-b8d1-0f385ef013ed")
-		)
-		(pin "VCC"
-			(uuid "83374b0d-8cb2-437c-8956-cf482bca9e80")
-		)
-		(pin "GND"
-			(uuid "fb54184d-02a5-4f06-aa5b-b0c2690c897e")
-		)
-		(pin "OUTPUT"
-			(uuid "c2b395ef-010f-4efe-8189-b6fd1c5798f5")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:GND")
-		(at 196.85 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7eead73-1f1e-4498-aff2-505b658515e5")
-		(property "Reference" "#GND39"
-			(at 196.85 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 114.3 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "036058f3-839e-426f-9431-9d2a1b7e7d10")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:GND")
-		(at 299.72 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd95b081-a711-4a80-a8c1-ab5af117d4f5")
-		(property "Reference" "#GND43"
-			(at 299.72 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 297.18 187.96 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.72 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 299.72 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d046da22-0ebd-40ff-a2ea-6e5e1df527c8")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:R-US_0603-A-NOSILK")
-		(at 295.91 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce6d1e92-eccb-4712-9559-10e27766c301")
-		(property "Reference" "R21"
-			(at 299.72 100.5586 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 299.72 95.758 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
-			(at 295.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 295.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6415b5c-2ae5-46ad-a2db-8bc1b95e799e")
-		)
-		(pin "2"
-			(uuid "a636291c-3f7c-46f9-a686-8104c6482e89")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "R21")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8650,14 +4922,19 @@
 	(symbol
 		(lib_id "CameraBoard-eagle-import:H11F1SR2M")
 		(at 139.7 74.93 0)
+		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d08f204e-e435-4a13-acda-7c8c2df82ca6")
 		(property "Reference" "U6"
-			(at 132.08 63.5 0)
+			(at 132.08 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8666,7 +4943,9 @@
 			)
 		)
 		(property "Value" "H11F1SR2M"
-			(at 132.08 66.04 0)
+			(at 132.08 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8676,69 +4955,83 @@
 		)
 		(property "Footprint" "CameraBoard:H11F1SR2M"
 			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "Digi-Key"
 			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "DPN" "H11F1SR2MCT-ND"
 			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MAN" "ON Semiconductor"
 			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "MPN" "H11F1SR2M"
 			(at 139.7 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(pin "ANOD"
@@ -8754,9 +5047,87 @@
 			(uuid "f075f3f5-a01a-4eaf-afc2-9339ca8e730c")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CameraBoard-eagle-import:+5V")
+		(at 232.41 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3d798dc-ffea-4643-9a35-f9d59245e3e2")
+		(property "Reference" "#P+011"
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 234.315 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95f43e82-742d-4c45-9d37-16319763298e")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
+					(reference "#P+011")
 					(unit 1)
 				)
 			)
@@ -8766,22 +5137,28 @@
 		(lib_id "CameraBoard-eagle-import:GND")
 		(at 76.2 224.79 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1e3cfbb-c685-455e-9c72-5a0d51a67de4")
 		(property "Reference" "#GND33"
 			(at 76.2 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 73.66 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8791,36 +5168,42 @@
 		)
 		(property "Footprint" ""
 			(at 76.2 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 76.2 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 76.2 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "62ee837c-3b01-4f13-8c4c-cf2ac19bc0e0")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "#GND33")
 					(unit 1)
@@ -8829,94 +5212,31 @@
 		)
 	)
 	(symbol
-		(lib_id "CameraBoard-eagle-import:C-EU0603-C-NOSILK")
-		(at 323.85 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7bd46a7-4ab3-43b3-9c92-10bd80c05bd2")
-		(property "Reference" "C23"
-			(at 327.279 85.09 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "20u"
-			(at 327.914 93.599 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 323.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 323.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca15ba37-ae01-4f31-a78d-0d26ba9bd3f4")
-		)
-		(pin "2"
-			(uuid "f31a16c3-5c73-4375-91ce-77941a5754c3")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CameraBoard-eagle-import:GND")
-		(at 149.86 110.49 0)
+		(at 167.64 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "eae053c2-9555-45dd-aad0-b6d866d83afe")
 		(property "Reference" "#GND38"
-			(at 149.86 110.49 0)
+			(at 167.64 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 113.03 0)
+			(at 165.1 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8925,171 +5245,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 110.49 0)
+			(at 167.64 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 110.49 0)
+			(at 167.64 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 149.86 110.49 0)
+			(at 167.64 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "7e1456c9-a5f8-456a-b1fa-95525007a18c")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "#GND38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:GND")
-		(at 332.74 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0211749-a99a-4fd9-9fd5-4d5db1c79006")
-		(property "Reference" "#GND41"
-			(at 332.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 330.2 96.52 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 332.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6a7e1e6-b2e9-4861-8a28-c1164449cfae")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#GND41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:+5V")
-		(at 360.68 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f08dff73-b9ad-4635-8ba2-23fe5f390fe1")
-		(property "Reference" "#P+12"
-			(at 360.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 362.585 90.17 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b6cf5be-80d3-4449-96ed-6b94f8e2b023")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "#P+12")
 					(unit 1)
 				)
 			)
@@ -9099,13 +5293,17 @@
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 223.52 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0fddba1-a025-4013-9b7f-0ba03b5ff0af")
 		(property "Reference" "JP1"
 			(at 85.725 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9115,6 +5313,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9124,29 +5324,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9159,231 +5365,9 @@
 			(uuid "e5e9f170-d0d0-4b8a-9887-7c7f097cda58")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:TEST-POINT")
-		(at 337.82 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f391d5d2-8957-4506-b430-d443c3554c27")
-		(property "Reference" "TP7"
-			(at 335.28 110.49 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT"
-			(at 337.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
-			(at 337.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbb3f679-d5dd-4a58-8845-31a72928edfb")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:C-EU0603-C-NOSILK")
-		(at 374.65 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f47e969f-4c7c-4b8a-8d70-bc1f7634eacc")
-		(property "Reference" "C25"
-			(at 373.126 97.155 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "100n"
-			(at 375.666 105.156 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "CameraBoard:.0603-C-NOSILK"
-			(at 374.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 374.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cf776bb-0cf4-4995-92e0-bd108b7af61a")
-		)
-		(pin "2"
-			(uuid "d955c261-7d3b-4aae-8590-5c52aa88c5e8")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CameraBoard-eagle-import:ICM7242IBAZ-SMD")
-		(at 318.77 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f532fc47-e037-40bb-89b5-7e8940b34535")
-		(property "Reference" "U5"
-			(at 323.85 180.086 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "ICM7242IBAZ-SMD"
-			(at 323.85 205.74 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CameraBoard:ICM7242IBAZ-SMD"
-			(at 318.77 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.renesas.com/en/document/dst/icm7242-datasheet"
-			(at 318.77 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "0"
-			(uuid "a8d6eb4d-f6e9-4799-83aa-d2e68cf39f27")
-		)
-		(pin "1"
-			(uuid "578bc308-6986-41b0-9dc2-d95b96a608b1")
-		)
-		(pin "2"
-			(uuid "096fcf6f-94ba-4e9f-8c7c-36bf3837d3ef")
-		)
-		(pin "3"
-			(uuid "22286586-f305-4917-b3a9-54a5edd12e4b")
-		)
-		(pin "7"
-			(uuid "9193d3b6-2d57-4d1a-8712-7f0a84baaf32")
-		)
-		(pin "6"
-			(uuid "b5b1878c-1e11-42ba-ba2d-004a459870aa")
-		)
-		(pin "5"
-			(uuid "2d598dd7-783a-4dc8-afc7-4e78e692a8d3")
-		)
-		(pin "4"
-			(uuid "09615f2c-3449-403d-a9b8-a917cc1b2b11")
-		)
-		(instances
-			(project ""
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9393,13 +5377,17 @@
 		(lib_id "CameraBoard-eagle-import:PINHD-1X3")
 		(at 91.44 243.84 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7740da8-7c4d-4a10-9b96-e1e9eb7e038c")
 		(property "Reference" "JP3"
 			(at 85.725 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9409,6 +5397,8 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 99.06 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9418,29 +5408,35 @@
 		)
 		(property "Footprint" "CameraBoard:1X03"
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 91.44 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9453,7 +5449,7 @@
 			(uuid "a7f2803a-1388-4454-9981-4d130c8ebaae")
 		)
 		(instances
-			(project ""
+			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b/537433a0-7b0a-4286-9b5c-a2c4a7e302ab"
 					(reference "JP3")
 					(unit 1)
