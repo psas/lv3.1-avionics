@@ -2232,6 +2232,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:B240"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B240"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMB"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "40V 2A Schottky Barrier Rectifier Diode, SMB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMB*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "B240_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B240_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:MBRS340"
 			(pin_numbers
 				(hide yes)
@@ -2359,172 +2525,6 @@
 				)
 			)
 			(symbol "MBRS340_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:SS24"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS24"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "40V 2A Schottky Diode, SMA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SS24_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3877,7 +3877,7 @@
 	)
 	(text "All resistors are 1% 0603 packages unless otherwise specified\nAll capacitors are 10% 0603 packages unless otherwise specified"
 		(exclude_from_sim no)
-		(at -102.108 472.44 0)
+		(at -86.614 464.82 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -3911,7 +3911,7 @@
 	)
 	(text "4S LiPo Charger"
 		(exclude_from_sim no)
-		(at 120.904 70.104 0)
+		(at 121.158 72.644 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -3924,20 +3924,20 @@
 	)
 	(text "set for 4 cells"
 		(exclude_from_sim no)
-		(at 158.242 109.22 0)
+		(at 158.242 109.474 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2 1.2)
 			)
 		)
 		(uuid "7ef9b8fa-f057-4380-90aa-94ac2fb2a2ba")
 	)
-	(text "R3 set to 2.5A"
+	(text "R10 set to 2.5A"
 		(exclude_from_sim no)
-		(at 184.15 104.14 0)
+		(at 184.658 104.902 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2 1.2)
 			)
 		)
 		(uuid "90d338c9-a086-488d-b513-4ff2c3c18fb2")
@@ -3964,12 +3964,12 @@
 		)
 		(uuid "add81787-3a49-4eb1-acf2-91705771f277")
 	)
-	(text "4.2V for\ncell"
+	(text "4.2V for cell"
 		(exclude_from_sim no)
-		(at 114.3 119.634 0)
+		(at 115.062 118.872 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2 1.2)
 			)
 		)
 		(uuid "b3c8d059-032e-400e-889e-0c97d26fba64")
@@ -4035,7 +4035,9 @@
 		(at 287.02 132.08 0)
 		(effects
 			(font
-				(size 5.08 4.318)
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -4298,12 +4300,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c325fb34-e294-4a41-b57c-1e1cd184729a")
-	)
-	(junction
-		(at 172.72 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c656fd7b-8828-43ac-9d78-ea56f846c234")
 	)
 	(junction
 		(at 63.5 166.37)
@@ -4681,7 +4677,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3) (xy 110.49 114.3)
+			(xy 110.49 114.3) (xy 109.22 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5178,16 +5174,6 @@
 			(type default)
 		)
 		(uuid "6c1ca170-acf1-4185-a395-2081ec366269")
-	)
-	(wire
-		(pts
-			(xy 177.8 121.92) (xy 177.8 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7141ad-a6a1-4b39-a125-6d09adc3ea8e")
 	)
 	(wire
 		(pts
@@ -5691,7 +5677,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 114.3) (xy 102.87 114.3)
+			(xy 104.14 114.3) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5871,16 +5857,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 130.81) (xy 172.72 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53f8a91-3480-47d1-b890-462509a31b13")
-	)
-	(wire
-		(pts
 			(xy 172.72 129.54) (xy 172.72 130.81)
 		)
 		(stroke
@@ -5948,6 +5924,16 @@
 			(type default)
 		)
 		(uuid "bbb1b447-c050-4f07-9833-50eaf7cde5fa")
+	)
+	(wire
+		(pts
+			(xy 115.57 114.3) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcecdc8e-a0db-4d27-acb3-252276e6e083")
 	)
 	(wire
 		(pts
@@ -6198,6 +6184,16 @@
 			(type solid)
 		)
 		(uuid "e88cd014-66f7-49fa-8ad3-c5e6f8a0f516")
+	)
+	(wire
+		(pts
+			(xy 177.8 121.92) (xy 177.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1d80b4-ef25-4b32-9194-cb9e06794af8")
 	)
 	(wire
 		(pts
@@ -6549,7 +6545,7 @@
 		(dnp no)
 		(uuid "0196a623-e51f-419f-8789-85e44c7af1bf")
 		(property "Reference" "C6"
-			(at 119.634 86.106 90)
+			(at 119.634 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6560,7 +6556,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 119.38 79.502 90)
+			(at 119.126 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6683,10 +6679,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01bb1418-0b9d-44c2-9816-4279d8dae598")
 		(property "Reference" "C2"
-			(at 85.09 109.2262 0)
+			(at 84.582 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6697,7 +6692,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 85.09 111.7662 0)
+			(at 84.582 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6941,6 +6936,84 @@
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07f53726-d04a-49b0-a61b-67453ada95b8")
+		(property "Reference" "#PWR016"
+			(at 177.8 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c7525b2-ad81-42ee-945b-48073fd493d1")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7416,7 +7489,7 @@
 		(dnp no)
 		(uuid "0ffff371-afa2-4b20-aa21-99bc7f042a77")
 		(property "Reference" "JP13"
-			(at 266.065 245.11 0)
+			(at 282.702 238.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7428,6 +7501,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 245.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8269,7 +8343,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 114.3 114.3 180)
+		(at 113.03 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8279,7 +8353,7 @@
 		(dnp no)
 		(uuid "1c90db57-3c1b-4228-b6da-e4f58c6d9a3e")
 		(property "Reference" "D3"
-			(at 114.046 110.49 0)
+			(at 115.57 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8289,7 +8363,7 @@
 			)
 		)
 		(property "Value" "LED_Small_Filled"
-			(at 114.2365 110.49 0)
+			(at 112.9665 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8300,7 +8374,7 @@
 			)
 		)
 		(property "Footprint" "CameraBoard:CHIPLED_0603_259"
-			(at 114.3 114.3 90)
+			(at 113.03 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8311,7 +8385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 114.3 90)
+			(at 113.03 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8322,7 +8396,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol, filled shape"
-			(at 114.3 114.3 0)
+			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,7 +8407,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 114.3 0)
+			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8344,7 +8418,7 @@
 			)
 		)
 		(property "DIS" ""
-			(at 114.3 114.3 0)
+			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8429,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 114.3 114.3 0)
+			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8366,7 +8440,7 @@
 			)
 		)
 		(property "MAN" ""
-			(at 114.3 114.3 0)
+			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8377,7 +8451,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 114.3 114.3 0)
+			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8388,7 +8462,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 114.3 114.3 0)
+			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8643,7 +8717,7 @@
 		(dnp no)
 		(uuid "28cfe5d5-dba4-4e5a-9bf3-65066b474302")
 		(property "Reference" "JP6"
-			(at 266.065 171.45 0)
+			(at 282.702 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8655,6 +8729,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9301,6 +9376,7 @@
 		)
 		(property "Value" "PINHD-1X6"
 			(at 242.57 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9981,7 +10057,7 @@
 		(dnp no)
 		(uuid "605dd3a4-30d6-4156-912c-2c2452d33f1f")
 		(property "Reference" "JP7"
-			(at 266.065 184.15 0)
+			(at 282.702 177.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9993,6 +10069,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 184.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10199,7 +10276,7 @@
 		(dnp no)
 		(uuid "61d3ce52-7ac4-4f66-b173-4a43b53b7f61")
 		(property "Reference" "JP12"
-			(at 266.065 234.95 0)
+			(at 282.702 228.346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10211,6 +10288,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 234.95 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10686,7 +10764,7 @@
 		(dnp no)
 		(uuid "6e220f3e-4080-41ee-92c7-3ca4f877796f")
 		(property "Reference" "JP11"
-			(at 266.065 224.79 0)
+			(at 282.702 218.186 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10698,6 +10776,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 224.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11431,7 +11510,7 @@
 		(dnp no)
 		(uuid "82840689-316e-4b30-bc06-821c81fc9701")
 		(property "Reference" "R12"
-			(at 198.374 74.93 0)
+			(at 198.374 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11442,7 +11521,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 198.628 81.026 0)
+			(at 198.628 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11567,7 +11646,7 @@
 		(dnp no)
 		(uuid "86fcd922-6ca9-4abb-b86a-d7500cfade6f")
 		(property "Reference" "C10"
-			(at 180.34 119.38 0)
+			(at 180.34 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11714,7 +11793,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 208.28 190.5 90)
+			(at 213.106 192.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11792,7 +11871,8 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 211.836 231.14 0)
+			(at 211.836 230.632 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12010,7 +12090,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 344.17 146.05 90)
+			(at 348.996 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12155,7 +12235,7 @@
 		(dnp no)
 		(uuid "9377d335-4a2e-4edf-a1fb-c499aff67f07")
 		(property "Reference" "R6"
-			(at 101.346 104.902 90)
+			(at 103.124 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12165,7 +12245,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 101.854 108.204 90)
+			(at 100.076 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12456,7 +12536,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 259.08 147.32 90)
+			(at 263.906 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12815,7 +12895,7 @@
 		(dnp no)
 		(uuid "a5b68af2-f9a1-4036-95f1-cd4a997e6f8c")
 		(property "Reference" "JP8"
-			(at 266.065 194.31 0)
+			(at 282.702 187.706 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12827,6 +12907,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 194.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13015,143 +13096,6 @@
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
 					(reference "#GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS24")
-		(at 93.98 90.17 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af9a8c69-6f60-4ab2-b128-20939671c93d")
-		(property "Reference" "D1"
-			(at 96.52 88.5824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS24"
-			(at 96.52 91.1224 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 89.535 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
-			(at 93.98 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 2A Schottky Diode, SMA"
-			(at 93.98 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" ""
-			(at 93.98 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" ""
-			(at 93.98 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAN" ""
-			(at 93.98 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 93.98 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 93.98 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8e5a7e3c-d5c0-4415-b75a-9c33aba1253a")
-		)
-		(pin "1"
-			(uuid "603ef22f-38c3-4129-acec-e6539481fef1")
-		)
-		(instances
-			(project "CameraBoard"
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -13675,7 +13619,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 107.95 114.3 90)
+		(at 106.68 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13685,7 +13629,7 @@
 		(dnp no)
 		(uuid "bb45c3d2-d18f-4769-a002-dcfe0c64d72c")
 		(property "Reference" "R7"
-			(at 107.95 112.776 90)
+			(at 108.204 116.586 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13695,7 +13639,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 107.95 116.586 90)
+			(at 105.664 116.586 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13705,7 +13649,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 107.95 114.3 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13716,7 +13660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 114.3 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13727,7 +13671,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 107.95 114.3 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13738,7 +13682,7 @@
 			)
 		)
 		(property "DIS" ""
-			(at 107.95 114.3 90)
+			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13749,7 +13693,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 107.95 114.3 90)
+			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13760,7 +13704,7 @@
 			)
 		)
 		(property "MAN" ""
-			(at 107.95 114.3 90)
+			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13771,7 +13715,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 107.95 114.3 90)
+			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13782,7 +13726,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 107.95 114.3 90)
+			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13955,7 +13899,7 @@
 		(dnp no)
 		(uuid "bda4a54b-f097-4c0c-a485-55e6458b8584")
 		(property "Reference" "JP10"
-			(at 266.065 214.63 0)
+			(at 282.702 208.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13967,6 +13911,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 214.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14602,7 +14547,7 @@
 		(dnp no)
 		(uuid "cc9fb10e-ad58-4f86-8e3a-3a8ae9c0589b")
 		(property "Reference" "JP5"
-			(at 266.065 158.75 0)
+			(at 282.702 152.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14614,6 +14559,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14829,7 +14775,7 @@
 		(dnp no)
 		(uuid "cf11849e-d92c-41f6-b470-6e5c061f24e1")
 		(property "Reference" "JP9"
-			(at 266.065 204.47 0)
+			(at 282.702 197.866 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14841,6 +14787,7 @@
 		)
 		(property "Value" "PINHD-1X3"
 			(at 279.4 204.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15403,7 +15350,7 @@
 		(dnp no)
 		(uuid "e30b5d63-781a-4e28-80e3-1a9443c975f7")
 		(property "Reference" "R10"
-			(at 168.148 105.41 90)
+			(at 171.958 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15413,7 +15360,7 @@
 			)
 		)
 		(property "Value" "38.4k"
-			(at 168.91 108.712 90)
+			(at 172.466 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15850,7 +15797,7 @@
 		(dnp no)
 		(uuid "e84a4478-3ca6-4cc9-b98f-4864b275cfdb")
 		(property "Reference" "R3"
-			(at 90.932 109.22 0)
+			(at 90.424 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15861,7 +15808,7 @@
 			)
 		)
 		(property "Value" "133k"
-			(at 90.17 112.014 0)
+			(at 89.662 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16075,7 +16022,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 91.44 126.9999 0)
+			(at 90.932 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16338,6 +16285,88 @@
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
 					(reference "#V02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B240")
+		(at 93.98 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7170b53-6be4-44bd-8807-4e1606465922")
+		(property "Reference" "D6"
+			(at 96.52 88.5824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B240"
+			(at 96.52 91.1224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 89.535 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 2A Schottky Barrier Rectifier Diode, SMB"
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "250264c2-9a12-45c3-b69a-e0b738eeb9e7")
+		)
+		(pin "1"
+			(uuid "5a424092-8d0e-403b-8183-840bfc50a33c")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
+					(reference "D6")
 					(unit 1)
 				)
 			)
