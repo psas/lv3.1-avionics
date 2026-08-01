@@ -4090,10 +4090,10 @@
 		(uuid "18a89269-39f9-497f-8151-782c8baf88dd")
 	)
 	(junction
-		(at 303.53 162.56)
+		(at 231.14 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1961347f-6d1e-43fd-800b-9214e166bf3f")
+		(uuid "229d5c38-08e3-42bf-9ea9-6c189590c80a")
 	)
 	(junction
 		(at 271.78 223.52)
@@ -4160,6 +4160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6276cabd-0a6a-4542-8c4f-ad2c1baadf03")
+	)
+	(junction
+		(at 223.52 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "637ae386-cfaa-40d9-9288-0db3aedb527d")
 	)
 	(junction
 		(at 185.42 222.25)
@@ -4252,16 +4258,16 @@
 		(uuid "9d8606a5-1e1f-49a3-b8fc-d7885041d8d8")
 	)
 	(junction
+		(at 231.14 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a12f2cc7-f142-4b74-bc3a-c5a1d27d1a31")
+	)
+	(junction
 		(at 87.63 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a723a176-0d39-4c69-8ff9-202d00eab7c2")
-	)
-	(junction
-		(at 231.14 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a980983f-bfa1-440b-8662-d13d57831c8f")
 	)
 	(junction
 		(at 205.74 222.25)
@@ -4372,6 +4378,10 @@
 	(no_connect
 		(at 274.32 213.36)
 		(uuid "7d72cedf-463d-4130-bd66-f03ee3ecd6b4")
+	)
+	(no_connect
+		(at 274.32 170.18)
+		(uuid "7dc8c3fa-4f3c-4cb8-ad62-71e8f3db5371")
 	)
 	(no_connect
 		(at 274.32 203.2)
@@ -4601,6 +4611,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 114.3) (xy 231.14 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2599125e-d59c-4595-9422-1b16fbf0431a")
+	)
+	(wire
+		(pts
 			(xy 149.86 111.76) (xy 166.37 111.76)
 		)
 		(stroke
@@ -4621,16 +4641,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 121.92) (xy 231.14 123.19)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "27da23ba-a91e-4a34-b36c-e102e2af81ad")
-	)
-	(wire
-		(pts
 			(xy 38.1 173.99) (xy 52.07 173.99)
 		)
 		(stroke
@@ -4638,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "2baa50b6-8fd5-4c84-9a57-2f6024fec23b")
+	)
+	(wire
+		(pts
+			(xy 223.52 119.38) (xy 231.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5f35e6-61ed-4983-9190-c0f07fd897c3")
 	)
 	(wire
 		(pts
@@ -4851,16 +4871,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 162.56) (xy 303.53 162.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "467b3240-81ef-482e-a74c-4b22eafba808")
-	)
-	(wire
-		(pts
 			(xy 153.67 222.25) (xy 158.75 222.25)
 		)
 		(stroke
@@ -4961,7 +4971,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 101.6) (xy 231.14 101.6)
+			(xy 219.71 101.6) (xy 223.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5011,7 +5021,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 162.56) (xy 346.71 162.56)
+			(xy 274.32 162.56) (xy 346.71 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -5151,16 +5161,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 114.3) (xy 231.14 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6b3781e1-31bc-4ea6-a837-42c40db50faa")
-	)
-	(wire
-		(pts
 			(xy 77.47 185.42) (xy 87.63 185.42)
 		)
 		(stroke
@@ -5208,16 +5208,6 @@
 			(type default)
 		)
 		(uuid "6e4795b1-d387-481d-a932-9c6663be18fc")
-	)
-	(wire
-		(pts
-			(xy 274.32 170.18) (xy 303.53 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7008f061-f4db-4f0f-b520-6c4d66e557a9")
 	)
 	(wire
 		(pts
@@ -5358,6 +5348,16 @@
 			(type default)
 		)
 		(uuid "7bef96fb-da05-407a-bc78-eba6e9d8d689")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 223.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8810e7-2e44-43da-bfd2-ea857d09e88f")
 	)
 	(wire
 		(pts
@@ -5831,6 +5831,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 101.6) (xy 223.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade50127-0ecf-43fa-82dd-a4f319a2cf8e")
+	)
+	(wire
+		(pts
 			(xy 269.24 161.29) (xy 269.24 170.18)
 		)
 		(stroke
@@ -5868,6 +5878,16 @@
 			(type default)
 		)
 		(uuid "b6c09c8b-9018-4fdf-99dd-d845618be560")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 231.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d7018e-25d2-495d-afa6-0d76900875d7")
 	)
 	(wire
 		(pts
@@ -5968,6 +5988,16 @@
 			(type default)
 		)
 		(uuid "c3fcf9e5-f706-4379-8011-aba26b5c2719")
+	)
+	(wire
+		(pts
+			(xy 231.14 119.38) (xy 231.14 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c7c77582-10e8-4395-b2df-b514487efa13")
 	)
 	(wire
 		(pts
@@ -6430,7 +6460,7 @@
 		(uuid "ac346578-1baa-4549-8b24-276766d0173e")
 	)
 	(label "CAM_UP"
-		(at 285.75 170.18 0)
+		(at 279.4 170.18 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8929,7 +8959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 231.14 119.38 0)
+		(at 223.52 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8940,7 +8970,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e0f9b48-27ed-45fb-89b2-d521483550fb")
 		(property "Reference" "C13"
-			(at 233.68 118.1162 0)
+			(at 226.06 110.4962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8951,7 +8981,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 233.68 120.6562 0)
+			(at 226.06 113.0362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8962,7 +8992,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 231.14 119.38 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8973,7 +9003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 119.38 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +9014,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 231.14 119.38 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8995,7 +9025,7 @@
 			)
 		)
 		(property "DIS" ""
-			(at 231.14 119.38 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9006,7 +9036,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 231.14 119.38 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9017,7 +9047,7 @@
 			)
 		)
 		(property "MAN" ""
-			(at 231.14 119.38 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9058,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 231.14 119.38 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9039,7 +9069,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 231.14 119.38 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9789,7 +9819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53621e75-d7be-4237-b250-7fce9e841fb7")
-		(property "Reference" "IC1"
+		(property "Reference" "U2"
 			(at 133.35 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,7 +10073,7 @@
 		(instances
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "IC1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10184,85 +10214,6 @@
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
 					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "psas-testpoint:Test-Point")
-		(at 303.53 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6078f593-1dba-4fa5-877b-6ee27beadae9")
-		(property "Reference" "TP4"
-			(at 306.07 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 303.53 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
-			(at 303.53 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 303.53 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95666440-a1f1-47c7-a78a-0c6ac0a52aac")
-		)
-		(instances
-			(project "CameraBoard"
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -11047,85 +10998,6 @@
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
 					(reference "#GND08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "psas-testpoint:Test-Point")
-		(at 303.53 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a78c3aa-2aad-4f7c-9e2d-429c3b3a4cc5")
-		(property "Reference" "TP3"
-			(at 306.07 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 303.53 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CameraBoard:2MM-TEST-POINT"
-			(at 303.53 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 303.53 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95666440-a1f1-47c7-a78a-0c6ac0a52aad")
-		)
-		(instances
-			(project "CameraBoard"
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
