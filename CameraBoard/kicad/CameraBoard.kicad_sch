@@ -6767,6 +6767,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 125.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f71ee4ff-56e3-4db3-aa9b-192675d8c968")
 		)
@@ -6942,6 +6953,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 120.65 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bfbe7309-f29e-44a2-bedf-873ee872a7c6")
 		)
@@ -7001,7 +7023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7012,7 +7034,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7023,7 +7045,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "DigiKey"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7034,7 +7056,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7056,7 +7078,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7068,6 +7090,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 82.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7204,6 +7237,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 166.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7372,6 +7416,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 196.85 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "941ef50e-ac22-4f46-a892-dcde146ca2e7")
 		)
@@ -7431,7 +7486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7442,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7453,7 +7508,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "DigiKey"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7464,7 +7519,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7486,7 +7541,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7498,6 +7553,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 87.63 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7580,6 +7646,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 52.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 52.07 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7718,6 +7795,17 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 271.78 238.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,6 +7964,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 205.74 236.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfdf9bbf-b12e-4fce-82eb-3c277e5f7ff5")
 		)
@@ -8002,6 +8101,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 195.58 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8148,6 +8258,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 185.42 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2780bca-5d3a-4ab1-beff-536c52590b21")
 		)
@@ -8223,6 +8344,17 @@
 			)
 		)
 		(property "Description" "-8.4A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2"
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 60.96 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8363,6 +8495,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 351.79 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 351.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8600,6 +8743,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 113.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44f4264b-931e-4ae6-a01a-c66648b65e91")
 		)
@@ -8736,6 +8890,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 33.02 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93679cb6-4ea5-4e3b-b664-645de9e0bba9")
 		)
@@ -8808,6 +8973,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 208.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 208.28 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8946,6 +9122,17 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 271.78 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9173,6 +9360,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "acc2132e-a592-442b-bb94-1021ccf0da55")
 		)
@@ -9377,6 +9575,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 172.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 172.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9602,6 +9811,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 248.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b774e98-0292-4a89-bded-41c9aac8b6db")
 		)
@@ -9673,7 +9893,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9684,7 +9904,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9695,7 +9915,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "DigiKey"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9706,7 +9926,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +9948,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9740,6 +9960,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 107.95 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9876,6 +10107,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10107,6 +10349,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "1b3593dd-8f85-4dd3-b9db-c316e41e3a5c")
 		)
@@ -10295,6 +10548,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23a61d89-df10-4a2a-9735-99142233a42e")
 		)
@@ -10426,6 +10690,17 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 271.78 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,6 +10925,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 166.37 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5a5c714b-fc80-49d3-9da3-f64750fc048c")
 		)
@@ -10776,6 +11062,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 166.37 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10914,6 +11211,17 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 271.78 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11297,6 +11605,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 153.67 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03b4554d-b813-4a70-8706-f0cf9aec3f99")
 		)
@@ -11589,6 +11908,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 196.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "283112f3-74b2-4627-97fe-9ce96bf1e0cf")
 		)
@@ -11715,6 +12045,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11940,6 +12281,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 205.74 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5fa9927-30b3-422e-aa92-d96dc6f94fb8")
 		)
@@ -12012,6 +12364,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 52.07 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 52.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12302,6 +12665,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 101.6 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 101.6 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -12628,6 +13002,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 208.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f34df85-9f8d-4177-929d-0ef4f44b60ee")
 		)
@@ -12830,6 +13215,17 @@
 		)
 		(property "Sim.Device" ""
 			(at 162.56 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 162.56 222.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13045,6 +13441,17 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 271.78 187.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13281,6 +13688,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 110.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd5735b6-15fe-4dad-a8b8-d91e0b652069")
 		)
@@ -13418,7 +13836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13429,7 +13847,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13440,7 +13858,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "DigiKey"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13451,7 +13869,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13473,7 +13891,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13485,6 +13903,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 77.47 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13785,6 +14214,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 106.68 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc6a56ba-4105-4658-9d56-068a5eb98db8")
 		)
@@ -13911,6 +14351,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 149.86 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 149.86 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -14058,6 +14509,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0280a1ff-aabc-4721-9297-03ffa3d67d3c")
 		)
@@ -14188,6 +14650,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 172.72 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14491,6 +14964,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 96.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a7157fa-910b-42bd-ad43-2beb230a5aca")
 		)
@@ -14706,6 +15190,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24e54ee7-c67f-475c-ab29-3c3e5849f34a")
 		)
@@ -14784,6 +15279,17 @@
 			)
 		)
 		(property "Description" "-8.4A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2"
+			(at 217.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14934,6 +15440,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7cafa8c0-14af-49b0-a6a3-0b59264e61d2")
 		)
@@ -15074,7 +15591,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15085,7 +15602,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15096,7 +15613,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "DigiKey"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15107,7 +15624,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15129,7 +15646,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15141,6 +15658,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 96.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15225,6 +15753,17 @@
 		)
 		(property "Description" "-8.4A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2"
 			(at 63.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 63.5 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15372,6 +15911,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 62.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e859fc2-33b8-4bda-b9de-acb5c5bc7d55")
 		)
@@ -15506,6 +16056,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 171.45 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e66a1cd5-7072-4a72-871a-505c01050bb5")
 		)
@@ -15578,6 +16139,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 205.74 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -15955,6 +16527,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 88.9 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec992d6f-87b9-41d2-a234-df5efd25d110")
 		)
@@ -16159,6 +16742,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 88.9 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16406,6 +17000,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 93.98 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "250264c2-9a12-45c3-b69a-e0b738eeb9e7")
 		)
@@ -16478,6 +17083,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 105.41 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -16610,6 +17226,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 62.23 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
