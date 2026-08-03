@@ -4694,6 +4694,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 234.95) (xy 125.73 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f663fcc-155e-4748-9def-e80e9323ec9c")
+	)
+	(wire
+		(pts
 			(xy 208.28 55.88) (xy 208.28 50.8)
 		)
 		(stroke
@@ -6114,6 +6124,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 80.01) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4db9bb9-3220-4d0f-b1d4-c94aa8c80e0e")
+	)
+	(wire
+		(pts
 			(xy 231.14 119.38) (xy 231.14 123.19)
 		)
 		(stroke
@@ -6131,16 +6151,6 @@
 			(type default)
 		)
 		(uuid "c7db3a57-d576-4ec0-9bc8-7d20386fc657")
-	)
-	(wire
-		(pts
-			(xy 125.73 234.95) (xy 125.73 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8ffca77-f113-4b8a-9cc7-7528ec8389ce")
 	)
 	(wire
 		(pts
@@ -6181,16 +6191,6 @@
 			(type default)
 		)
 		(uuid "cfa2b65c-c054-468a-a9f2-875be8ea0d55")
-	)
-	(wire
-		(pts
-			(xy 196.85 80.01) (xy 196.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d07ceced-b6cf-4332-b5cb-87d980b263de")
 	)
 	(wire
 		(pts
@@ -6341,16 +6341,6 @@
 			(type default)
 		)
 		(uuid "e78a823c-ac4b-49ac-969b-32daa8c70a0a")
-	)
-	(wire
-		(pts
-			(xy 125.73 234.95) (xy 125.73 240.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e88cd014-66f7-49fa-8ad3-c5e6f8a0f516")
 	)
 	(wire
 		(pts
@@ -6592,16 +6582,6 @@
 		)
 		(uuid "ac346578-1baa-4549-8b24-276766d0173e")
 	)
-	(label "CAM_UP"
-		(at 279.4 170.18 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3a795ca-aab8-4d39-87cb-aecffc62d761")
-	)
 	(label "BATT+"
 		(at 231.14 101.6 0)
 		(effects
@@ -6611,16 +6591,6 @@
 			(justify left bottom)
 		)
 		(uuid "ebe2d4cb-7f2b-4274-886f-b5afd6d27993")
-	)
-	(label "BATT+"
-		(at 196.85 82.55 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5eb0f0a-bddb-4b89-909a-32a6ba27dc11")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6745,7 +6715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2678"
 			(at 125.73 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -6756,7 +6726,62 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC REG BUCK ADJ 5A TO263"
+			(at 125.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 125.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 125.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 125.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LM2678S-ADJ/NOPB"
+			(at 125.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "LM2678S-ADJ/NOPB-ND"
 			(at 125.73 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -6854,7 +6879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "oresat-passives:1206-C"
 			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6865,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
 			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6876,7 +6901,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 2.2UF 25V X7R 1206"
 			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6887,7 +6912,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 120.65 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -6898,7 +6923,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "1276-1072-1-ND"
 			(at 120.65 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -6920,7 +6945,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CL31B225KAHNNNE"
 			(at 120.65 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -6932,6 +6957,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 120.65 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 120.65 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 120.65 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -6990,7 +7037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7001,7 +7048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM21BR71H105KA03L#"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7012,7 +7059,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7023,7 +7070,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7034,7 +7081,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-10675-2-ND"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7056,7 +7103,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GCM21BR71H105KA03L"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7068,6 +7115,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 82.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 82.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7126,7 +7195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7137,7 +7206,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7148,7 +7217,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "3 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7159,7 +7228,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7170,7 +7239,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT3K00CT-ND"
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7192,7 +7261,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT3K00"
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7204,6 +7273,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 166.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 166.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7339,7 +7430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7350,7 +7441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 196.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7361,8 +7452,63 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 196.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 196.85 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 196.85 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics Inc"
+			(at 196.85 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 196.85 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT2K70CT-ND"
+			(at 196.85 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7420,7 +7566,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CameraBoard:.0805-B-NOSILK"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 88.5952 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -7431,7 +7577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7442,7 +7588,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7453,7 +7599,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7464,7 +7610,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7486,7 +7632,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7498,6 +7644,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 87.63 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 87.63 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7557,7 +7725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 52.07 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7568,7 +7736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 52.07 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7579,7 +7747,62 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 52.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 52.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 52.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics"
+			(at 52.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 52.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 52.07 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7650,7 +7873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7661,7 +7884,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7672,7 +7895,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7683,7 +7906,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7705,7 +7928,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7718,6 +7941,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 238.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,7 +8022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
 			(at 205.74 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -7788,7 +8033,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 205.74 236.22 90)
 			(hide yes)
 			(show_name no)
@@ -7799,7 +8044,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 205.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -7821,7 +8066,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 205.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -7832,7 +8077,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-150060AS75000CT-ND"
 			(at 205.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -7854,7 +8099,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "150060AS75000"
 			(at 205.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -7867,6 +8112,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 205.74 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 205.74 236.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth"
+			(at 205.74 236.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7924,7 +8191,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CameraBoard:1206-A"
+		(property "Footprint" "oresat-passives:1206-C"
 			(at 196.5452 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -7935,7 +8202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -7946,7 +8213,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 47UF 10V X5R 1206"
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -7957,7 +8224,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -7968,7 +8235,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-5528-1-ND"
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -7990,7 +8257,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM31CR61A476ME15L"
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8002,6 +8269,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 195.58 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 195.58 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8060,7 +8349,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CameraBoard:1206-A"
+		(property "Footprint" "oresat-passives:1206-C"
 			(at 186.3852 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -8071,7 +8360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 185.42 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8082,7 +8371,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 47UF 10V X5R 1206"
 			(at 185.42 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8093,7 +8382,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 185.42 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8104,7 +8393,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-5528-1-ND"
 			(at 185.42 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8126,7 +8415,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM31CR61A476ME15L"
 			(at 185.42 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8138,6 +8427,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 185.42 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 185.42 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 185.42 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8222,7 +8533,62 @@
 				(justify left)
 			)
 		)
-		(property "Description" "-8.4A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2"
+		(property "Description" "P-Channel 60 V 8.4A (Tc) 1.7W (Ta), 20.8W (Tc) Surface Mount TO-252"
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Siliconix"
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SUD08P06-155L-GE3"
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "SUD08P06-155L-GE3CT-ND"
 			(at 60.96 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8296,7 +8662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 351.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8307,7 +8673,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 351.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8318,7 +8684,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 351.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8329,7 +8695,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 351.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8351,7 +8717,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 351.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8363,6 +8729,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 351.79 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 351.79 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 351.79 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8501,7 +8889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
 			(at 113.03 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -8512,7 +8900,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 113.03 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -8523,7 +8911,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8545,7 +8933,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8556,7 +8944,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-150060AS75000CT-ND"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8578,7 +8966,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "150060AS75000"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8590,6 +8978,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 113.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 113.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8659,7 +9069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
 			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8670,7 +9080,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
 			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8681,7 +9091,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8692,7 +9102,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5315-ND"
 			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8714,7 +9124,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300211121"
 			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8726,6 +9136,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 33.02 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 33.02 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -8785,7 +9217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 208.28 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8796,7 +9228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 208.28 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8807,7 +9239,62 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "150 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
+			(at 208.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 208.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 208.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAEGO"
+			(at 208.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-10150KL"
+			(at 208.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "13-RC0603FR-10150KLCT-ND"
 			(at 208.28 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8878,7 +9365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8889,7 +9376,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8900,7 +9387,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8911,7 +9398,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8933,7 +9420,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8946,6 +9433,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9085,7 +9594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "oresat-passives:1206-C"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9096,7 +9605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9107,7 +9616,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 50V X5R 1206"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9118,7 +9627,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9129,7 +9638,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "445-12883-1-ND"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9151,7 +9660,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CGA5L3X5R1H106M160AB"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9163,6 +9672,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9299,7 +9830,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CameraBoard:1206-A"
+		(property "Footprint" "oresat-passives:1206-C"
 			(at 173.6852 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -9310,7 +9841,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 172.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9321,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 47UF 10V X5R 1206"
 			(at 172.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9332,7 +9863,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 172.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9343,7 +9874,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-5528-1-ND"
 			(at 172.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9365,7 +9896,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM31CR61A476ME15L"
 			(at 172.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9377,6 +9908,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 172.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 172.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 172.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -9525,7 +10078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300611121.pdf"
 			(at 248.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +10089,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 6POS 2.54MM"
 			(at 248.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9547,7 +10100,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 248.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9558,7 +10111,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5319-ND"
 			(at 248.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9580,7 +10133,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300611121"
 			(at 248.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9592,6 +10145,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 248.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 248.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 248.92 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9662,7 +10237,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CameraBoard:.0805-B-NOSILK"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 108.9152 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9673,7 +10248,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9684,7 +10259,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9695,7 +10270,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9706,7 +10281,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +10303,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9740,6 +10315,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 107.95 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 107.95 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9798,7 +10395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9809,7 +10406,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9820,7 +10417,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9831,7 +10428,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9842,7 +10439,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "399-6856-1-ND"
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9864,7 +10461,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9876,6 +10473,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9957,7 +10576,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Battery Management 36V 3A Switching Charger with Integrated MOSFETs and Input Power Management for 3-6 Cell Batteries"
+		(property "Description" "36V 3A SWITCHING CHARGER WITH IN"
 			(at 109.22 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10052,7 +10671,7 @@
 				(justify left top)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 109.22 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10063,7 +10682,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "1589-MP2659GQ-0000-ZCT-ND"
 			(at 109.22 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10085,7 +10704,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MP2659GQ-0000-Z"
 			(at 109.22 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10097,6 +10716,17 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
 			(at 109.22 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10218,7 +10848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10229,7 +10859,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10240,7 +10870,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10251,7 +10881,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10273,7 +10903,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10286,6 +10916,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10358,7 +11010,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10369,7 +11021,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10380,7 +11032,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10391,7 +11043,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10413,7 +11065,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10426,6 +11078,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10562,7 +11236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "oresat-misc:WE-PD_1260"
 			(at 166.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10584,7 +11258,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "FIXED IND 10UH 5A 25 MOHM SMD"
 			(at 166.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -10595,7 +11269,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 166.37 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -10606,7 +11280,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-1208-1-ND"
 			(at 166.37 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -10628,7 +11302,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "74477110"
 			(at 166.37 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -10640,6 +11314,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 166.37 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 166.37 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 166.37 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -10698,7 +11394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10709,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28700/mcx0x0xpre.pdf"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10720,7 +11416,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "6.5 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10731,7 +11427,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10742,7 +11438,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "MCT06030D6501BP100-ND"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10764,7 +11460,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MCT06030D6501BP100"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10776,6 +11472,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 166.37 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 166.37 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
 			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10846,7 +11564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10857,7 +11575,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10868,7 +11586,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10879,7 +11597,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10901,7 +11619,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10914,6 +11632,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 218.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11231,7 +11971,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC (DO-214AB)"
+		(property "Description" "Diode 40 V 3A Surface Mount SMC"
 			(at 149.098 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -11242,7 +11982,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 153.67 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -11253,7 +11993,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "MBRS340T3GOSCT-ND"
 			(at 153.67 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -11275,7 +12015,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "MBRS340T3G"
 			(at 153.67 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -11287,6 +12027,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 153.67 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 153.67 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
 			(at 153.67 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -11501,7 +12263,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11512,7 +12274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11523,7 +12285,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11534,7 +12296,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11545,7 +12307,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11567,7 +12329,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT1K00"
 			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11579,6 +12341,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 196.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 196.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics Inc"
 			(at 196.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11637,7 +12421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11648,7 +12432,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11659,7 +12443,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11670,7 +12454,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11681,7 +12465,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11703,7 +12487,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11715,6 +12499,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11842,7 +12648,6 @@
 		)
 		(property "Value" "3.3k"
 			(at 211.836 230.632 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11852,7 +12657,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 205.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -11863,7 +12668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 205.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -11874,7 +12679,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "3.3 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 205.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -11885,7 +12690,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 205.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -11896,7 +12701,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "541-3.30KHCT-ND"
 			(at 205.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -11918,7 +12723,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW06033K30FKEA"
 			(at 205.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -11930,6 +12735,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 205.74 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 205.74 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
 			(at 205.74 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -11989,7 +12816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 52.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12000,7 +12827,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 52.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12011,7 +12838,62 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 52.07 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 52.07 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 52.07 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics"
+			(at 52.07 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 52.07 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 52.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12224,7 +13106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12235,7 +13117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12246,7 +13128,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12257,7 +13139,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 101.6 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -12268,7 +13150,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 101.6 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -12290,7 +13172,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT10K0"
 			(at 101.6 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -12302,6 +13184,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 101.6 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 101.6 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics"
 			(at 101.6 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -12567,7 +13471,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12618,6 +13522,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 208.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
 			(at 208.28 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12762,7 +13688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2262/Q%2B_Products_Flyer.pdf"
 			(at 162.56 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -12773,7 +13699,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FIXED IND 22UH 4A 44.5 MOHM SMD"
 			(at 162.56 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -12784,7 +13710,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 162.56 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -12795,7 +13721,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-6785-1-ND"
 			(at 162.56 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -12817,7 +13743,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "74477110"
 			(at 162.56 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -12830,6 +13756,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 162.56 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 162.56 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 162.56 222.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12977,7 +13925,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12988,7 +13936,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -12999,7 +13947,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13010,7 +13958,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13032,7 +13980,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13045,6 +13993,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 187.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13182,7 +14152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
 			(at 110.49 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -13193,7 +14163,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 110.49 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -13204,7 +14174,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol, filled shape"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13226,7 +14196,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13237,7 +14207,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-150060AS75000CT-ND"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13259,7 +14229,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "150060AS75000"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13271,6 +14241,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 110.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 110.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth"
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13407,7 +14399,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CameraBoard:.0805-B-NOSILK"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 78.4352 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -13418,7 +14410,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13429,7 +14421,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13440,7 +14432,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13451,7 +14443,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13473,7 +14465,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13485,6 +14477,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 77.47 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 77.47 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13697,7 +14711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13708,7 +14722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13719,7 +14733,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "2 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13730,7 +14744,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -13741,7 +14755,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" " P2.00KHCT-ND"
 			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -13763,7 +14777,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ERJ-3EKF2001V"
 			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -13775,6 +14789,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 106.68 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 106.68 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic Industry"
 			(at 106.68 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -13833,7 +14869,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CameraBoard:.0603-A-NOSILK"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 146.05 215.5952 0)
 			(hide yes)
 			(show_name no)
@@ -13844,7 +14880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 149.86 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -13855,7 +14891,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 149.86 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -13866,7 +14902,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 149.86 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -13877,7 +14913,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "399-12983-1-ND"
 			(at 149.86 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -13899,7 +14935,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C0603C103J5RACAUTO"
 			(at 149.86 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -13911,6 +14947,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 149.86 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 149.86 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
 			(at 149.86 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -13981,7 +15039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -13992,7 +15050,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -14003,7 +15061,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -14014,7 +15072,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -14036,7 +15094,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -14049,6 +15107,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 208.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14110,7 +15190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-misc:THRMC1608X95N"
 			(at 172.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -14121,7 +15201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/NCU18XH103F60RB.pdf"
 			(at 172.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -14132,7 +15212,7 @@
 				)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+		(property "Description" "THERMISTOR NTC 10KOHM 3380K 0603"
 			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14143,7 +15223,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14154,7 +15234,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-16279-1-ND"
 			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14176,7 +15256,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "NCU18XH103F60RB"
 			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14188,6 +15268,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 172.72 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 172.72 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14403,7 +15505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14414,7 +15516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14425,7 +15527,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14436,7 +15538,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14447,7 +15549,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT33K0CT-ND"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14469,7 +15571,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT33K0"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14481,6 +15583,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 96.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 96.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14629,7 +15753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14640,7 +15764,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14651,7 +15775,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14662,7 +15786,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14684,7 +15808,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14697,6 +15821,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14783,7 +15929,62 @@
 				(justify left)
 			)
 		)
-		(property "Description" "-8.4A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2"
+		(property "Description" "P-Channel 60 V 8.4A (Tc) 1.7W (Ta), 20.8W (Tc) Surface Mount TO-252"
+			(at 217.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 217.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 217.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Siliconix"
+			(at 217.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SUD08P06-155L-GE3"
+			(at 217.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "SUD08P06-155L-GE3CT-ND"
 			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14857,7 +16058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 271.78 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14868,7 +16069,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 271.78 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14879,7 +16080,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 271.78 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14890,7 +16091,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5316-ND"
 			(at 271.78 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14912,7 +16113,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300311121"
 			(at 271.78 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14925,6 +16126,28 @@
 		)
 		(property "Sim.Device" ""
 			(at 271.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 271.78 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15063,7 +16286,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CameraBoard:.0805-B-NOSILK"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 97.4852 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -15074,7 +16297,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15085,7 +16308,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15096,7 +16319,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15107,7 +16330,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15129,7 +16352,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15141,6 +16364,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 96.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 96.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 96.52 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15223,8 +16468,63 @@
 				(justify left)
 			)
 		)
-		(property "Description" "-8.4A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2"
+		(property "Description" "P-Channel 60 V 8.4A (Tc) 1.7W (Ta), 20.8W (Tc) Surface Mount TO-252"
 			(at 63.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 63.5 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 63.5 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Siliconix"
+			(at 63.5 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SUD08P06-155L-GE3"
+			(at 63.5 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "SUD08P06-155L-GE3CT-ND"
+			(at 63.5 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15295,7 +16595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
 			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15306,7 +16606,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
 			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15317,7 +16617,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15328,7 +16628,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5315-ND"
 			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15350,7 +16650,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300211121"
 			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15362,6 +16662,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 62.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 62.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15418,7 +16740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15429,7 +16751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/doc?28758"
 			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15440,7 +16762,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "Thin Film Resistors - SMD TNPW0603 38K8 0.1% T-9 ET1 e3"
 			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15451,7 +16773,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Mouser"
 			(at 171.45 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -15462,7 +16784,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "71-TNPW060338K8BEEA"
 			(at 171.45 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -15484,7 +16806,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TNPW060338K8BEEA"
 			(at 171.45 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -15496,6 +16818,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 171.45 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 171.45 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
 			(at 171.45 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -15527,7 +16871,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15578,6 +16922,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 205.74 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
 			(at 205.74 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -15867,7 +17233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15878,7 +17244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15889,7 +17255,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "133 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15900,7 +17266,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15911,7 +17277,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" " 541-133KHCT-ND"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15933,7 +17299,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CRCW0603133KFKEA"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15945,6 +17311,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 88.9 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 88.9 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16081,7 +17469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16092,7 +17480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16103,7 +17491,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16114,7 +17502,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16125,7 +17513,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16147,7 +17535,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT10K0"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16159,6 +17547,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 88.9 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 88.9 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Stackpole Electronics"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16395,8 +17805,63 @@
 				)
 			)
 		)
-		(property "Description" "40V 2A Schottky Barrier Rectifier Diode, SMB"
+		(property "Description" "Diode 40 V 2A Surface Mount SMA"
 			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 93.98 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 93.98 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 93.98 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B240A-13-F"
+			(at 93.98 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "B240A-FDICT-ND"
+			(at 93.98 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16427,7 +17892,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16478,6 +17943,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 105.41 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
 			(at 105.41 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -16543,7 +18030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16554,7 +18041,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16565,7 +18052,7 @@
 				)
 			)
 		)
-		(property "DIS" ""
+		(property "DIS" "Digikey"
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16576,7 +18063,7 @@
 				)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "732-5315-ND"
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16598,7 +18085,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "61300211121"
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16610,6 +18097,28 @@
 			)
 		)
 		(property "Sim.Device" ""
+			(at 62.23 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 62.23 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
