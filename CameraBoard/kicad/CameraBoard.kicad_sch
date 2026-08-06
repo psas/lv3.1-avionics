@@ -4163,12 +4163,6 @@
 		(uuid "14efb452-7b51-4b97-9e73-9c0fde12ee20")
 	)
 	(junction
-		(at 195.58 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1606cb01-6515-4310-8da6-2f0a88f809a8")
-	)
-	(junction
 		(at 231.14 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4185,6 +4179,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18a89269-39f9-497f-8151-782c8baf88dd")
+	)
+	(junction
+		(at 185.42 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c91c98a-3d63-4eac-856a-440955250818")
 	)
 	(junction
 		(at 231.14 114.3)
@@ -4265,10 +4265,10 @@
 		(uuid "637ae386-cfaa-40d9-9288-0db3aedb527d")
 	)
 	(junction
-		(at 185.42 222.25)
+		(at 205.74 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64a3615a-3656-4c7a-94a4-8ca6f0f14ea6")
+		(uuid "69d750bc-3262-46e2-9cce-bb4a916b2678")
 	)
 	(junction
 		(at 271.78 193.04)
@@ -4305,6 +4305,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74696a27-bee6-4ea9-9a31-210e5d360fee")
+	)
+	(junction
+		(at 195.58 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b1c4d02-9ba8-47de-8bea-910ccab678a1")
 	)
 	(junction
 		(at 175.26 101.6)
@@ -4371,12 +4377,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a723a176-0d39-4c69-8ff9-202d00eab7c2")
-	)
-	(junction
-		(at 205.74 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae4422d8-457a-4cbc-8e78-5af33e89abf4")
 	)
 	(junction
 		(at 269.24 213.36)
@@ -4771,6 +4771,16 @@
 			(type default)
 		)
 		(uuid "26c66731-d002-44bf-b825-93ca8ab04033")
+	)
+	(wire
+		(pts
+			(xy 205.74 242.57) (xy 205.74 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5c5c7a-f420-48d6-aafa-492bc611790b")
 	)
 	(wire
 		(pts
@@ -5464,26 +5474,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 231.14) (xy 205.74 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ecb22d-1401-42e2-afe8-5223763eb4fb")
-	)
-	(wire
-		(pts
-			(xy 205.74 238.76) (xy 205.74 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bef96fb-da05-407a-bc78-eba6e9d8d689")
-	)
-	(wire
-		(pts
 			(xy 223.52 114.3) (xy 223.52 119.38)
 		)
 		(stroke
@@ -5901,6 +5891,16 @@
 			(type solid)
 		)
 		(uuid "a23661f9-a0b6-496d-8c37-12dbd60f7988")
+	)
+	(wire
+		(pts
+			(xy 205.74 231.14) (xy 205.74 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c7e0da-10ed-4cbc-8b6f-2f5e2e823629")
 	)
 	(wire
 		(pts
@@ -6683,7 +6683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01204fff-69b6-4f1d-a871-3e9af40fee8d")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 113.03 209.7657 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6792,6 +6792,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 125.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f71ee4ff-56e3-4db3-aa9b-192675d8c968")
 		)
@@ -6840,7 +6851,7 @@
 		(instances
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6979,6 +6990,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 120.65 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 120.65 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -7147,6 +7169,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 82.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2153e95-1e73-4809-b973-aeb12695abf5")
 		)
@@ -7305,6 +7338,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 166.37 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f58b238d-1d76-4f84-b7b4-232be26871e0")
 		)
@@ -7332,7 +7376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f53726-d04a-49b0-a61b-67453ada95b8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 177.8 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7392,7 +7436,7 @@
 		(instances
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7508,6 +7552,17 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT2K70CT-ND"
+			(at 196.85 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 196.85 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -7676,6 +7731,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 87.63 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0f7eef0-0032-46a5-a0d6-118edde11acc")
 		)
@@ -7803,6 +7869,17 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 52.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 52.07 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7972,6 +8049,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "803a31d8-9862-41f3-8c43-14a064ae0cf9")
 		)
@@ -7985,174 +8073,6 @@
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
 					(reference "JP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small_Filled")
-		(at 205.74 236.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "102c5d11-0ef8-4120-84ed-94b042c648cd")
-		(property "Reference" "D5"
-			(at 209.55 235.966 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small_Filled"
-			(at 209.55 236.1565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
-			(at 205.74 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
-			(at 205.74 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
-			(at 205.74 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 205.74 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "Digikey"
-			(at 205.74 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "732-150060AS75000CT-ND"
-			(at 205.74 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAN" ""
-			(at 205.74 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "150060AS75000"
-			(at 205.74 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 205.74 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" ""
-			(at 205.74 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth"
-			(at 205.74 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bfdf9bbf-b12e-4fce-82eb-3c277e5f7ff5")
-		)
-		(pin "2"
-			(uuid "8076fee8-8505-48d4-8b80-55df927871e1")
-		)
-		(instances
-			(project "CameraBoard"
-				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8291,6 +8211,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
+			(at 195.58 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -8459,6 +8390,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 185.42 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2780bca-5d3a-4ab1-beff-536c52590b21")
 		)
@@ -8589,6 +8531,17 @@
 			)
 		)
 		(property "DPN" "SUD08P06-155L-GE3CT-ND"
+			(at 60.96 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 60.96 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8761,6 +8714,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 351.79 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e880f2b7-3779-4d5e-bf1f-c766b3804f13")
 		)
@@ -8791,7 +8755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bb915ae-4bf8-4d31-b6a2-3e5536193559")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 208.28 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8851,7 +8815,7 @@
 		(instances
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8889,7 +8853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 113.03 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -9000,6 +8964,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth"
+			(at 113.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9168,6 +9143,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 33.02 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93679cb6-4ea5-4e3b-b664-645de9e0bba9")
 		)
@@ -9295,6 +9281,17 @@
 			)
 		)
 		(property "DPN" "13-RC0603FR-10150KLCT-ND"
+			(at 208.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 208.28 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9454,6 +9451,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 271.78 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -9704,6 +9712,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "acc2132e-a592-442b-bb94-1021ccf0da55")
 		)
@@ -9930,6 +9949,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
+			(at 172.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 172.72 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -10177,6 +10207,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 248.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b774e98-0292-4a89-bded-41c9aac8b6db")
 		)
@@ -10347,6 +10388,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 107.95 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "206ce749-31fa-49ae-bfcc-d7a926bb240b")
 		)
@@ -10505,6 +10557,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bbb4b80e-42c4-4b3e-8cfb-095b4d4dc9c9")
 		)
@@ -10532,7 +10595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53621e75-d7be-4237-b250-7fce9e841fb7")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 133.35 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10737,6 +10800,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "1b3593dd-8f85-4dd3-b9db-c316e41e3a5c")
 		)
@@ -10797,7 +10871,7 @@
 		(instances
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10937,6 +11011,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 271.78 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -11109,6 +11194,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "279d0af4-0842-4a01-bdb2-093309e49669")
 		)
@@ -11129,7 +11225,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 240.03 0)
+		(at 205.74 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11139,7 +11235,7 @@
 		(dnp no)
 		(uuid "62ec147a-49ed-4262-bdf9-879cf9fd168a")
 		(property "Reference" "#GND010"
-			(at 205.74 240.03 0)
+			(at 205.74 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11150,7 +11246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 245.364 0)
+			(at 203.2 247.904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11161,7 +11257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 240.03 0)
+			(at 205.74 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11172,7 +11268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 240.03 0)
+			(at 205.74 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11183,7 +11279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 240.03 0)
+			(at 205.74 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11336,6 +11432,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 166.37 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 166.37 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -11504,6 +11611,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 166.37 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07c871f2-16eb-468c-b89a-86eb9276737b")
 		)
@@ -11653,6 +11771,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 271.78 218.44 90)
 			(hide yes)
 			(show_name no)
@@ -12059,6 +12188,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 153.67 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03b4554d-b813-4a70-8706-f0cf9aec3f99")
 		)
@@ -12373,6 +12513,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 196.85 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "283112f3-74b2-4627-97fe-9ce96bf1e0cf")
 		)
@@ -12521,6 +12672,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
+			(at 177.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 177.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12767,6 +12929,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 205.74 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5fa9927-30b3-422e-aa92-d96dc6f94fb8")
 		)
@@ -12894,6 +13067,17 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 52.07 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 52.07 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13206,6 +13390,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics"
+			(at 101.6 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 101.6 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -13554,6 +13749,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 208.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f34df85-9f8d-4177-929d-0ef4f44b60ee")
 		)
@@ -13777,6 +13983,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 162.56 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 162.56 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -14024,6 +14241,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24f3c5a9-f578-4806-812b-8e0c72b622bd")
 		)
@@ -14037,6 +14265,185 @@
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
 					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 205.74 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa8521f9-f3e1-43d4-b82b-db866cdee1e5")
+		(property "Reference" "D5"
+			(at 206.756 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small_Filled"
+			(at 209.55 237.4265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 205.74 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
+			(at 205.74 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric) - 120 mA @ 20 mA"
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "732-150060AS75000CT-ND"
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAN" ""
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060AS75000"
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth"
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 205.74 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c1dc2f5-1d5a-48cb-a08e-30b57dcb98d5")
+		)
+		(pin "2"
+			(uuid "0ae0b71d-8c2d-4fb7-9706-56c61ed267a7")
+		)
+		(instances
+			(project "CameraBoard"
+				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14152,7 +14559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-diodes:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 110.49 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -14263,6 +14670,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth"
+			(at 110.49 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 110.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14499,6 +14917,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
+			(at 77.47 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 77.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14821,6 +15250,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 106.68 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc6a56ba-4105-4658-9d56-068a5eb98db8")
 		)
@@ -14969,6 +15409,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
+			(at 149.86 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 149.86 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -15138,6 +15589,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0280a1ff-aabc-4721-9297-03ffa3d67d3c")
 		)
@@ -15290,6 +15752,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
+			(at 172.72 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -15615,6 +16088,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 96.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a7157fa-910b-42bd-ad43-2beb230a5aca")
 		)
@@ -15642,7 +16126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7ddfe9d-a3d1-4d66-9bea-7750c3d0ede2")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 187.96 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15702,7 +16186,7 @@
 		(instances
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15852,6 +16336,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 271.78 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24e54ee7-c67f-475c-ab29-3c3e5849f34a")
 		)
@@ -15985,6 +16480,17 @@
 			)
 		)
 		(property "DPN" "SUD08P06-155L-GE3CT-ND"
+			(at 217.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16147,6 +16653,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 271.78 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 271.78 198.12 90)
 			(hide yes)
 			(show_name no)
@@ -16396,6 +16913,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 96.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6108e97-2c6b-4a87-b3b1-6c477e204bd4")
 		)
@@ -16524,6 +17052,17 @@
 			)
 		)
 		(property "DPN" "SUD08P06-155L-GE3CT-ND"
+			(at 63.5 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 63.5 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -16694,6 +17233,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 62.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e859fc2-33b8-4bda-b9de-acb5c5bc7d55")
 		)
@@ -16850,6 +17400,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 171.45 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e66a1cd5-7072-4a72-871a-505c01050bb5")
 		)
@@ -16944,6 +17505,17 @@
 			)
 		)
 		(property "DIS" "Digikey"
+			(at 205.74 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 205.74 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -17343,6 +17915,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 88.9 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec992d6f-87b9-41d2-a234-df5efd25d110")
 		)
@@ -17579,6 +18162,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 88.9 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c03209a1-633e-4e50-9f5c-9f9964c49f66")
 		)
@@ -17605,7 +18199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed6d15a3-a71d-41a9-8234-890e1c872e35")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 182.88 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17665,7 +18259,7 @@
 		(instances
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17761,7 +18355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7170b53-6be4-44bd-8807-4e1606465922")
-		(property "Reference" "D6"
+		(property "Reference" "D1"
 			(at 96.52 88.5824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17871,6 +18465,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 93.98 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "250264c2-9a12-45c3-b69a-e0b738eeb9e7")
 		)
@@ -17880,7 +18485,7 @@
 		(instances
 			(project "CameraBoard"
 				(path "/876601fa-fbd1-4e2d-9c28-84441865735b"
-					(reference "D6")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -17965,6 +18570,17 @@
 			)
 		)
 		(property "DIS" "Digikey"
+			(at 105.41 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 105.41 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -18119,6 +18735,17 @@
 			)
 		)
 		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 62.23 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
