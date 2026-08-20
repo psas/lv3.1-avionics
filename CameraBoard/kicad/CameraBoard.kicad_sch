@@ -4552,7 +4552,7 @@
 		)
 		(uuid "61dddbae-92d9-43ed-863b-447da74acd16")
 	)
-	(text "Enables system;\n3.3V from Telemetrum Sender."
+	(text "Enables system;\n5V from Telemetrum Sender."
 		(exclude_from_sim no)
 		(at 52.324 204.978 0)
 		(effects
