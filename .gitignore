@@ -82,3 +82,4 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+CameraBoard/kicad/.history/
