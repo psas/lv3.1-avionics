@@ -217,7 +217,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -485,13 +485,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -634,16 +635,16 @@
       {
         "filename": "WiringDiagram.kicad_sch",
         "name": "WiringDiagram",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "39f5264c-152d-4c2c-b3e0-6f5febf2726f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J8,J10-12,BT3,AE3,SW4,ARM\\-JP3,ERS\\-J31-32,CAM\\-JP9,CAM\\-JP13",
     "variants": []
   },
   "sheets": [
     [
       "39f5264c-152d-4c2c-b3e0-6f5febf2726f",
-      "Root"
+      "WiringDiagram"
     ]
   ],
   "text_variables": {},
