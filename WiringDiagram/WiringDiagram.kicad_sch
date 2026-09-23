@@ -2119,18 +2119,6 @@
 		)
 		(uuid "07daaddb-6a5d-4b27-ac41-f9c35c27a023")
 	)
-	(text "\"J\""
-		(exclude_from_sim no)
-		(at 426.466 252.984 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "07fa2201-4c38-43ca-a432-34646655fc76")
-	)
 	(text "\"6\""
 		(exclude_from_sim no)
 		(at 194.818 340.614 0)
@@ -2166,6 +2154,18 @@
 			)
 		)
 		(uuid "0db7aaa3-b4f7-49b1-bcd9-d131f3977846")
+	)
+	(text "\"J\""
+		(exclude_from_sim no)
+		(at 451.612 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0ea6e3c3-8074-419f-81fe-0a8a9a4db0ab")
 	)
 	(text "\"4\""
 		(exclude_from_sim no)
@@ -2402,6 +2402,18 @@
 			)
 		)
 		(uuid "278dcb2e-181a-48a5-abac-38cee0cd9772")
+	)
+	(text "\"J\""
+		(exclude_from_sim no)
+		(at 455.93 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "285c6882-7f63-4ae4-91ca-d44e74376966")
 	)
 	(text "CAMERA MODULE"
 		(exclude_from_sim no)
@@ -2676,18 +2688,6 @@
 		)
 		(uuid "4bbfc9c0-0873-43c7-8066-946de7ada5e8")
 	)
-	(text "\"K\""
-		(exclude_from_sim no)
-		(at 451.358 100.076 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "4bd31574-f93b-477e-881e-c4131df1cf0d")
-	)
 	(text "\"20\""
 		(exclude_from_sim no)
 		(at 303.53 102.87 0)
@@ -2911,18 +2911,6 @@
 			)
 		)
 		(uuid "6606c26c-6123-4d97-97b7-47a2b951b0c0")
-	)
-	(text "\"J\""
-		(exclude_from_sim no)
-		(at 426.72 247.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "66b15e3a-4e2e-499c-b72b-41d518bb723c")
 	)
 	(text "\"19\""
 		(exclude_from_sim no)
@@ -3425,18 +3413,6 @@
 			)
 		)
 		(uuid "b81b35bf-1c67-4686-ad4e-535e6160343d")
-	)
-	(text "\"K\""
-		(exclude_from_sim no)
-		(at 455.93 100.076 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "b8dd1bb1-f69b-437d-b262-f9fba74f3f04")
 	)
 	(text "\"12\""
 		(exclude_from_sim no)
