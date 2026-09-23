@@ -638,7 +638,7 @@
         "uuid": "39f5264c-152d-4c2c-b3e0-6f5febf2726f"
       }
     ],
-    "used_designators": "J8,J10-12,BT3,AE3,SW4,ARM\\-JP3,ERS\\-J31-32,CAM\\-JP9,CAM\\-JP13",
+    "used_designators": "CAM\\-JP9,CAM\\-JP13,ERS\\-J31-32,ARM\\-JP3,SW4,AE3,BT3,J8,J10-12",
     "variants": []
   },
   "sheets": [

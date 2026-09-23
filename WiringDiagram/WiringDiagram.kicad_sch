@@ -2119,18 +2119,6 @@
 		)
 		(uuid "07daaddb-6a5d-4b27-ac41-f9c35c27a023")
 	)
-	(text "\"6\""
-		(exclude_from_sim no)
-		(at 194.818 340.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "0c11c1eb-e045-4602-94e9-4e289a5ed051")
-	)
 	(text "\"18\""
 		(exclude_from_sim no)
 		(at 231.648 173.228 0)
@@ -2566,6 +2554,18 @@
 		)
 		(uuid "373ea200-aff3-4562-ad22-afad33ec2901")
 	)
+	(text "\"11\""
+		(exclude_from_sim no)
+		(at 194.31 344.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "381c8dcc-cfba-4036-8205-5cf6be1094d0")
+	)
 	(text "2mm x 2"
 		(exclude_from_sim no)
 		(at 453.39 88.9 0)
@@ -2676,7 +2676,7 @@
 		)
 		(uuid "4a52c4da-723c-4b32-b908-540c8e9921df")
 	)
-	(text "\"11\""
+	(text "\"12\""
 		(exclude_from_sim no)
 		(at 280.416 354.584 0)
 		(effects
@@ -2818,18 +2818,6 @@
 		)
 		(uuid "56da2218-715c-4043-ae5e-ae71af82a706")
 	)
-	(text "\"6\""
-		(exclude_from_sim no)
-		(at 204.216 340.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "57132fa3-108b-4b1c-bc2d-fe0e3f3a04a6")
-	)
 	(text "\"8\""
 		(exclude_from_sim no)
 		(at 245.872 314.706 0)
@@ -2865,6 +2853,18 @@
 			)
 		)
 		(uuid "5c5d1de0-03fb-404c-b482-751f2eeec869")
+	)
+	(text "\"11\""
+		(exclude_from_sim no)
+		(at 253.746 348.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5db313c3-0c62-4422-9757-c74406d3d5f3")
 	)
 	(text "\"L\""
 		(exclude_from_sim no)
@@ -3072,6 +3072,18 @@
 		)
 		(uuid "87947428-9524-469e-90ec-428427cee0a3")
 	)
+	(text "\"11\""
+		(exclude_from_sim no)
+		(at 253.746 358.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "87edea91-38f1-40ef-a730-b3608348798e")
+	)
 	(text "\"8\""
 		(exclude_from_sim no)
 		(at 245.872 320.802 0)
@@ -3096,7 +3108,7 @@
 		)
 		(uuid "89bb300c-a674-43b7-8732-e570153aa769")
 	)
-	(text "\"11\""
+	(text "\"12\""
 		(exclude_from_sim no)
 		(at 280.416 364.998 0)
 		(effects
@@ -3143,18 +3155,6 @@
 			)
 		)
 		(uuid "937b993e-188b-4d8c-aefe-9eb099c4c03d")
-	)
-	(text "\"6\""
-		(exclude_from_sim no)
-		(at 254.508 348.742 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "94b8e38d-08d0-4d36-8274-290e470e2df3")
 	)
 	(text "\"7\""
 		(exclude_from_sim no)
@@ -3507,18 +3507,6 @@
 		)
 		(uuid "cf598584-67df-4011-8c7b-a6c8df0d39e1")
 	)
-	(text "\"6\""
-		(exclude_from_sim no)
-		(at 254.508 358.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "cfe5cc01-0a17-4c51-9bb0-afcb77729c93")
-	)
 	(text "Switch closed = Off"
 		(exclude_from_sim no)
 		(at 491.49 95.25 0)
@@ -3564,6 +3552,18 @@
 			)
 		)
 		(uuid "db02e900-db49-48c9-b95a-78228c361908")
+	)
+	(text "\"11\""
+		(exclude_from_sim no)
+		(at 204.724 344.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "dc497ec7-3a4f-42e1-9054-96976b6730c6")
 	)
 	(text "\"H\""
 		(exclude_from_sim no)
